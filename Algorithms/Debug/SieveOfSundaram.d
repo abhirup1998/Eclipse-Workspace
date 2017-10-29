@@ -1,0 +1,1 @@
+SieveOfSundaram.o: ../SieveOfSundaram.cpp

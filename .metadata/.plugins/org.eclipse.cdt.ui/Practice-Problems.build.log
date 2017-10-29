@@ -1,15 +1,4 @@
-22:19:04 **** Incremental Build of configuration Debug for project Practice-Problems ****
-make all 
-Building file: ../Hello.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Hello.d" -MT"Hello.o" -o "Hello.o" "../Hello.cpp"
-Finished building: ../Hello.cpp
- 
-Building target: Practice-Problems
-Invoking: GCC C++ Linker
-g++  -o "Practice-Problems"  ./Hello.o   
-Finished building target: Practice-Problems
- 
 
-22:19:05 Build Finished (took 860ms)
+**** Build of configuration Debug for project Practice-Problems ****
 
+Nothing to build for project Practice-Problems

@@ -1,23 +1,55 @@
-
-**** Build of configuration Debug for project Algorithms ****
-
-Nothing to build for project Algorithms
-22:18:32 **** Incremental Build of configuration Debug for project Algorithms ****
+19:18:22 **** Build of configuration Debug for project NumberTheory ****
 make all 
-Building file: ../Hello.cpp
+Building file: ../Power.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Hello.d" -MT"Hello.o" -o "Hello.o" "../Hello.cpp"
-Finished building: ../Hello.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Power.d" -MT"Power.o" -o "Power.o" "../Power.cpp"
+Finished building: ../Power.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./Power.o   
+Finished building target: NumberTheory
+ 
+19:18:27 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+make: Nothing to be done for 'all'.
+19:18:42 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../Power.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Power.d" -MT"Power.o" -o "Power.o" "../Power.cpp"
+Finished building: ../Power.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./Power.o   
+Finished building target: NumberTheory
+ 
+19:18:57 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+make: Nothing to be done for 'all'.
+19:19:46 **** Build of configuration Debug for project Algorithms ****
+make all 
+Building file: ../SieveOfSundaram.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"SieveOfSundaram.d" -MT"SieveOfSundaram.o" -o "SieveOfSundaram.o" "../SieveOfSundaram.cpp"
+Finished building: ../SieveOfSundaram.cpp
  
 Building target: Algorithms
 Invoking: GCC C++ Linker
-g++  -o "Algorithms"  ./Hello.o   
-Finished building target: Algorithms
- 
+g++  -o "Algorithms"  ./SieveOfSundaram.o   
+/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+makefile:44: recipe for target 'Algorithms' failed
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [Algorithms] Error 1
 
 **** Build of configuration Debug for project Contest_Problems ****
 
 Nothing to build for project Contest_Problems
+19:19:47 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+make: Nothing to be done for 'all'.
 
 **** Build of configuration Debug for project OpenCV ****
 
@@ -26,26 +58,704 @@ Nothing to build for project OpenCV
 **** Build of configuration Debug for project Practice-Problems ****
 
 Nothing to build for project Practice-Problems
-22:19:03 **** Incremental Build of configuration Debug for project Algorithms ****
+19:20:02 **** Incremental Build of configuration Debug for project NumberTheory ****
 make all 
-make: Nothing to be done for 'all'.
+Building file: ../Power.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Power.d" -MT"Power.o" -o "Power.o" "../Power.cpp"
+Finished building: ../Power.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./Power.o   
+Finished building target: NumberTheory
+ 
+19:26:31 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../Power.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Power.d" -MT"Power.o" -o "Power.o" "../Power.cpp"
+../Power.cpp: In function ‘int pow(float, int)’:
+../Power.cpp:16:20: error: call of overloaded ‘pow(float&, int)’ is ambiguous
+  int t = pow(x, y/2);
+subdir.mk:18: recipe for target 'Power.o' failed
+                    ^
+In file included from /usr/include/features.h:367:0,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/os_defines.h:39,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/c++config.h:482,
+                 from /usr/include/c++/5/iostream:38,
+                 from ../Power.cpp:7:
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:153:1: note: candidate: double pow(double, double)
+ __MATHCALL_VEC (pow,, (_Mdouble_ __x, _Mdouble_ __y));
+ ^
+../Power.cpp:11:5: note: candidate: int pow(float, int)
+ int pow(float x, int y)
+     ^
+In file included from ../Power.cpp:8:0:
+/usr/include/c++/5/cmath:434:5: note: candidate: typename __gnu_cxx::__promote_2<_Tp, _Up>::__type std::pow(_Tp, _Up) [with _Tp = float; _Up = int; typename __gnu_cxx::__promote_2<_Tp, _Up>::__type = double]
+     pow(_Tp __x, _Up __y)
+     ^
+/usr/include/c++/5/cmath:426:3: note: candidate: long double std::pow(long double, int)
+   pow(long double __x, int __n)
+   ^
+/usr/include/c++/5/cmath:422:3: note: candidate: float std::pow(float, int)
+   pow(float __x, int __n)
+   ^
+/usr/include/c++/5/cmath:418:3: note: candidate: double std::pow(double, int)
+   pow(double __x, int __i)
+   ^
+/usr/include/c++/5/cmath:411:3: note: candidate: long double std::pow(long double, long double)
+   pow(long double __x, long double __y)
+   ^
+/usr/include/c++/5/cmath:407:3: note: candidate: float std::pow(float, float)
+   pow(float __x, float __y)
+   ^
+make: *** [Power.o] Error 1
+19:27:36 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+Building target: Algorithms
+Invoking: GCC C++ Linker
+g++  -o "Algorithms"  ./SieveOfSundaram.o   
+/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [Algorithms] Error 1
+makefile:44: recipe for target 'Algorithms' failed
 
 **** Build of configuration Debug for project Contest_Problems ****
 
 Nothing to build for project Contest_Problems
+19:27:36 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../Power.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Power.d" -MT"Power.o" -o "Power.o" "../Power.cpp"
+Finished building: ../Power.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./Power.o   
+Finished building target: NumberTheory
+ 
 
 **** Build of configuration Debug for project OpenCV ****
 
 Nothing to build for project OpenCV
-22:19:04 **** Incremental Build of configuration Debug for project Practice-Problems ****
+
+**** Build of configuration Debug for project Practice-Problems ****
+
+Nothing to build for project Practice-Problems
+19:27:41 **** Incremental Build of configuration Debug for project NumberTheory ****
 make all 
-Building file: ../Hello.cpp
+make: Nothing to be done for 'all'.
+19:27:45 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+make: Nothing to be done for 'all'.
+19:27:50 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+make: Nothing to be done for 'all'.
+19:28:07 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../Power.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Hello.d" -MT"Hello.o" -o "Hello.o" "../Hello.cpp"
-Finished building: ../Hello.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Power.d" -MT"Power.o" -o "Power.o" "../Power.cpp"
+Finished building: ../Power.cpp
  
-Building target: Practice-Problems
+Building target: NumberTheory
 Invoking: GCC C++ Linker
-g++  -o "Practice-Problems"  ./Hello.o   
-Finished building target: Practice-Problems
+g++  -o "NumberTheory"  ./Power.o   
+Finished building target: NumberTheory
+ 
+19:28:31 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+Building target: Algorithms
+Invoking: GCC C++ Linker
+g++  -o "Algorithms"  ./SieveOfSundaram.o   
+/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+makefile:44: recipe for target 'Algorithms' failed
+collect2: error: ld returned 1 exit status
+make: *** [Algorithms] Error 1
+
+**** Build of configuration Debug for project Contest_Problems ****
+
+Nothing to build for project Contest_Problems
+19:28:32 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project OpenCV ****
+
+Nothing to build for project OpenCV
+
+**** Build of configuration Debug for project Practice-Problems ****
+
+Nothing to build for project Practice-Problems
+19:28:39 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../Power.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Power.d" -MT"Power.o" -o "Power.o" "../Power.cpp"
+Finished building: ../Power.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./Power.o   
+Finished building target: NumberTheory
+ 
+19:28:47 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+make: Nothing to be done for 'all'.
+19:28:56 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+make: Nothing to be done for 'all'.
+19:39:45 **** Clean-only build of configuration Debug for project NumberTheory ****
+make clean 
+rm -rf  ./Power.o  ./Power.d  NumberTheory
+ 
+19:39:46 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../ModularExponentiation.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ModularExponentiation.d" -MT"ModularExponentiation.o" -o "ModularExponentiation.o" "../ModularExponentiation.cpp"
+../ModularExponentiation.cpp:15:12: error: invalid suffix "f" on integer constant
+  float res=1f;
+            ^
+../ModularExponentiation.cpp: In function ‘float powr(float, int)’:
+../ModularExponentiation.cpp:13:7: warning: suggest parentheses around comparison in operand of ‘|’ [-Wparentheses]
+  if(x == 1 |  y==0)
+       ^
+../ModularExponentiation.cpp:24:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [ModularExponentiation.o] Error 1
+subdir.mk:18: recipe for target 'ModularExponentiation.o' failed
+19:40:00 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+Building target: Algorithms
+Invoking: GCC C++ Linker
+g++  -o "Algorithms"  ./SieveOfSundaram.o   
+/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+makefile:44: recipe for target 'Algorithms' failed
+collect2: error: ld returned 1 exit status
+make: *** [Algorithms] Error 1
+
+**** Build of configuration Debug for project Contest_Problems ****
+
+Nothing to build for project Contest_Problems
+19:40:00 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../ModularExponentiation.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ModularExponentiation.d" -MT"ModularExponentiation.o" -o "ModularExponentiation.o" "../ModularExponentiation.cpp"
+../ModularExponentiation.cpp:15:12: error: invalid suffix "f" on integer constant
+  float res=1f;
+            ^
+../ModularExponentiation.cpp: In function ‘float powr(float, int)’:
+../ModularExponentiation.cpp:13:7: warning: suggest parentheses around comparison in operand of ‘|’ [-Wparentheses]
+  if(x == 1 |  y==0)
+       ^
+../ModularExponentiation.cpp:24:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+subdir.mk:18: recipe for target 'ModularExponentiation.o' failed
+make: *** [ModularExponentiation.o] Error 1
+
+**** Build of configuration Debug for project OpenCV ****
+
+Nothing to build for project OpenCV
+
+**** Build of configuration Debug for project Practice-Problems ****
+
+Nothing to build for project Practice-Problems
+19:40:07 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../ModularExponentiation.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ModularExponentiation.d" -MT"ModularExponentiation.o" -o "ModularExponentiation.o" "../ModularExponentiation.cpp"
+../ModularExponentiation.cpp: In function ‘float powr(float, int)’:
+../ModularExponentiation.cpp:13:7: warning: suggest parentheses around comparison in operand of ‘|’ [-Wparentheses]
+  if(x == 1 |  y==0)
+       ^
+../ModularExponentiation.cpp:24:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../ModularExponentiation.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./ModularExponentiation.o   
+Finished building target: NumberTheory
+ 
+19:41:06 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../ModularExponentiation.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ModularExponentiation.d" -MT"ModularExponentiation.o" -o "ModularExponentiation.o" "../ModularExponentiation.cpp"
+../ModularExponentiation.cpp: In function ‘float powr(float, int)’:
+../ModularExponentiation.cpp:13:7: warning: suggest parentheses around comparison in operand of ‘|’ [-Wparentheses]
+  if(x == 1 |  y==0)
+       ^
+Finished building: ../ModularExponentiation.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./ModularExponentiation.o   
+Finished building target: NumberTheory
+ 
+19:41:19 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../ModularExponentiation.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ModularExponentiation.d" -MT"ModularExponentiation.o" -o "ModularExponentiation.o" "../ModularExponentiation.cpp"
+../ModularExponentiation.cpp: In function ‘float powr(float, int)’:
+../ModularExponentiation.cpp:13:7: warning: suggest parentheses around comparison in operand of ‘|’ [-Wparentheses]
+  if(x == 1 |  y==0)
+       ^
+Finished building: ../ModularExponentiation.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./ModularExponentiation.o   
+Finished building target: NumberTheory
+ 
+19:41:24 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+make: Nothing to be done for 'all'.
+19:41:31 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+make: Nothing to be done for 'all'.
+19:42:17 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+Building target: Algorithms
+Invoking: GCC C++ Linker
+g++  -o "Algorithms"  ./SieveOfSundaram.o   
+/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+makefile:44: recipe for target 'Algorithms' failed
+collect2: error: ld returned 1 exit status
+make: *** [Algorithms] Error 1
+
+**** Build of configuration Debug for project Contest_Problems ****
+
+Nothing to build for project Contest_Problems
+19:42:17 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../ModularExponentiation.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ModularExponentiation.d" -MT"ModularExponentiation.o" -o "ModularExponentiation.o" "../ModularExponentiation.cpp"
+../ModularExponentiation.cpp: In function ‘float powr(float, int)’:
+../ModularExponentiation.cpp:13:7: warning: suggest parentheses around comparison in operand of ‘|’ [-Wparentheses]
+  if(x == 1 |  y==0)
+       ^
+../ModularExponentiation.cpp:20:3: error: expected ‘;’ before ‘x’
+   x *= x;
+   ^
+make: *** [ModularExponentiation.o] Error 1
+subdir.mk:18: recipe for target 'ModularExponentiation.o' failed
+
+**** Build of configuration Debug for project OpenCV ****
+
+Nothing to build for project OpenCV
+
+**** Build of configuration Debug for project Practice-Problems ****
+
+Nothing to build for project Practice-Problems
+19:42:24 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../ModularExponentiation.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ModularExponentiation.d" -MT"ModularExponentiation.o" -o "ModularExponentiation.o" "../ModularExponentiation.cpp"
+../ModularExponentiation.cpp: In function ‘float powr(float, int)’:
+../ModularExponentiation.cpp:13:7: warning: suggest parentheses around comparison in operand of ‘|’ [-Wparentheses]
+  if(x == 1 |  y==0)
+       ^
+Finished building: ../ModularExponentiation.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./ModularExponentiation.o   
+Finished building target: NumberTheory
+ 
+19:42:30 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+make: Nothing to be done for 'all'.
+19:56:05 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../ModularExponentiation.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ModularExponentiation.d" -MT"ModularExponentiation.o" -o "ModularExponentiation.o" "../ModularExponentiation.cpp"
+Finished building: ../ModularExponentiation.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./ModularExponentiation.o   
+Finished building target: NumberTheory
+ 
+19:57:26 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../ModularExponentiation.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ModularExponentiation.d" -MT"ModularExponentiation.o" -o "ModularExponentiation.o" "../ModularExponentiation.cpp"
+Finished building: ../ModularExponentiation.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./ModularExponentiation.o   
+Finished building target: NumberTheory
+ 
+20:00:09 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../ModularExponentiation.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ModularExponentiation.d" -MT"ModularExponentiation.o" -o "ModularExponentiation.o" "../ModularExponentiation.cpp"
+Finished building: ../ModularExponentiation.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./ModularExponentiation.o   
+Finished building target: NumberTheory
+ 
+20:00:13 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+make: Nothing to be done for 'all'.
+20:00:59 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+make: Nothing to be done for 'all'.
+20:01:40 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../ModularExponentiation.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ModularExponentiation.d" -MT"ModularExponentiation.o" -o "ModularExponentiation.o" "../ModularExponentiation.cpp"
+Finished building: ../ModularExponentiation.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./ModularExponentiation.o   
+Finished building target: NumberTheory
+ 
+20:01:48 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+make: Nothing to be done for 'all'.
+20:17:24 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../ModularMultiplInverse.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ModularMultiplInverse.d" -MT"ModularMultiplInverse.o" -o "ModularMultiplInverse.o" "../ModularMultiplInverse.cpp"
+../ModularMultiplInverse.cpp: In function ‘int mmi_naive(int, int)’:
+../ModularMultiplInverse.cpp:18:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../ModularMultiplInverse.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./ModularMultiplInverse.o   
+Finished building target: NumberTheory
+ 
+20:38:47 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../GCD.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GCD.d" -MT"GCD.o" -o "GCD.o" "../GCD.cpp"
+Finished building: ../GCD.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./GCD.o   
+Finished building target: NumberTheory
+ 
+20:42:13 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../GCD.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GCD.d" -MT"GCD.o" -o "GCD.o" "../GCD.cpp"
+Finished building: ../GCD.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./GCD.o   
+Finished building target: NumberTheory
+ 
+20:43:10 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+Building target: Algorithms
+Invoking: GCC C++ Linker
+g++  -o "Algorithms"  ./SieveOfSundaram.o   
+/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+makefile:44: recipe for target 'Algorithms' failed
+collect2: error: ld returned 1 exit status
+make: *** [Algorithms] Error 1
+
+**** Build of configuration Debug for project Contest_Problems ****
+
+Nothing to build for project Contest_Problems
+20:43:11 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../GCD.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GCD.d" -MT"GCD.o" -o "GCD.o" "../GCD.cpp"
+Finished building: ../GCD.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./GCD.o   
+Finished building target: NumberTheory
+ 
+
+**** Build of configuration Debug for project OpenCV ****
+
+Nothing to build for project OpenCV
+
+**** Build of configuration Debug for project Practice-Problems ****
+
+Nothing to build for project Practice-Problems
+20:43:13 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+make: Nothing to be done for 'all'.
+20:44:39 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../GCD.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GCD.d" -MT"GCD.o" -o "GCD.o" "../GCD.cpp"
+Finished building: ../GCD.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./GCD.o   
+Finished building target: NumberTheory
+ 
+20:45:43 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../GCD.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GCD.d" -MT"GCD.o" -o "GCD.o" "../GCD.cpp"
+Finished building: ../GCD.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./GCD.o   
+Finished building target: NumberTheory
+ 
+20:46:25 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../GCD.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GCD.d" -MT"GCD.o" -o "GCD.o" "../GCD.cpp"
+Finished building: ../GCD.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./GCD.o   
+Finished building target: NumberTheory
+ 
+20:47:00 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../GCD.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GCD.d" -MT"GCD.o" -o "GCD.o" "../GCD.cpp"
+Finished building: ../GCD.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./GCD.o   
+Finished building target: NumberTheory
+ 
+22:31:22 **** Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../GCD.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GCD.d" -MT"GCD.o" -o "GCD.o" "../GCD.cpp"
+Finished building: ../GCD.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./GCD.o   
+Finished building target: NumberTheory
+ 
+22:31:39 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+make: Nothing to be done for 'all'.
+22:31:45 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+make: Nothing to be done for 'all'.
+22:31:55 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+make: Nothing to be done for 'all'.
+00:14:58 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../GCD.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GCD.d" -MT"GCD.o" -o "GCD.o" "../GCD.cpp"
+../GCD.cpp: In function ‘int gcd(int, int)’:
+../GCD.cpp:53:7: warning: unused variable ‘q’ [-Wunused-variable]
+   int q = r_prev/r;
+       ^
+Finished building: ../GCD.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./GCD.o   
+Finished building target: NumberTheory
+ 
+00:15:14 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+make: Nothing to be done for 'all'.
+00:20:17 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../GCD.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GCD.d" -MT"GCD.o" -o "GCD.o" "../GCD.cpp"
+Finished building: ../GCD.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./GCD.o   
+Finished building target: NumberTheory
+ 
+00:26:49 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../GCD.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GCD.d" -MT"GCD.o" -o "GCD.o" "../GCD.cpp"
+Finished building: ../GCD.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./GCD.o   
+Finished building target: NumberTheory
+ 
+00:27:09 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../GCD.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GCD.d" -MT"GCD.o" -o "GCD.o" "../GCD.cpp"
+Finished building: ../GCD.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./GCD.o   
+Finished building target: NumberTheory
+ 
+00:30:48 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../GCD.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GCD.d" -MT"GCD.o" -o "GCD.o" "../GCD.cpp"
+Finished building: ../GCD.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./GCD.o   
+Finished building target: NumberTheory
+ 
+00:19:35 **** Build of configuration Debug for project Algorithms ****
+make all 
+Building target: Algorithms
+Invoking: GCC C++ Linker
+g++  -o "Algorithms"  ./SieveOfSundaram.o   
+/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+makefile:44: recipe for target 'Algorithms' failed
+make: *** [Algorithms] Error 1
+
+**** Build of configuration Debug for project Contest_Problems ****
+
+Nothing to build for project Contest_Problems
+00:19:36 **** Build of configuration Debug for project NumberTheory ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project OpenCV ****
+
+Nothing to build for project OpenCV
+
+**** Build of configuration Debug for project Practice-Problems ****
+
+Nothing to build for project Practice-Problems
+00:19:47 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+make: Nothing to be done for 'all'.
+00:20:31 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../ModularMultiplInverse.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ModularMultiplInverse.d" -MT"ModularMultiplInverse.o" -o "ModularMultiplInverse.o" "../ModularMultiplInverse.cpp"
+../ModularMultiplInverse.cpp: In function ‘int mmi_naive(int, int)’:
+../ModularMultiplInverse.cpp:18:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../ModularMultiplInverse.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./ModularMultiplInverse.o   
+Finished building target: NumberTheory
+ 
+00:38:49 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../ModularMultiplInverse.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ModularMultiplInverse.d" -MT"ModularMultiplInverse.o" -o "ModularMultiplInverse.o" "../ModularMultiplInverse.cpp"
+../ModularMultiplInverse.cpp: In function ‘int mmi_naive(int, int)’:
+../ModularMultiplInverse.cpp:18:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../ModularMultiplInverse.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./ModularMultiplInverse.o   
+Finished building target: NumberTheory
+ 
+00:40:08 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../ModularMultiplInverse.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ModularMultiplInverse.d" -MT"ModularMultiplInverse.o" -o "ModularMultiplInverse.o" "../ModularMultiplInverse.cpp"
+../ModularMultiplInverse.cpp: In function ‘int mmi_naive(int, int)’:
+../ModularMultiplInverse.cpp:18:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../ModularMultiplInverse.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./ModularMultiplInverse.o   
+Finished building target: NumberTheory
+ 
+00:41:56 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../ModularMultiplInverse.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ModularMultiplInverse.d" -MT"ModularMultiplInverse.o" -o "ModularMultiplInverse.o" "../ModularMultiplInverse.cpp"
+../ModularMultiplInverse.cpp: In function ‘int mmi_naive(int, int)’:
+../ModularMultiplInverse.cpp:18:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../ModularMultiplInverse.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./ModularMultiplInverse.o   
+Finished building target: NumberTheory
+ 
+00:42:30 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../ModularMultiplInverse.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ModularMultiplInverse.d" -MT"ModularMultiplInverse.o" -o "ModularMultiplInverse.o" "../ModularMultiplInverse.cpp"
+../ModularMultiplInverse.cpp: In function ‘int mmi_naive(int, int)’:
+../ModularMultiplInverse.cpp:18:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../ModularMultiplInverse.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./ModularMultiplInverse.o   
+Finished building target: NumberTheory
  

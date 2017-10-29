@@ -1,6 +1,13 @@
-22:19:03 **** Incremental Build of configuration Debug for project Algorithms ****
+00:19:35 **** Build of configuration Debug for project Algorithms ****
 make all 
-make: Nothing to be done for 'all'.
+Building target: Algorithms
+Invoking: GCC C++ Linker
+g++  -o "Algorithms"  ./SieveOfSundaram.o   
+/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+makefile:44: recipe for target 'Algorithms' failed
+make: *** [Algorithms] Error 1
 
-22:19:03 Build Finished (took 94ms)
+00:19:36 Build Finished (took 759ms)
 
