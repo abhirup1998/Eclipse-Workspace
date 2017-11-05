@@ -1,266 +1,1437 @@
-19:18:22 **** Build of configuration Debug for project NumberTheory ****
+12:23:40 **** Incremental Build of configuration Debug for project NumberTheory ****
 make all 
-Building file: ../Power.cpp
+Building file: ../SherlockGCD.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Power.d" -MT"Power.o" -o "Power.o" "../Power.cpp"
-Finished building: ../Power.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"SherlockGCD.d" -MT"SherlockGCD.o" -o "SherlockGCD.o" "../SherlockGCD.cpp"
+../SherlockGCD.cpp: In function ‘int gcd(int, int)’:
+../SherlockGCD.cpp:18:6: warning: variable ‘q’ set but not used [-Wunused-but-set-variable]
+  int q = 0;
+      ^
+../SherlockGCD.cpp: In function ‘int main()’:
+../SherlockGCD.cpp:52:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for(int j=0;j<v.size() && !flag; j++)
+                   ^
+../SherlockGCD.cpp:54:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+       for(int k=j+1; k<v.size(); k++)
+                       ^
+../SherlockGCD.cpp:34:19: warning: ‘t’ is used uninitialized in this function [-Wuninitialized]
+     for(int i=0; i<t; i++)
+                   ^
+Finished building: ../SherlockGCD.cpp
  
 Building target: NumberTheory
 Invoking: GCC C++ Linker
-g++  -o "NumberTheory"  ./Power.o   
+g++  -o "NumberTheory"  ./SherlockGCD.o   
 Finished building target: NumberTheory
  
-19:18:27 **** Incremental Build of configuration Debug for project NumberTheory ****
+12:23:50 **** Incremental Build of configuration Debug for project NumberTheory ****
 make all 
 make: Nothing to be done for 'all'.
-19:18:42 **** Incremental Build of configuration Debug for project NumberTheory ****
+12:24:23 **** Incremental Build of configuration Debug for project NumberTheory ****
 make all 
-Building file: ../Power.cpp
+make: Nothing to be done for 'all'.
+12:24:54 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../SherlockGCD.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Power.d" -MT"Power.o" -o "Power.o" "../Power.cpp"
-Finished building: ../Power.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"SherlockGCD.d" -MT"SherlockGCD.o" -o "SherlockGCD.o" "../SherlockGCD.cpp"
+../SherlockGCD.cpp: In function ‘int gcd(int, int)’:
+../SherlockGCD.cpp:18:6: warning: variable ‘q’ set but not used [-Wunused-but-set-variable]
+  int q = 0;
+      ^
+../SherlockGCD.cpp: In function ‘int main()’:
+../SherlockGCD.cpp:53:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for(int j=0;j<v.size() && !flag; j++)
+                   ^
+../SherlockGCD.cpp:55:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+       for(int k=j+1; k<v.size(); k++)
+                       ^
+Finished building: ../SherlockGCD.cpp
  
 Building target: NumberTheory
 Invoking: GCC C++ Linker
-g++  -o "NumberTheory"  ./Power.o   
+g++  -o "NumberTheory"  ./SherlockGCD.o   
 Finished building target: NumberTheory
  
-19:18:57 **** Incremental Build of configuration Debug for project NumberTheory ****
+12:25:33 **** Incremental Build of configuration Debug for project NumberTheory ****
 make all 
 make: Nothing to be done for 'all'.
-19:19:46 **** Build of configuration Debug for project Algorithms ****
-make all 
-Building file: ../SieveOfSundaram.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"SieveOfSundaram.d" -MT"SieveOfSundaram.o" -o "SieveOfSundaram.o" "../SieveOfSundaram.cpp"
-Finished building: ../SieveOfSundaram.cpp
- 
-Building target: Algorithms
-Invoking: GCC C++ Linker
-g++  -o "Algorithms"  ./SieveOfSundaram.o   
-/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o: In function `_start':
-makefile:44: recipe for target 'Algorithms' failed
-(.text+0x20): undefined reference to `main'
-collect2: error: ld returned 1 exit status
-make: *** [Algorithms] Error 1
-
-**** Build of configuration Debug for project Contest_Problems ****
-
-Nothing to build for project Contest_Problems
-19:19:47 **** Incremental Build of configuration Debug for project NumberTheory ****
+12:26:22 **** Incremental Build of configuration Debug for project NumberTheory ****
 make all 
 make: Nothing to be done for 'all'.
-
-**** Build of configuration Debug for project OpenCV ****
-
-Nothing to build for project OpenCV
-
-**** Build of configuration Debug for project Practice-Problems ****
-
-Nothing to build for project Practice-Problems
-19:20:02 **** Incremental Build of configuration Debug for project NumberTheory ****
+12:26:42 **** Incremental Build of configuration Debug for project NumberTheory ****
 make all 
-Building file: ../Power.cpp
+make: Nothing to be done for 'all'.
+12:44:36 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../SherlockGCD.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Power.d" -MT"Power.o" -o "Power.o" "../Power.cpp"
-Finished building: ../Power.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"SherlockGCD.d" -MT"SherlockGCD.o" -o "SherlockGCD.o" "../SherlockGCD.cpp"
+../SherlockGCD.cpp: In function ‘int main()’:
+../SherlockGCD.cpp:53:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      for(int j=0;j<v.size() && !flag; j++)
+                   ^
+../SherlockGCD.cpp:60:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+       for(int k=j+1; k<v.size(); k++)
+                       ^
+Finished building: ../SherlockGCD.cpp
  
 Building target: NumberTheory
 Invoking: GCC C++ Linker
-g++  -o "NumberTheory"  ./Power.o   
+g++  -o "NumberTheory"  ./SherlockGCD.o   
 Finished building target: NumberTheory
  
-19:26:31 **** Incremental Build of configuration Debug for project NumberTheory ****
+12:46:51 **** Incremental Build of configuration Debug for project NumberTheory ****
 make all 
-Building file: ../Power.cpp
+make: Nothing to be done for 'all'.
+12:56:18 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../SherlockGCD.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Power.d" -MT"Power.o" -o "Power.o" "../Power.cpp"
-../Power.cpp: In function ‘int pow(float, int)’:
-../Power.cpp:16:20: error: call of overloaded ‘pow(float&, int)’ is ambiguous
-  int t = pow(x, y/2);
-subdir.mk:18: recipe for target 'Power.o' failed
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"SherlockGCD.d" -MT"SherlockGCD.o" -o "SherlockGCD.o" "../SherlockGCD.cpp"
+Finished building: ../SherlockGCD.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./SherlockGCD.o   
+Finished building target: NumberTheory
+ 
+13:32:23 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRoots.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRoots.d" -MT"PrimitiveRoots.o" -o "PrimitiveRoots.o" "../PrimitiveRoots.cpp"
+../PrimitiveRoots.cpp: In function ‘int main()’:
+../PrimitiveRoots.cpp:30:18: warning: ‘p’ is used uninitialized in this function [-Wuninitialized]
+  vector<bool> v(p);
+                  ^
+Finished building: ../PrimitiveRoots.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRoots.o   
+Finished building target: NumberTheory
+ 
+13:32:43 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRoots.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRoots.d" -MT"PrimitiveRoots.o" -o "PrimitiveRoots.o" "../PrimitiveRoots.cpp"
+Finished building: ../PrimitiveRoots.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRoots.o   
+Finished building target: NumberTheory
+ 
+13:34:27 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRoots.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRoots.d" -MT"PrimitiveRoots.o" -o "PrimitiveRoots.o" "../PrimitiveRoots.cpp"
+Finished building: ../PrimitiveRoots.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRoots.o   
+Finished building target: NumberTheory
+ 
+13:34:44 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRoots.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRoots.d" -MT"PrimitiveRoots.o" -o "PrimitiveRoots.o" "../PrimitiveRoots.cpp"
+Finished building: ../PrimitiveRoots.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRoots.o   
+Finished building target: NumberTheory
+ 
+13:40:18 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRoots.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRoots.d" -MT"PrimitiveRoots.o" -o "PrimitiveRoots.o" "../PrimitiveRoots.cpp"
+Finished building: ../PrimitiveRoots.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRoots.o   
+Finished building target: NumberTheory
+ 
+13:43:01 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRoots.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRoots.d" -MT"PrimitiveRoots.o" -o "PrimitiveRoots.o" "../PrimitiveRoots.cpp"
+Finished building: ../PrimitiveRoots.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRoots.o   
+Finished building target: NumberTheory
+ 
+13:43:43 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRoots.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRoots.d" -MT"PrimitiveRoots.o" -o "PrimitiveRoots.o" "../PrimitiveRoots.cpp"
+Finished building: ../PrimitiveRoots.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRoots.o   
+Finished building target: NumberTheory
+ 
+13:44:29 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRoots.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRoots.d" -MT"PrimitiveRoots.o" -o "PrimitiveRoots.o" "../PrimitiveRoots.cpp"
+Finished building: ../PrimitiveRoots.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRoots.o   
+Finished building target: NumberTheory
+ 
+13:45:40 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRoots.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRoots.d" -MT"PrimitiveRoots.o" -o "PrimitiveRoots.o" "../PrimitiveRoots.cpp"
+Finished building: ../PrimitiveRoots.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRoots.o   
+Finished building target: NumberTheory
+ 
+13:46:40 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRoots.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRoots.d" -MT"PrimitiveRoots.o" -o "PrimitiveRoots.o" "../PrimitiveRoots.cpp"
+Finished building: ../PrimitiveRoots.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRoots.o   
+Finished building target: NumberTheory
+ 
+13:47:35 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRoots.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRoots.d" -MT"PrimitiveRoots.o" -o "PrimitiveRoots.o" "../PrimitiveRoots.cpp"
+Finished building: ../PrimitiveRoots.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRoots.o   
+Finished building target: NumberTheory
+ 
+13:47:48 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRoots.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRoots.d" -MT"PrimitiveRoots.o" -o "PrimitiveRoots.o" "../PrimitiveRoots.cpp"
+Finished building: ../PrimitiveRoots.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRoots.o   
+Finished building target: NumberTheory
+ 
+15:27:04 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimeFactorization.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimeFactorization.d" -MT"PrimeFactorization.o" -o "PrimeFactorization.o" "../PrimeFactorization.cpp"
+Finished building: ../PrimeFactorization.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimeFactorization.o   
+Finished building target: NumberTheory
+ 
+15:31:11 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimeFactorization.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimeFactorization.d" -MT"PrimeFactorization.o" -o "PrimeFactorization.o" "../PrimeFactorization.cpp"
+../PrimeFactorization.cpp: In function ‘int main()’:
+../PrimeFactorization.cpp:23:4: error: expected primary-expression before ‘}’ token
+    }
+    ^
+subdir.mk:18: recipe for target 'PrimeFactorization.o' failed
+make: *** [PrimeFactorization.o] Error 1
+15:31:31 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimeFactorization.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimeFactorization.d" -MT"PrimeFactorization.o" -o "PrimeFactorization.o" "../PrimeFactorization.cpp"
+Finished building: ../PrimeFactorization.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimeFactorization.o   
+Finished building target: NumberTheory
+ 
+15:32:10 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimeFactorization.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimeFactorization.d" -MT"PrimeFactorization.o" -o "PrimeFactorization.o" "../PrimeFactorization.cpp"
+Finished building: ../PrimeFactorization.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimeFactorization.o   
+Finished building target: NumberTheory
+ 
+15:32:27 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimeFactorization.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimeFactorization.d" -MT"PrimeFactorization.o" -o "PrimeFactorization.o" "../PrimeFactorization.cpp"
+Finished building: ../PrimeFactorization.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimeFactorization.o   
+Finished building target: NumberTheory
+ 
+15:36:09 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimeFactorization.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimeFactorization.d" -MT"PrimeFactorization.o" -o "PrimeFactorization.o" "../PrimeFactorization.cpp"
+Finished building: ../PrimeFactorization.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimeFactorization.o   
+Finished building target: NumberTheory
+ 
+15:36:45 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimeFactorization.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimeFactorization.d" -MT"PrimeFactorization.o" -o "PrimeFactorization.o" "../PrimeFactorization.cpp"
+Finished building: ../PrimeFactorization.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimeFactorization.o   
+Finished building target: NumberTheory
+ 
+15:42:33 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimeFactorization.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimeFactorization.d" -MT"PrimeFactorization.o" -o "PrimeFactorization.o" "../PrimeFactorization.cpp"
+Finished building: ../PrimeFactorization.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimeFactorization.o   
+Finished building target: NumberTheory
+ 
+15:42:58 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimeFactorization.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimeFactorization.d" -MT"PrimeFactorization.o" -o "PrimeFactorization.o" "../PrimeFactorization.cpp"
+Finished building: ../PrimeFactorization.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimeFactorization.o   
+Finished building target: NumberTheory
+ 
+15:45:49 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimeFactorization.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimeFactorization.d" -MT"PrimeFactorization.o" -o "PrimeFactorization.o" "../PrimeFactorization.cpp"
+Finished building: ../PrimeFactorization.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimeFactorization.o   
+Finished building target: NumberTheory
+ 
+15:46:18 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimeFactorization.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimeFactorization.d" -MT"PrimeFactorization.o" -o "PrimeFactorization.o" "../PrimeFactorization.cpp"
+Finished building: ../PrimeFactorization.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimeFactorization.o   
+Finished building target: NumberTheory
+ 
+15:47:10 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimeFactorization.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimeFactorization.d" -MT"PrimeFactorization.o" -o "PrimeFactorization.o" "../PrimeFactorization.cpp"
+Finished building: ../PrimeFactorization.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimeFactorization.o   
+Finished building target: NumberTheory
+ 
+15:49:43 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimeFactorization.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimeFactorization.d" -MT"PrimeFactorization.o" -o "PrimeFactorization.o" "../PrimeFactorization.cpp"
+Finished building: ../PrimeFactorization.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimeFactorization.o   
+Finished building target: NumberTheory
+ 
+15:53:50 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimeFactorization.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimeFactorization.d" -MT"PrimeFactorization.o" -o "PrimeFactorization.o" "../PrimeFactorization.cpp"
+Finished building: ../PrimeFactorization.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimeFactorization.o   
+Finished building target: NumberTheory
+ 
+15:54:44 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimeFactorization.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimeFactorization.d" -MT"PrimeFactorization.o" -o "PrimeFactorization.o" "../PrimeFactorization.cpp"
+Finished building: ../PrimeFactorization.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimeFactorization.o   
+Finished building target: NumberTheory
+ 
+15:57:12 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+make: Nothing to be done for 'all'.
+15:59:33 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimeFactorization.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimeFactorization.d" -MT"PrimeFactorization.o" -o "PrimeFactorization.o" "../PrimeFactorization.cpp"
+Finished building: ../PrimeFactorization.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimeFactorization.o   
+Finished building target: NumberTheory
+ 
+15:59:59 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimeFactorization.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimeFactorization.d" -MT"PrimeFactorization.o" -o "PrimeFactorization.o" "../PrimeFactorization.cpp"
+Finished building: ../PrimeFactorization.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimeFactorization.o   
+Finished building target: NumberTheory
+ 
+12:49:36 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRoots.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRoots.d" -MT"PrimitiveRoots.o" -o "PrimitiveRoots.o" "../PrimitiveRoots.cpp"
+../PrimitiveRoots.cpp: In function ‘int main()’:
+../PrimitiveRoots.cpp:90:17: error: no matching function for call to ‘std::set<int>::set(int)’
+   set<int> s(n-1);
+                 ^
+In file included from /usr/include/c++/5/set:61:0,
+                 from ../PrimitiveRoots.cpp:12:
+/usr/include/c++/5/bits/stl_set.h:252:9: note: candidate: template<class _InputIterator> std::set<_Key, _Compare, _Alloc>::set(_InputIterator, _InputIterator, const allocator_type&)
+         set(_InputIterator __first, _InputIterator __last,
+         ^
+/usr/include/c++/5/bits/stl_set.h:252:9: note:   template argument deduction/substitution failed:
+../PrimitiveRoots.cpp:90:17: note:   candidate expects 3 arguments, 1 provided
+   set<int> s(n-1);
+                 ^
+In file included from /usr/include/c++/5/set:61:0,
+                 from ../PrimitiveRoots.cpp:12:
+/usr/include/c++/5/bits/stl_set.h:246:7: note: candidate: std::set<_Key, _Compare, _Alloc>::set(std::initializer_list<_Tp>, const allocator_type&) [with _Key = int; _Compare = std::less<int>; _Alloc = std::allocator<int>; std::set<_Key, _Compare, _Alloc>::allocator_type = std::allocator<int>]
+       set(initializer_list<value_type> __l, const allocator_type& __a)
+       ^
+/usr/include/c++/5/bits/stl_set.h:246:7: note:   candidate expects 2 arguments, 1 provided
+/usr/include/c++/5/bits/stl_set.h:240:7: note: candidate: std::set<_Key, _Compare, _Alloc>::set(std::set<_Key, _Compare, _Alloc>&&, const allocator_type&) [with _Key = int; _Compare = std::less<int>; _Alloc = std::allocator<int>; std::set<_Key, _Compare, _Alloc>::allocator_type = std::allocator<int>]
+       set(set&& __x, const allocator_type& __a)
+       ^
+/usr/include/c++/5/bits/stl_set.h:240:7: note:   candidate expects 2 arguments, 1 provided
+/usr/include/c++/5/bits/stl_set.h:236:7: note: candidate: std::set<_Key, _Compare, _Alloc>::set(const std::set<_Key, _Compare, _Alloc>&, const allocator_type&) [with _Key = int; _Compare = std::less<int>; _Alloc = std::allocator<int>; std::set<_Key, _Compare, _Alloc>::allocator_type = std::allocator<int>]
+       set(const set& __x, const allocator_type& __a)
+       ^
+/usr/include/c++/5/bits/stl_set.h:236:7: note:   candidate expects 2 arguments, 1 provided
+/usr/include/c++/5/bits/stl_set.h:232:7: note: candidate: std::set<_Key, _Compare, _Alloc>::set(const allocator_type&) [with _Key = int; _Compare = std::less<int>; _Alloc = std::allocator<int>; std::set<_Key, _Compare, _Alloc>::allocator_type = std::allocator<int>]
+       set(const allocator_type& __a)
+       ^
+/usr/include/c++/5/bits/stl_set.h:232:7: note:   no known conversion for argument 1 from ‘int’ to ‘const allocator_type& {aka const std::allocator<int>&}’
+/usr/include/c++/5/bits/stl_set.h:224:7: note: candidate: std::set<_Key, _Compare, _Alloc>::set(std::initializer_list<_Tp>, const _Compare&, const allocator_type&) [with _Key = int; _Compare = std::less<int>; _Alloc = std::allocator<int>; std::set<_Key, _Compare, _Alloc>::allocator_type = std::allocator<int>]
+       set(initializer_list<value_type> __l,
+       ^
+/usr/include/c++/5/bits/stl_set.h:224:7: note:   no known conversion for argument 1 from ‘int’ to ‘std::initializer_list<int>’
+/usr/include/c++/5/bits/stl_set.h:210:7: note: candidate: std::set<_Key, _Compare, _Alloc>::set(std::set<_Key, _Compare, _Alloc>&&) [with _Key = int; _Compare = std::less<int>; _Alloc = std::allocator<int>]
+       set(set&& __x)
+       ^
+/usr/include/c++/5/bits/stl_set.h:210:7: note:   no known conversion for argument 1 from ‘int’ to ‘std::set<int>&&’
+/usr/include/c++/5/bits/stl_set.h:199:7: note: candidate: std::set<_Key, _Compare, _Alloc>::set(const std::set<_Key, _Compare, _Alloc>&) [with _Key = int; _Compare = std::less<int>; _Alloc = std::allocator<int>]
+       set(const set& __x)
+       ^
+/usr/include/c++/5/bits/stl_set.h:199:7: note:   no known conversion for argument 1 from ‘int’ to ‘const std::set<int>&’
+/usr/include/c++/5/bits/stl_set.h:186:2: note: candidate: template<class _InputIterator> std::set<_Key, _Compare, _Alloc>::set(_InputIterator, _InputIterator, const _Compare&, const allocator_type&)
+  set(_InputIterator __first, _InputIterator __last,
+  ^
+/usr/include/c++/5/bits/stl_set.h:186:2: note:   template argument deduction/substitution failed:
+../PrimitiveRoots.cpp:90:17: note:   candidate expects 4 arguments, 1 provided
+   set<int> s(n-1);
+                 ^
+In file included from /usr/include/c++/5/set:61:0,
+                 from ../PrimitiveRoots.cpp:12:
+/usr/include/c++/5/bits/stl_set.h:169:2: note: candidate: template<class _InputIterator> std::set<_Key, _Compare, _Alloc>::set(_InputIterator, _InputIterator)
+  set(_InputIterator __first, _InputIterator __last)
+  ^
+/usr/include/c++/5/bits/stl_set.h:169:2: note:   template argument deduction/substitution failed:
+../PrimitiveRoots.cpp:90:17: note:   candidate expects 2 arguments, 1 provided
+   set<int> s(n-1);
+                 ^
+In file included from /usr/include/c++/5/set:61:0,
+                 from ../PrimitiveRoots.cpp:12:
+/usr/include/c++/5/bits/stl_set.h:154:7: note: candidate: std::set<_Key, _Compare, _Alloc>::set(const _Compare&, const allocator_type&) [with _Key = int; _Compare = std::less<int>; _Alloc = std::allocator<int>; std::set<_Key, _Compare, _Alloc>::allocator_type = std::allocator<int>]
+       set(const _Compare& __comp,
+       ^
+/usr/include/c++/5/bits/stl_set.h:154:7: note:   no known conversion for argument 1 from ‘int’ to ‘const std::less<int>&’
+/usr/include/c++/5/bits/stl_set.h:142:7: note: candidate: std::set<_Key, _Compare, _Alloc>::set() [with _Key = int; _Compare = std::less<int>; _Alloc = std::allocator<int>]
+       set()
+       ^
+/usr/include/c++/5/bits/stl_set.h:142:7: note:   candidate expects 0 arguments, 1 provided
+make: *** [PrimitiveRoots.o] Error 1
+subdir.mk:18: recipe for target 'PrimitiveRoots.o' failed
+12:52:17 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRoots.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRoots.d" -MT"PrimitiveRoots.o" -o "PrimitiveRoots.o" "../PrimitiveRoots.cpp"
+Finished building: ../PrimitiveRoots.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRoots.o   
+Finished building target: NumberTheory
+ 
+12:54:19 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRoots.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRoots.d" -MT"PrimitiveRoots.o" -o "PrimitiveRoots.o" "../PrimitiveRoots.cpp"
+Finished building: ../PrimitiveRoots.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRoots.o   
+Finished building target: NumberTheory
+ 
+12:55:47 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRoots.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRoots.d" -MT"PrimitiveRoots.o" -o "PrimitiveRoots.o" "../PrimitiveRoots.cpp"
+Finished building: ../PrimitiveRoots.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRoots.o   
+Finished building target: NumberTheory
+ 
+13:01:03 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRoots.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRoots.d" -MT"PrimitiveRoots.o" -o "PrimitiveRoots.o" "../PrimitiveRoots.cpp"
+Finished building: ../PrimitiveRoots.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRoots.o   
+Finished building target: NumberTheory
+ 
+13:02:53 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRoots.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRoots.d" -MT"PrimitiveRoots.o" -o "PrimitiveRoots.o" "../PrimitiveRoots.cpp"
+Finished building: ../PrimitiveRoots.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRoots.o   
+Finished building target: NumberTheory
+ 
+13:04:44 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRoots.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRoots.d" -MT"PrimitiveRoots.o" -o "PrimitiveRoots.o" "../PrimitiveRoots.cpp"
+Finished building: ../PrimitiveRoots.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRoots.o   
+Finished building target: NumberTheory
+ 
+13:05:16 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRoots.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRoots.d" -MT"PrimitiveRoots.o" -o "PrimitiveRoots.o" "../PrimitiveRoots.cpp"
+Finished building: ../PrimitiveRoots.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRoots.o   
+Finished building target: NumberTheory
+ 
+13:06:15 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRoots.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRoots.d" -MT"PrimitiveRoots.o" -o "PrimitiveRoots.o" "../PrimitiveRoots.cpp"
+Finished building: ../PrimitiveRoots.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRoots.o   
+Finished building target: NumberTheory
+ 
+13:10:14 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRoots.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRoots.d" -MT"PrimitiveRoots.o" -o "PrimitiveRoots.o" "../PrimitiveRoots.cpp"
+Finished building: ../PrimitiveRoots.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRoots.o   
+Finished building target: NumberTheory
+ 
+13:11:05 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRoots.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRoots.d" -MT"PrimitiveRoots.o" -o "PrimitiveRoots.o" "../PrimitiveRoots.cpp"
+Finished building: ../PrimitiveRoots.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRoots.o   
+Finished building target: NumberTheory
+ 
+13:11:33 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRoots.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRoots.d" -MT"PrimitiveRoots.o" -o "PrimitiveRoots.o" "../PrimitiveRoots.cpp"
+../PrimitiveRoots.cpp: In function ‘int main()’:
+../PrimitiveRoots.cpp:109:12: error: expected primary-expression before ‘<<’ token
+   cout <<  << "\n===============\n";
+            ^
+subdir.mk:18: recipe for target 'PrimitiveRoots.o' failed
+make: *** [PrimitiveRoots.o] Error 1
+13:11:43 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRoots.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRoots.d" -MT"PrimitiveRoots.o" -o "PrimitiveRoots.o" "../PrimitiveRoots.cpp"
+Finished building: ../PrimitiveRoots.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRoots.o   
+Finished building target: NumberTheory
+ 
+13:16:27 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRoots.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRoots.d" -MT"PrimitiveRoots.o" -o "PrimitiveRoots.o" "../PrimitiveRoots.cpp"
+Finished building: ../PrimitiveRoots.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRoots.o   
+Finished building target: NumberTheory
+ 
+13:18:46 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRoots.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRoots.d" -MT"PrimitiveRoots.o" -o "PrimitiveRoots.o" "../PrimitiveRoots.cpp"
+Finished building: ../PrimitiveRoots.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRoots.o   
+Finished building target: NumberTheory
+ 
+13:19:04 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRoots.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRoots.d" -MT"PrimitiveRoots.o" -o "PrimitiveRoots.o" "../PrimitiveRoots.cpp"
+Finished building: ../PrimitiveRoots.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRoots.o   
+Finished building target: NumberTheory
+ 
+13:19:13 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+make: Nothing to be done for 'all'.
+13:19:57 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRoots.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRoots.d" -MT"PrimitiveRoots.o" -o "PrimitiveRoots.o" "../PrimitiveRoots.cpp"
+Finished building: ../PrimitiveRoots.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRoots.o   
+Finished building target: NumberTheory
+ 
+13:22:19 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRoots.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRoots.d" -MT"PrimitiveRoots.o" -o "PrimitiveRoots.o" "../PrimitiveRoots.cpp"
+Finished building: ../PrimitiveRoots.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRoots.o   
+Finished building target: NumberTheory
+ 
+13:23:03 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRoots.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRoots.d" -MT"PrimitiveRoots.o" -o "PrimitiveRoots.o" "../PrimitiveRoots.cpp"
+Finished building: ../PrimitiveRoots.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRoots.o   
+Finished building target: NumberTheory
+ 
+14:46:50 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRoots.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRoots.d" -MT"PrimitiveRoots.o" -o "PrimitiveRoots.o" "../PrimitiveRoots.cpp"
+../PrimitiveRoots.cpp: In function ‘int main()’:
+../PrimitiveRoots.cpp:110:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(flag && s.size()==n-1) pr.push_back(i);
+                      ^
+Finished building: ../PrimitiveRoots.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRoots.o   
+Finished building target: NumberTheory
+ 
+14:47:59 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRoots.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRoots.d" -MT"PrimitiveRoots.o" -o "PrimitiveRoots.o" "../PrimitiveRoots.cpp"
+../PrimitiveRoots.cpp: In function ‘int main()’:
+../PrimitiveRoots.cpp:110:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(flag && s.size()==n-1) pr.push_back(i);
+                      ^
+Finished building: ../PrimitiveRoots.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRoots.o   
+Finished building target: NumberTheory
+ 
+14:48:10 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+make: Nothing to be done for 'all'.
+14:50:09 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRoots.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRoots.d" -MT"PrimitiveRoots.o" -o "PrimitiveRoots.o" "../PrimitiveRoots.cpp"
+../PrimitiveRoots.cpp: In function ‘int main()’:
+../PrimitiveRoots.cpp:110:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(flag && s.size()==n-1) pr.push_back(i);
+                      ^
+Finished building: ../PrimitiveRoots.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRoots.o   
+Finished building target: NumberTheory
+ 
+14:50:20 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+make: Nothing to be done for 'all'.
+15:21:08 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRootsOfPrimes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRootsOfPrimes.d" -MT"PrimitiveRootsOfPrimes.o" -o "PrimitiveRootsOfPrimes.o" "../PrimitiveRootsOfPrimes.cpp"
+Finished building: ../PrimitiveRootsOfPrimes.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRootsOfPrimes.o   
+Finished building target: NumberTheory
+ 
+15:21:29 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+make: Nothing to be done for 'all'.
+15:22:24 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+make: Nothing to be done for 'all'.
+15:26:13 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRootsOfPrimes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRootsOfPrimes.d" -MT"PrimitiveRootsOfPrimes.o" -o "PrimitiveRootsOfPrimes.o" "../PrimitiveRootsOfPrimes.cpp"
+Finished building: ../PrimitiveRootsOfPrimes.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRootsOfPrimes.o   
+Finished building target: NumberTheory
+ 
+15:26:29 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+make: Nothing to be done for 'all'.
+15:29:32 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRootsOfPrimes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRootsOfPrimes.d" -MT"PrimitiveRootsOfPrimes.o" -o "PrimitiveRootsOfPrimes.o" "../PrimitiveRootsOfPrimes.cpp"
+Finished building: ../PrimitiveRootsOfPrimes.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRootsOfPrimes.o   
+Finished building target: NumberTheory
+ 
+15:35:00 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRootsOfPrimes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRootsOfPrimes.d" -MT"PrimitiveRootsOfPrimes.o" -o "PrimitiveRootsOfPrimes.o" "../PrimitiveRootsOfPrimes.cpp"
+Finished building: ../PrimitiveRootsOfPrimes.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRootsOfPrimes.o   
+Finished building target: NumberTheory
+ 
+15:35:08 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+make: Nothing to be done for 'all'.
+15:39:33 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRootsOfPrimes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRootsOfPrimes.d" -MT"PrimitiveRootsOfPrimes.o" -o "PrimitiveRootsOfPrimes.o" "../PrimitiveRootsOfPrimes.cpp"
+Finished building: ../PrimitiveRootsOfPrimes.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRootsOfPrimes.o   
+Finished building target: NumberTheory
+ 
+15:40:23 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+make: Nothing to be done for 'all'.
+15:40:58 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRootsOfPrimes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRootsOfPrimes.d" -MT"PrimitiveRootsOfPrimes.o" -o "PrimitiveRootsOfPrimes.o" "../PrimitiveRootsOfPrimes.cpp"
+Finished building: ../PrimitiveRootsOfPrimes.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRootsOfPrimes.o   
+Finished building target: NumberTheory
+ 
+15:51:37 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRootsOfPrimes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRootsOfPrimes.d" -MT"PrimitiveRootsOfPrimes.o" -o "PrimitiveRootsOfPrimes.o" "../PrimitiveRootsOfPrimes.cpp"
+Finished building: ../PrimitiveRootsOfPrimes.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRootsOfPrimes.o   
+Finished building target: NumberTheory
+ 
+15:55:42 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../ModularExponentiation.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"ModularExponentiation.d" -MT"ModularExponentiation.o" -o "ModularExponentiation.o" "../ModularExponentiation.cpp"
+Finished building: ../ModularExponentiation.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./ModularExponentiation.o   
+Finished building target: NumberTheory
+ 
+15:55:54 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+make: Nothing to be done for 'all'.
+15:57:03 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+make: Nothing to be done for 'all'.
+16:03:04 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRootsOfPrimes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRootsOfPrimes.d" -MT"PrimitiveRootsOfPrimes.o" -o "PrimitiveRootsOfPrimes.o" "../PrimitiveRootsOfPrimes.cpp"
+Finished building: ../PrimitiveRootsOfPrimes.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRootsOfPrimes.o   
+Finished building target: NumberTheory
+ 
+16:03:21 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRootsOfPrimes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRootsOfPrimes.d" -MT"PrimitiveRootsOfPrimes.o" -o "PrimitiveRootsOfPrimes.o" "../PrimitiveRootsOfPrimes.cpp"
+Finished building: ../PrimitiveRootsOfPrimes.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRootsOfPrimes.o   
+Finished building target: NumberTheory
+ 
+16:06:12 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRootsOfPrimes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRootsOfPrimes.d" -MT"PrimitiveRootsOfPrimes.o" -o "PrimitiveRootsOfPrimes.o" "../PrimitiveRootsOfPrimes.cpp"
+Finished building: ../PrimitiveRootsOfPrimes.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRootsOfPrimes.o   
+Finished building target: NumberTheory
+ 
+16:06:20 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+make: Nothing to be done for 'all'.
+16:06:33 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+make: Nothing to be done for 'all'.
+16:06:42 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+make: Nothing to be done for 'all'.
+16:08:58 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRootsOfPrimes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRootsOfPrimes.d" -MT"PrimitiveRootsOfPrimes.o" -o "PrimitiveRootsOfPrimes.o" "../PrimitiveRootsOfPrimes.cpp"
+Finished building: ../PrimitiveRootsOfPrimes.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRootsOfPrimes.o   
+Finished building target: NumberTheory
+ 
+16:17:55 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRootsOfPrimes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRootsOfPrimes.d" -MT"PrimitiveRootsOfPrimes.o" -o "PrimitiveRootsOfPrimes.o" "../PrimitiveRootsOfPrimes.cpp"
+../PrimitiveRootsOfPrimes.cpp: In function ‘int main()’:
+../PrimitiveRootsOfPrimes.cpp:40:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for(int j=p*2; j<=n; j+=p)
                     ^
-In file included from /usr/include/features.h:367:0,
-                 from /usr/include/x86_64-linux-gnu/c++/5/bits/os_defines.h:39,
-                 from /usr/include/x86_64-linux-gnu/c++/5/bits/c++config.h:482,
-                 from /usr/include/c++/5/iostream:38,
-                 from ../Power.cpp:7:
-/usr/include/x86_64-linux-gnu/bits/mathcalls.h:153:1: note: candidate: double pow(double, double)
- __MATHCALL_VEC (pow,, (_Mdouble_ __x, _Mdouble_ __y));
- ^
-../Power.cpp:11:5: note: candidate: int pow(float, int)
- int pow(float x, int y)
+Finished building: ../PrimitiveRootsOfPrimes.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRootsOfPrimes.o   
+Finished building target: NumberTheory
+ 
+16:19:02 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRootsOfPrimes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRootsOfPrimes.d" -MT"PrimitiveRootsOfPrimes.o" -o "PrimitiveRootsOfPrimes.o" "../PrimitiveRootsOfPrimes.cpp"
+../PrimitiveRootsOfPrimes.cpp: In function ‘int main()’:
+../PrimitiveRootsOfPrimes.cpp:40:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for(int j=p*2; j<=n; j+=p)
+                    ^
+Finished building: ../PrimitiveRootsOfPrimes.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRootsOfPrimes.o   
+Finished building target: NumberTheory
+ 
+16:24:03 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRootsOfPrimes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRootsOfPrimes.d" -MT"PrimitiveRootsOfPrimes.o" -o "PrimitiveRootsOfPrimes.o" "../PrimitiveRootsOfPrimes.cpp"
+../PrimitiveRootsOfPrimes.cpp: In function ‘int main()’:
+../PrimitiveRootsOfPrimes.cpp:40:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for(int j=p*2; j<=n; j+=p)
+                    ^
+../PrimitiveRootsOfPrimes.cpp:35:6: warning: unused variable ‘s’ [-Wunused-variable]
+  ull s= n-1;
+      ^
+Finished building: ../PrimitiveRootsOfPrimes.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRootsOfPrimes.o   
+Finished building target: NumberTheory
+ 
+16:25:47 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRootsOfPrimes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRootsOfPrimes.d" -MT"PrimitiveRootsOfPrimes.o" -o "PrimitiveRootsOfPrimes.o" "../PrimitiveRootsOfPrimes.cpp"
+../PrimitiveRootsOfPrimes.cpp: In function ‘int main()’:
+../PrimitiveRootsOfPrimes.cpp:40:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for(int j=p*2; j<=n; j+=p)
+                    ^
+../PrimitiveRootsOfPrimes.cpp:35:6: warning: unused variable ‘s’ [-Wunused-variable]
+  ull s= n-1;
+      ^
+Finished building: ../PrimitiveRootsOfPrimes.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRootsOfPrimes.o   
+Finished building target: NumberTheory
+ 
+16:28:02 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRootsOfPrimes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRootsOfPrimes.d" -MT"PrimitiveRootsOfPrimes.o" -o "PrimitiveRootsOfPrimes.o" "../PrimitiveRootsOfPrimes.cpp"
+../PrimitiveRootsOfPrimes.cpp: In function ‘int main()’:
+../PrimitiveRootsOfPrimes.cpp:40:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for(int j=p*2; j<=n/2; j+=p)
+                    ^
+../PrimitiveRootsOfPrimes.cpp:35:6: warning: unused variable ‘s’ [-Wunused-variable]
+  ull s= n-1;
+      ^
+Finished building: ../PrimitiveRootsOfPrimes.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRootsOfPrimes.o   
+Finished building target: NumberTheory
+ 
+16:28:24 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRootsOfPrimes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRootsOfPrimes.d" -MT"PrimitiveRootsOfPrimes.o" -o "PrimitiveRootsOfPrimes.o" "../PrimitiveRootsOfPrimes.cpp"
+../PrimitiveRootsOfPrimes.cpp: In function ‘int main()’:
+../PrimitiveRootsOfPrimes.cpp:40:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for(int j=p*2; j<n/2; j+=p)
+                    ^
+../PrimitiveRootsOfPrimes.cpp:35:6: warning: unused variable ‘s’ [-Wunused-variable]
+  ull s= n-1;
+      ^
+Finished building: ../PrimitiveRootsOfPrimes.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRootsOfPrimes.o   
+Finished building target: NumberTheory
+ 
+16:30:04 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRootsOfPrimes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRootsOfPrimes.d" -MT"PrimitiveRootsOfPrimes.o" -o "PrimitiveRootsOfPrimes.o" "../PrimitiveRootsOfPrimes.cpp"
+../PrimitiveRootsOfPrimes.cpp: In function ‘int main()’:
+../PrimitiveRootsOfPrimes.cpp:40:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for(int j=p*2; j<n/2; j+=p)
+                    ^
+../PrimitiveRootsOfPrimes.cpp:35:6: warning: unused variable ‘s’ [-Wunused-variable]
+  ull s= n-1;
+      ^
+Finished building: ../PrimitiveRootsOfPrimes.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRootsOfPrimes.o   
+Finished building target: NumberTheory
+ 
+16:33:09 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRootsOfPrimes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRootsOfPrimes.d" -MT"PrimitiveRootsOfPrimes.o" -o "PrimitiveRootsOfPrimes.o" "../PrimitiveRootsOfPrimes.cpp"
+../PrimitiveRootsOfPrimes.cpp: In function ‘int main()’:
+../PrimitiveRootsOfPrimes.cpp:40:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for(int j=p*2; j<n; j+=p)
+                    ^
+../PrimitiveRootsOfPrimes.cpp:35:6: warning: unused variable ‘s’ [-Wunused-variable]
+  ull s= n-1;
+      ^
+Finished building: ../PrimitiveRootsOfPrimes.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRootsOfPrimes.o   
+Finished building target: NumberTheory
+ 
+16:33:57 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+make: Nothing to be done for 'all'.
+16:34:24 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRootsOfPrimes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRootsOfPrimes.d" -MT"PrimitiveRootsOfPrimes.o" -o "PrimitiveRootsOfPrimes.o" "../PrimitiveRootsOfPrimes.cpp"
+../PrimitiveRootsOfPrimes.cpp: In function ‘int main()’:
+../PrimitiveRootsOfPrimes.cpp:40:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for(int j=p*2; j<n; j+=p)
+                    ^
+../PrimitiveRootsOfPrimes.cpp:35:6: warning: unused variable ‘s’ [-Wunused-variable]
+  ull s= n-1;
+      ^
+Finished building: ../PrimitiveRootsOfPrimes.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRootsOfPrimes.o   
+Finished building target: NumberTheory
+ 
+16:34:42 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+make: Nothing to be done for 'all'.
+16:41:42 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRootsOfPrimes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRootsOfPrimes.d" -MT"PrimitiveRootsOfPrimes.o" -o "PrimitiveRootsOfPrimes.o" "../PrimitiveRootsOfPrimes.cpp"
+../PrimitiveRootsOfPrimes.cpp: In function ‘int main()’:
+../PrimitiveRootsOfPrimes.cpp:40:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for(int j=p*2; j<n; j+=p)
+                    ^
+../PrimitiveRootsOfPrimes.cpp:78:14: error: no match for ‘operator/’ (operand types are ‘int’ and ‘std::set<long long unsigned int>’)
+   tot *= (1-1/pf]);
+              ^
+../PrimitiveRootsOfPrimes.cpp:78:17: error: expected ‘)’ before ‘]’ token
+   tot *= (1-1/pf]);
+                 ^
+../PrimitiveRootsOfPrimes.cpp:76:11: warning: unused variable ‘p’ [-Wunused-variable]
+  for(auto p:pf)
+           ^
+../PrimitiveRootsOfPrimes.cpp:35:6: warning: unused variable ‘s’ [-Wunused-variable]
+  ull s= n-1;
+      ^
+subdir.mk:18: recipe for target 'PrimitiveRootsOfPrimes.o' failed
+make: *** [PrimitiveRootsOfPrimes.o] Error 1
+16:42:37 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRootsOfPrimes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRootsOfPrimes.d" -MT"PrimitiveRootsOfPrimes.o" -o "PrimitiveRootsOfPrimes.o" "../PrimitiveRootsOfPrimes.cpp"
+../PrimitiveRootsOfPrimes.cpp: In function ‘int main()’:
+../PrimitiveRootsOfPrimes.cpp:40:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for(int j=p*2; j<n; j+=p)
+                    ^
+../PrimitiveRootsOfPrimes.cpp:78:13: error: no match for ‘operator-’ (operand types are ‘std::set<long long unsigned int>’ and ‘double’)
+   tot *= (pf-1.0)/pf);
+             ^
+In file included from /usr/include/c++/5/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/5/vector:60,
+                 from ../PrimitiveRootsOfPrimes.cpp:9:
+/usr/include/c++/5/bits/stl_iterator.h:328:5: note: candidate: template<class _Iterator> typename std::reverse_iterator<_Iterator>::difference_type std::operator-(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+     operator-(const reverse_iterator<_Iterator>& __x,
      ^
-In file included from ../Power.cpp:8:0:
-/usr/include/c++/5/cmath:434:5: note: candidate: typename __gnu_cxx::__promote_2<_Tp, _Up>::__type std::pow(_Tp, _Up) [with _Tp = float; _Up = int; typename __gnu_cxx::__promote_2<_Tp, _Up>::__type = double]
-     pow(_Tp __x, _Up __y)
+/usr/include/c++/5/bits/stl_iterator.h:328:5: note:   template argument deduction/substitution failed:
+../PrimitiveRootsOfPrimes.cpp:78:14: note:   ‘std::set<long long unsigned int>’ is not derived from ‘const std::reverse_iterator<_Iterator>’
+   tot *= (pf-1.0)/pf);
+              ^
+In file included from /usr/include/c++/5/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/5/vector:60,
+                 from ../PrimitiveRootsOfPrimes.cpp:9:
+/usr/include/c++/5/bits/stl_iterator.h:380:5: note: candidate: template<class _IteratorL, class _IteratorR> decltype ((__y.base() - __x.base())) std::operator-(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)
+     operator-(const reverse_iterator<_IteratorL>& __x,
      ^
-/usr/include/c++/5/cmath:426:3: note: candidate: long double std::pow(long double, int)
-   pow(long double __x, int __n)
+/usr/include/c++/5/bits/stl_iterator.h:380:5: note:   template argument deduction/substitution failed:
+../PrimitiveRootsOfPrimes.cpp:78:14: note:   ‘std::set<long long unsigned int>’ is not derived from ‘const std::reverse_iterator<_Iterator>’
+   tot *= (pf-1.0)/pf);
+              ^
+In file included from /usr/include/c++/5/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/5/vector:60,
+                 from ../PrimitiveRootsOfPrimes.cpp:9:
+/usr/include/c++/5/bits/stl_iterator.h:1138:5: note: candidate: template<class _IteratorL, class _IteratorR> decltype ((__x.base() - __y.base())) std::operator-(const std::move_iterator<_Iterator>&, const std::move_iterator<_IteratorR>&)
+     operator-(const move_iterator<_IteratorL>& __x,
+     ^
+/usr/include/c++/5/bits/stl_iterator.h:1138:5: note:   template argument deduction/substitution failed:
+../PrimitiveRootsOfPrimes.cpp:78:14: note:   ‘std::set<long long unsigned int>’ is not derived from ‘const std::move_iterator<_Iterator>’
+   tot *= (pf-1.0)/pf);
+              ^
+In file included from /usr/include/c++/5/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/5/vector:60,
+                 from ../PrimitiveRootsOfPrimes.cpp:9:
+/usr/include/c++/5/bits/stl_iterator.h:1145:5: note: candidate: template<class _Iterator> decltype ((__x.base() - __y.base())) std::operator-(const std::move_iterator<_Iterator>&, const std::move_iterator<_Iterator>&)
+     operator-(const move_iterator<_Iterator>& __x,
+     ^
+/usr/include/c++/5/bits/stl_iterator.h:1145:5: note:   template argument deduction/substitution failed:
+../PrimitiveRootsOfPrimes.cpp:78:14: note:   ‘std::set<long long unsigned int>’ is not derived from ‘const std::move_iterator<_Iterator>’
+   tot *= (pf-1.0)/pf);
+              ^
+In file included from /usr/include/c++/5/vector:65:0,
+                 from ../PrimitiveRootsOfPrimes.cpp:9:
+/usr/include/c++/5/bits/stl_bvector.h:208:3: note: candidate: std::ptrdiff_t std::operator-(const std::_Bit_iterator_base&, const std::_Bit_iterator_base&)
+   operator-(const _Bit_iterator_base& __x, const _Bit_iterator_base& __y)
    ^
-/usr/include/c++/5/cmath:422:3: note: candidate: float std::pow(float, int)
-   pow(float __x, int __n)
-   ^
-/usr/include/c++/5/cmath:418:3: note: candidate: double std::pow(double, int)
-   pow(double __x, int __i)
-   ^
-/usr/include/c++/5/cmath:411:3: note: candidate: long double std::pow(long double, long double)
-   pow(long double __x, long double __y)
-   ^
-/usr/include/c++/5/cmath:407:3: note: candidate: float std::pow(float, float)
-   pow(float __x, float __y)
-   ^
-make: *** [Power.o] Error 1
-19:27:36 **** Incremental Build of configuration Debug for project Algorithms ****
+/usr/include/c++/5/bits/stl_bvector.h:208:3: note:   no known conversion for argument 1 from ‘std::set<long long unsigned int>’ to ‘const std::_Bit_iterator_base&’
+In file included from /usr/include/c++/5/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/5/vector:60,
+                 from ../PrimitiveRootsOfPrimes.cpp:9:
+/usr/include/c++/5/bits/stl_iterator.h:923:5: note: candidate: template<class _Iterator, class _Container> typename __gnu_cxx::__normal_iterator<_Iterator, _Container>::difference_type __gnu_cxx::operator-(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+     operator-(const __normal_iterator<_Iterator, _Container>& __lhs,
+     ^
+/usr/include/c++/5/bits/stl_iterator.h:923:5: note:   template argument deduction/substitution failed:
+../PrimitiveRootsOfPrimes.cpp:78:14: note:   ‘std::set<long long unsigned int>’ is not derived from ‘const __gnu_cxx::__normal_iterator<_Iterator, _Container>’
+   tot *= (pf-1.0)/pf);
+              ^
+In file included from /usr/include/c++/5/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/5/vector:60,
+                 from ../PrimitiveRootsOfPrimes.cpp:9:
+/usr/include/c++/5/bits/stl_iterator.h:911:5: note: candidate: template<class _IteratorL, class _IteratorR, class _Container> decltype ((__lhs.base() - __rhs.base())) __gnu_cxx::operator-(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)
+     operator-(const __normal_iterator<_IteratorL, _Container>& __lhs,
+     ^
+/usr/include/c++/5/bits/stl_iterator.h:911:5: note:   template argument deduction/substitution failed:
+../PrimitiveRootsOfPrimes.cpp:78:14: note:   ‘std::set<long long unsigned int>’ is not derived from ‘const __gnu_cxx::__normal_iterator<_IteratorL, _Container>’
+   tot *= (pf-1.0)/pf);
+              ^
+../PrimitiveRootsOfPrimes.cpp:76:11: warning: unused variable ‘p’ [-Wunused-variable]
+  for(auto p:pf)
+           ^
+../PrimitiveRootsOfPrimes.cpp:35:6: warning: unused variable ‘s’ [-Wunused-variable]
+  ull s= n-1;
+      ^
+subdir.mk:18: recipe for target 'PrimitiveRootsOfPrimes.o' failed
+make: *** [PrimitiveRootsOfPrimes.o] Error 1
+16:42:54 **** Incremental Build of configuration Debug for project NumberTheory ****
 make all 
-Building target: Algorithms
-Invoking: GCC C++ Linker
-g++  -o "Algorithms"  ./SieveOfSundaram.o   
-/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o: In function `_start':
-(.text+0x20): undefined reference to `main'
-collect2: error: ld returned 1 exit status
-make: *** [Algorithms] Error 1
-makefile:44: recipe for target 'Algorithms' failed
-
-**** Build of configuration Debug for project Contest_Problems ****
-
-Nothing to build for project Contest_Problems
-19:27:36 **** Incremental Build of configuration Debug for project NumberTheory ****
-make all 
-Building file: ../Power.cpp
+Building file: ../PrimitiveRootsOfPrimes.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Power.d" -MT"Power.o" -o "Power.o" "../Power.cpp"
-Finished building: ../Power.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRootsOfPrimes.d" -MT"PrimitiveRootsOfPrimes.o" -o "PrimitiveRootsOfPrimes.o" "../PrimitiveRootsOfPrimes.cpp"
+../PrimitiveRootsOfPrimes.cpp: In function ‘int main()’:
+../PrimitiveRootsOfPrimes.cpp:40:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for(int j=p*2; j<n; j+=p)
+                    ^
+../PrimitiveRootsOfPrimes.cpp:78:19: error: expected ‘;’ before ‘)’ token
+   tot *= (p-1.0)/p);
+                   ^
+../PrimitiveRootsOfPrimes.cpp:35:6: warning: unused variable ‘s’ [-Wunused-variable]
+  ull s= n-1;
+      ^
+make: *** [PrimitiveRootsOfPrimes.o] Error 1
+subdir.mk:18: recipe for target 'PrimitiveRootsOfPrimes.o' failed
+16:43:56 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building file: ../PrimitiveRootsOfPrimes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRootsOfPrimes.d" -MT"PrimitiveRootsOfPrimes.o" -o "PrimitiveRootsOfPrimes.o" "../PrimitiveRootsOfPrimes.cpp"
+../PrimitiveRootsOfPrimes.cpp: In function ‘int main()’:
+../PrimitiveRootsOfPrimes.cpp:39:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for(int j=p*2; j<n; j+=p)
+                    ^
+Finished building: ../PrimitiveRootsOfPrimes.cpp
  
 Building target: NumberTheory
 Invoking: GCC C++ Linker
-g++  -o "NumberTheory"  ./Power.o   
+g++  -o "NumberTheory"  ./PrimitiveRootsOfPrimes.o   
 Finished building target: NumberTheory
  
-
-**** Build of configuration Debug for project OpenCV ****
-
-Nothing to build for project OpenCV
-
-**** Build of configuration Debug for project Practice-Problems ****
-
-Nothing to build for project Practice-Problems
-19:27:41 **** Incremental Build of configuration Debug for project NumberTheory ****
+16:44:47 **** Incremental Build of configuration Debug for project NumberTheory ****
 make all 
-make: Nothing to be done for 'all'.
-19:27:45 **** Incremental Build of configuration Debug for project NumberTheory ****
-make all 
-make: Nothing to be done for 'all'.
-19:27:50 **** Incremental Build of configuration Debug for project NumberTheory ****
-make all 
-make: Nothing to be done for 'all'.
-19:28:07 **** Incremental Build of configuration Debug for project NumberTheory ****
-make all 
-Building file: ../Power.cpp
+Building file: ../PrimitiveRootsOfPrimes.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Power.d" -MT"Power.o" -o "Power.o" "../Power.cpp"
-Finished building: ../Power.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRootsOfPrimes.d" -MT"PrimitiveRootsOfPrimes.o" -o "PrimitiveRootsOfPrimes.o" "../PrimitiveRootsOfPrimes.cpp"
+../PrimitiveRootsOfPrimes.cpp: In function ‘int main()’:
+../PrimitiveRootsOfPrimes.cpp:39:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for(int j=p*2; j<n; j+=p)
+                    ^
+Finished building: ../PrimitiveRootsOfPrimes.cpp
  
 Building target: NumberTheory
 Invoking: GCC C++ Linker
-g++  -o "NumberTheory"  ./Power.o   
+g++  -o "NumberTheory"  ./PrimitiveRootsOfPrimes.o   
 Finished building target: NumberTheory
  
-19:28:31 **** Incremental Build of configuration Debug for project Algorithms ****
-make all 
-Building target: Algorithms
-Invoking: GCC C++ Linker
-g++  -o "Algorithms"  ./SieveOfSundaram.o   
-/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o: In function `_start':
-(.text+0x20): undefined reference to `main'
-makefile:44: recipe for target 'Algorithms' failed
-collect2: error: ld returned 1 exit status
-make: *** [Algorithms] Error 1
-
-**** Build of configuration Debug for project Contest_Problems ****
-
-Nothing to build for project Contest_Problems
-19:28:32 **** Incremental Build of configuration Debug for project NumberTheory ****
+16:45:18 **** Incremental Build of configuration Debug for project NumberTheory ****
 make all 
 make: Nothing to be done for 'all'.
-
-**** Build of configuration Debug for project OpenCV ****
-
-Nothing to build for project OpenCV
-
-**** Build of configuration Debug for project Practice-Problems ****
-
-Nothing to build for project Practice-Problems
-19:28:39 **** Incremental Build of configuration Debug for project NumberTheory ****
+16:51:29 **** Incremental Build of configuration Debug for project NumberTheory ****
 make all 
-Building file: ../Power.cpp
+Building file: ../PrimitiveRootsOfPrimes.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Power.d" -MT"Power.o" -o "Power.o" "../Power.cpp"
-Finished building: ../Power.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRootsOfPrimes.d" -MT"PrimitiveRootsOfPrimes.o" -o "PrimitiveRootsOfPrimes.o" "../PrimitiveRootsOfPrimes.cpp"
+../PrimitiveRootsOfPrimes.cpp: In function ‘int main()’:
+../PrimitiveRootsOfPrimes.cpp:38:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for(int j=p*2; j<n; j+=p)
+                    ^
+Finished building: ../PrimitiveRootsOfPrimes.cpp
  
 Building target: NumberTheory
 Invoking: GCC C++ Linker
-g++  -o "NumberTheory"  ./Power.o   
+g++  -o "NumberTheory"  ./PrimitiveRootsOfPrimes.o   
 Finished building target: NumberTheory
  
-19:28:47 **** Incremental Build of configuration Debug for project NumberTheory ****
+17:17:08 **** Incremental Build of configuration Debug for project NumberTheory ****
 make all 
-make: Nothing to be done for 'all'.
-19:28:56 **** Incremental Build of configuration Debug for project NumberTheory ****
-make all 
-make: Nothing to be done for 'all'.
-19:39:45 **** Clean-only build of configuration Debug for project NumberTheory ****
-make clean 
-rm -rf  ./Power.o  ./Power.d  NumberTheory
- 
-19:39:46 **** Incremental Build of configuration Debug for project NumberTheory ****
-make all 
-Building file: ../ModularExponentiation.cpp
+Building file: ../PrimitiveRootsOfPrimes.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ModularExponentiation.d" -MT"ModularExponentiation.o" -o "ModularExponentiation.o" "../ModularExponentiation.cpp"
-../ModularExponentiation.cpp:15:12: error: invalid suffix "f" on integer constant
-  float res=1f;
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -std=c++14 -MMD -MP -MF"PrimitiveRootsOfPrimes.d" -MT"PrimitiveRootsOfPrimes.o" -o "PrimitiveRootsOfPrimes.o" "../PrimitiveRootsOfPrimes.cpp"
+Finished building: ../PrimitiveRootsOfPrimes.cpp
+ 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"  ./PrimitiveRootsOfPrimes.o   
+Finished building target: NumberTheory
+ 
+17:17:19 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+make: Nothing to be done for 'all'.
+17:17:33 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+make: Nothing to be done for 'all'.
+17:17:45 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+make: Nothing to be done for 'all'.
+17:18:27 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+make: Nothing to be done for 'all'.
+17:18:33 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+make: Nothing to be done for 'all'.
+10:39:22 **** Incremental Build of configuration Debug for project NumberTheory ****
+make all 
+Building target: NumberTheory
+Invoking: GCC C++ Linker
+g++  -o "NumberTheory"   
+g++: fatal error: no input files
+makefile:44: recipe for target 'NumberTheory' failed
+compilation terminated.
+make: *** [NumberTheory] Error 1
+10:39:36 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+Building file: ../Segment Trees.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Segment Trees.d" -MT"Segment\ Trees.d" -o "Segment Trees.o" "../Segment Trees.cpp"
+../Segment Trees.cpp: In function ‘int buildST(int, int, int, const std::vector<int>&, std::vector<int>&)’:
+../Segment Trees.cpp:18:31: warning: suggest parentheses around ‘+’ inside ‘>>’ [-Wparentheses]
+  int r=buildST(node*2+2, (b+e)>>1 + 1, e, A, ST);
+                               ^
+../Segment Trees.cpp:20:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+../Segment Trees.cpp: In function ‘int query(int, int, int, int, int, const std::vector<int>&)’:
+../Segment Trees.cpp:28:28: warning: suggest parentheses around ‘+’ inside ‘>>’ [-Wparentheses]
+   r = query(node*2+2, (b+e)>>1+1, e, i, j, ST);
+                            ^
+../Segment Trees.cpp: In function ‘int main()’:
+../Segment Trees.cpp:43:6: warning: ‘auto’ changes meaning in C++11; please remove it [-Wc++0x-compat]
+  for(auto &a:A)cin >> a;
+      ^
+../Segment Trees.cpp:43:12: error: ISO C++ forbids declaration of ‘a’ with no type [-fpermissive]
+  for(auto &a:A)cin >> a;
             ^
-../ModularExponentiation.cpp: In function ‘float powr(float, int)’:
-../ModularExponentiation.cpp:13:7: warning: suggest parentheses around comparison in operand of ‘|’ [-Wparentheses]
-  if(x == 1 |  y==0)
-       ^
-../ModularExponentiation.cpp:24:1: warning: control reaches end of non-void function [-Wreturn-type]
+../Segment Trees.cpp:43:14: warning: range-based ‘for’ loops only available with -std=c++11 or -std=gnu++11
+  for(auto &a:A)cin >> a;
+              ^
+../Segment Trees.cpp:46:6: warning: ‘auto’ changes meaning in C++11; please remove it [-Wc++0x-compat]
+  for(auto s:ST)
+      ^
+../Segment Trees.cpp:46:11: error: ‘s’ does not name a type
+  for(auto s:ST)
+           ^
+../Segment Trees.cpp:51:1: error: expected ‘;’ before ‘}’ token
  }
  ^
-make: *** [ModularExponentiation.o] Error 1
-subdir.mk:18: recipe for target 'ModularExponentiation.o' failed
-19:40:00 **** Incremental Build of configuration Debug for project Algorithms ****
+../Segment Trees.cpp:51:1: error: expected primary-expression before ‘}’ token
+../Segment Trees.cpp:51:1: error: expected ‘;’ before ‘}’ token
+../Segment Trees.cpp:51:1: error: expected primary-expression before ‘}’ token
+../Segment Trees.cpp:51:1: error: expected ‘)’ before ‘}’ token
+../Segment Trees.cpp:51:1: error: expected primary-expression before ‘}’ token
+make: *** [Segment Trees.o] Error 1
+subdir.mk:18: recipe for target 'Segment Trees.o' failed
+10:40:21 **** Incremental Build of configuration Debug for project Algorithms ****
 make all 
+Building file: ../Segment Trees.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"Segment Trees.d" -MT"Segment\ Trees.d" -o "Segment Trees.o" "../Segment Trees.cpp"
+../Segment Trees.cpp: In function ‘int buildST(int, int, int, const std::vector<int>&, std::vector<int>&)’:
+../Segment Trees.cpp:18:31: warning: suggest parentheses around ‘+’ inside ‘>>’ [-Wparentheses]
+  int r=buildST(node*2+2, (b+e)>>1 + 1, e, A, ST);
+                               ^
+../Segment Trees.cpp:20:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+../Segment Trees.cpp: In function ‘int query(int, int, int, int, int, const std::vector<int>&)’:
+../Segment Trees.cpp:28:28: warning: suggest parentheses around ‘+’ inside ‘>>’ [-Wparentheses]
+   r = query(node*2+2, (b+e)>>1+1, e, i, j, ST);
+                            ^
+Finished building: ../Segment Trees.cpp
+ 
 Building target: Algorithms
 Invoking: GCC C++ Linker
-g++  -o "Algorithms"  ./SieveOfSundaram.o   
-/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o: In function `_start':
-(.text+0x20): undefined reference to `main'
-makefile:44: recipe for target 'Algorithms' failed
-collect2: error: ld returned 1 exit status
-make: *** [Algorithms] Error 1
+g++  -o "Algorithms"  ./Segment\ Trees.o   
+Finished building target: Algorithms
+ 
+10:42:44 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+make: Nothing to be done for 'all'.
 
 **** Build of configuration Debug for project Contest_Problems ****
 
 Nothing to build for project Contest_Problems
-19:40:00 **** Incremental Build of configuration Debug for project NumberTheory ****
-make all 
-Building file: ../ModularExponentiation.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ModularExponentiation.d" -MT"ModularExponentiation.o" -o "ModularExponentiation.o" "../ModularExponentiation.cpp"
-../ModularExponentiation.cpp:15:12: error: invalid suffix "f" on integer constant
-  float res=1f;
-            ^
-../ModularExponentiation.cpp: In function ‘float powr(float, int)’:
-../ModularExponentiation.cpp:13:7: warning: suggest parentheses around comparison in operand of ‘|’ [-Wparentheses]
-  if(x == 1 |  y==0)
-       ^
-../ModularExponentiation.cpp:24:1: warning: control reaches end of non-void function [-Wreturn-type]
- }
- ^
-subdir.mk:18: recipe for target 'ModularExponentiation.o' failed
-make: *** [ModularExponentiation.o] Error 1
+
+**** Build of configuration Debug for project NumberTheory ****
+
+Nothing to build for project NumberTheory
 
 **** Build of configuration Debug for project OpenCV ****
 
@@ -269,91 +1440,40 @@ Nothing to build for project OpenCV
 **** Build of configuration Debug for project Practice-Problems ****
 
 Nothing to build for project Practice-Problems
-19:40:07 **** Incremental Build of configuration Debug for project NumberTheory ****
+10:43:11 **** Incremental Build of configuration Debug for project Algorithms ****
 make all 
-Building file: ../ModularExponentiation.cpp
+Building file: ../Segment Trees.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ModularExponentiation.d" -MT"ModularExponentiation.o" -o "ModularExponentiation.o" "../ModularExponentiation.cpp"
-../ModularExponentiation.cpp: In function ‘float powr(float, int)’:
-../ModularExponentiation.cpp:13:7: warning: suggest parentheses around comparison in operand of ‘|’ [-Wparentheses]
-  if(x == 1 |  y==0)
-       ^
-../ModularExponentiation.cpp:24:1: warning: control reaches end of non-void function [-Wreturn-type]
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"Segment Trees.d" -MT"Segment\ Trees.d" -o "Segment Trees.o" "../Segment Trees.cpp"
+../Segment Trees.cpp: In function ‘int buildST(int, int, int, const std::vector<int>&, std::vector<int>&)’:
+../Segment Trees.cpp:19:31: warning: suggest parentheses around ‘+’ inside ‘>>’ [-Wparentheses]
+  int r=buildST(node*2+2, (b+e)>>1 + 1, e, A, ST);
+                               ^
+../Segment Trees.cpp:22:1: warning: no return statement in function returning non-void [-Wreturn-type]
  }
  ^
-Finished building: ../ModularExponentiation.cpp
+../Segment Trees.cpp: In function ‘int query(int, int, int, int, int, const std::vector<int>&)’:
+../Segment Trees.cpp:30:28: warning: suggest parentheses around ‘+’ inside ‘>>’ [-Wparentheses]
+   r = query(node*2+2, (b+e)>>1+1, e, i, j, ST);
+                            ^
+Finished building: ../Segment Trees.cpp
  
-Building target: NumberTheory
-Invoking: GCC C++ Linker
-g++  -o "NumberTheory"  ./ModularExponentiation.o   
-Finished building target: NumberTheory
- 
-19:41:06 **** Incremental Build of configuration Debug for project NumberTheory ****
-make all 
-Building file: ../ModularExponentiation.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ModularExponentiation.d" -MT"ModularExponentiation.o" -o "ModularExponentiation.o" "../ModularExponentiation.cpp"
-../ModularExponentiation.cpp: In function ‘float powr(float, int)’:
-../ModularExponentiation.cpp:13:7: warning: suggest parentheses around comparison in operand of ‘|’ [-Wparentheses]
-  if(x == 1 |  y==0)
-       ^
-Finished building: ../ModularExponentiation.cpp
- 
-Building target: NumberTheory
-Invoking: GCC C++ Linker
-g++  -o "NumberTheory"  ./ModularExponentiation.o   
-Finished building target: NumberTheory
- 
-19:41:19 **** Incremental Build of configuration Debug for project NumberTheory ****
-make all 
-Building file: ../ModularExponentiation.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ModularExponentiation.d" -MT"ModularExponentiation.o" -o "ModularExponentiation.o" "../ModularExponentiation.cpp"
-../ModularExponentiation.cpp: In function ‘float powr(float, int)’:
-../ModularExponentiation.cpp:13:7: warning: suggest parentheses around comparison in operand of ‘|’ [-Wparentheses]
-  if(x == 1 |  y==0)
-       ^
-Finished building: ../ModularExponentiation.cpp
- 
-Building target: NumberTheory
-Invoking: GCC C++ Linker
-g++  -o "NumberTheory"  ./ModularExponentiation.o   
-Finished building target: NumberTheory
- 
-19:41:24 **** Incremental Build of configuration Debug for project NumberTheory ****
-make all 
-make: Nothing to be done for 'all'.
-19:41:31 **** Incremental Build of configuration Debug for project NumberTheory ****
-make all 
-make: Nothing to be done for 'all'.
-19:42:17 **** Incremental Build of configuration Debug for project Algorithms ****
-make all 
 Building target: Algorithms
 Invoking: GCC C++ Linker
-g++  -o "Algorithms"  ./SieveOfSundaram.o   
-/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o: In function `_start':
-(.text+0x20): undefined reference to `main'
-makefile:44: recipe for target 'Algorithms' failed
-collect2: error: ld returned 1 exit status
-make: *** [Algorithms] Error 1
+g++  -o "Algorithms"  ./Segment\ Trees.o   
+Finished building target: Algorithms
+ 
+10:47:38 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+make: Nothing to be done for 'all'.
 
 **** Build of configuration Debug for project Contest_Problems ****
 
 Nothing to build for project Contest_Problems
-19:42:17 **** Incremental Build of configuration Debug for project NumberTheory ****
-make all 
-Building file: ../ModularExponentiation.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ModularExponentiation.d" -MT"ModularExponentiation.o" -o "ModularExponentiation.o" "../ModularExponentiation.cpp"
-../ModularExponentiation.cpp: In function ‘float powr(float, int)’:
-../ModularExponentiation.cpp:13:7: warning: suggest parentheses around comparison in operand of ‘|’ [-Wparentheses]
-  if(x == 1 |  y==0)
-       ^
-../ModularExponentiation.cpp:20:3: error: expected ‘;’ before ‘x’
-   x *= x;
-   ^
-make: *** [ModularExponentiation.o] Error 1
-subdir.mk:18: recipe for target 'ModularExponentiation.o' failed
+
+**** Build of configuration Debug for project NumberTheory ****
+
+Nothing to build for project NumberTheory
 
 **** Build of configuration Debug for project OpenCV ****
 
@@ -362,148 +1482,84 @@ Nothing to build for project OpenCV
 **** Build of configuration Debug for project Practice-Problems ****
 
 Nothing to build for project Practice-Problems
-19:42:24 **** Incremental Build of configuration Debug for project NumberTheory ****
+10:47:42 **** Incremental Build of configuration Debug for project Algorithms ****
 make all 
-Building file: ../ModularExponentiation.cpp
+Building file: ../Segment Trees.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ModularExponentiation.d" -MT"ModularExponentiation.o" -o "ModularExponentiation.o" "../ModularExponentiation.cpp"
-../ModularExponentiation.cpp: In function ‘float powr(float, int)’:
-../ModularExponentiation.cpp:13:7: warning: suggest parentheses around comparison in operand of ‘|’ [-Wparentheses]
-  if(x == 1 |  y==0)
-       ^
-Finished building: ../ModularExponentiation.cpp
- 
-Building target: NumberTheory
-Invoking: GCC C++ Linker
-g++  -o "NumberTheory"  ./ModularExponentiation.o   
-Finished building target: NumberTheory
- 
-19:42:30 **** Incremental Build of configuration Debug for project NumberTheory ****
-make all 
-make: Nothing to be done for 'all'.
-19:56:05 **** Incremental Build of configuration Debug for project NumberTheory ****
-make all 
-Building file: ../ModularExponentiation.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ModularExponentiation.d" -MT"ModularExponentiation.o" -o "ModularExponentiation.o" "../ModularExponentiation.cpp"
-Finished building: ../ModularExponentiation.cpp
- 
-Building target: NumberTheory
-Invoking: GCC C++ Linker
-g++  -o "NumberTheory"  ./ModularExponentiation.o   
-Finished building target: NumberTheory
- 
-19:57:26 **** Incremental Build of configuration Debug for project NumberTheory ****
-make all 
-Building file: ../ModularExponentiation.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ModularExponentiation.d" -MT"ModularExponentiation.o" -o "ModularExponentiation.o" "../ModularExponentiation.cpp"
-Finished building: ../ModularExponentiation.cpp
- 
-Building target: NumberTheory
-Invoking: GCC C++ Linker
-g++  -o "NumberTheory"  ./ModularExponentiation.o   
-Finished building target: NumberTheory
- 
-20:00:09 **** Incremental Build of configuration Debug for project NumberTheory ****
-make all 
-Building file: ../ModularExponentiation.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ModularExponentiation.d" -MT"ModularExponentiation.o" -o "ModularExponentiation.o" "../ModularExponentiation.cpp"
-Finished building: ../ModularExponentiation.cpp
- 
-Building target: NumberTheory
-Invoking: GCC C++ Linker
-g++  -o "NumberTheory"  ./ModularExponentiation.o   
-Finished building target: NumberTheory
- 
-20:00:13 **** Incremental Build of configuration Debug for project NumberTheory ****
-make all 
-make: Nothing to be done for 'all'.
-20:00:59 **** Incremental Build of configuration Debug for project NumberTheory ****
-make all 
-make: Nothing to be done for 'all'.
-20:01:40 **** Incremental Build of configuration Debug for project NumberTheory ****
-make all 
-Building file: ../ModularExponentiation.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ModularExponentiation.d" -MT"ModularExponentiation.o" -o "ModularExponentiation.o" "../ModularExponentiation.cpp"
-Finished building: ../ModularExponentiation.cpp
- 
-Building target: NumberTheory
-Invoking: GCC C++ Linker
-g++  -o "NumberTheory"  ./ModularExponentiation.o   
-Finished building target: NumberTheory
- 
-20:01:48 **** Incremental Build of configuration Debug for project NumberTheory ****
-make all 
-make: Nothing to be done for 'all'.
-20:17:24 **** Incremental Build of configuration Debug for project NumberTheory ****
-make all 
-Building file: ../ModularMultiplInverse.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ModularMultiplInverse.d" -MT"ModularMultiplInverse.o" -o "ModularMultiplInverse.o" "../ModularMultiplInverse.cpp"
-../ModularMultiplInverse.cpp: In function ‘int mmi_naive(int, int)’:
-../ModularMultiplInverse.cpp:18:1: warning: control reaches end of non-void function [-Wreturn-type]
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"Segment Trees.d" -MT"Segment\ Trees.d" -o "Segment Trees.o" "../Segment Trees.cpp"
+../Segment Trees.cpp: In function ‘int buildST(int, int, int, const std::vector<int>&, std::vector<int>&)’:
+../Segment Trees.cpp:19:31: warning: suggest parentheses around ‘+’ inside ‘>>’ [-Wparentheses]
+  int r=buildST(node*2+2, (b+e)>>1 + 1, e, A, ST);
+                               ^
+../Segment Trees.cpp:22:1: warning: no return statement in function returning non-void [-Wreturn-type]
  }
  ^
-Finished building: ../ModularMultiplInverse.cpp
+../Segment Trees.cpp: In function ‘int query(int, int, int, int, int, const std::vector<int>&)’:
+../Segment Trees.cpp:30:28: warning: suggest parentheses around ‘+’ inside ‘>>’ [-Wparentheses]
+   r = query(node*2+2, (b+e)>>1+1, e, i, j, ST);
+                            ^
+Finished building: ../Segment Trees.cpp
  
-Building target: NumberTheory
-Invoking: GCC C++ Linker
-g++  -o "NumberTheory"  ./ModularMultiplInverse.o   
-Finished building target: NumberTheory
- 
-20:38:47 **** Incremental Build of configuration Debug for project NumberTheory ****
-make all 
-Building file: ../GCD.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GCD.d" -MT"GCD.o" -o "GCD.o" "../GCD.cpp"
-Finished building: ../GCD.cpp
- 
-Building target: NumberTheory
-Invoking: GCC C++ Linker
-g++  -o "NumberTheory"  ./GCD.o   
-Finished building target: NumberTheory
- 
-20:42:13 **** Incremental Build of configuration Debug for project NumberTheory ****
-make all 
-Building file: ../GCD.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GCD.d" -MT"GCD.o" -o "GCD.o" "../GCD.cpp"
-Finished building: ../GCD.cpp
- 
-Building target: NumberTheory
-Invoking: GCC C++ Linker
-g++  -o "NumberTheory"  ./GCD.o   
-Finished building target: NumberTheory
- 
-20:43:10 **** Incremental Build of configuration Debug for project Algorithms ****
-make all 
 Building target: Algorithms
 Invoking: GCC C++ Linker
-g++  -o "Algorithms"  ./SieveOfSundaram.o   
-/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o: In function `_start':
-(.text+0x20): undefined reference to `main'
-makefile:44: recipe for target 'Algorithms' failed
-collect2: error: ld returned 1 exit status
-make: *** [Algorithms] Error 1
+g++  -o "Algorithms"  ./Segment\ Trees.o   
+Finished building target: Algorithms
+ 
+10:52:14 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+Building file: ../Segment Trees.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"Segment Trees.d" -MT"Segment\ Trees.d" -o "Segment Trees.o" "../Segment Trees.cpp"
+../Segment Trees.cpp: In function ‘int buildST(int, int, int, const std::vector<int>&, std::vector<int>&)’:
+../Segment Trees.cpp:14:2: error: expected ‘;’ before ‘if’
+  if(b==e)
+  ^
+../Segment Trees.cpp:20:31: warning: suggest parentheses around ‘+’ inside ‘>>’ [-Wparentheses]
+  int r=buildST(node*2+2, (b+e)>>1 + 1, e, A, ST);
+                               ^
+../Segment Trees.cpp:23:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+../Segment Trees.cpp: In function ‘int query(int, int, int, int, int, const std::vector<int>&)’:
+../Segment Trees.cpp:31:28: warning: suggest parentheses around ‘+’ inside ‘>>’ [-Wparentheses]
+   r = query(node*2+2, (b+e)>>1+1, e, i, j, ST);
+                            ^
+subdir.mk:18: recipe for target 'Segment Trees.o' failed
+make: *** [Segment Trees.o] Error 1
+10:52:24 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+Building file: ../Segment Trees.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"Segment Trees.d" -MT"Segment\ Trees.d" -o "Segment Trees.o" "../Segment Trees.cpp"
+../Segment Trees.cpp: In function ‘int buildST(int, int, int, const std::vector<int>&, std::vector<int>&)’:
+../Segment Trees.cpp:20:31: warning: suggest parentheses around ‘+’ inside ‘>>’ [-Wparentheses]
+  int r=buildST(node*2+2, (b+e)>>1 + 1, e, A, ST);
+                               ^
+../Segment Trees.cpp:23:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+../Segment Trees.cpp: In function ‘int query(int, int, int, int, int, const std::vector<int>&)’:
+../Segment Trees.cpp:31:28: warning: suggest parentheses around ‘+’ inside ‘>>’ [-Wparentheses]
+   r = query(node*2+2, (b+e)>>1+1, e, i, j, ST);
+                            ^
+Finished building: ../Segment Trees.cpp
+ 
+Building target: Algorithms
+Invoking: GCC C++ Linker
+g++  -o "Algorithms"  ./Segment\ Trees.o   
+Finished building target: Algorithms
+ 
+10:54:53 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+make: Nothing to be done for 'all'.
 
 **** Build of configuration Debug for project Contest_Problems ****
 
 Nothing to build for project Contest_Problems
-20:43:11 **** Incremental Build of configuration Debug for project NumberTheory ****
-make all 
-Building file: ../GCD.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GCD.d" -MT"GCD.o" -o "GCD.o" "../GCD.cpp"
-Finished building: ../GCD.cpp
- 
-Building target: NumberTheory
-Invoking: GCC C++ Linker
-g++  -o "NumberTheory"  ./GCD.o   
-Finished building target: NumberTheory
- 
+
+**** Build of configuration Debug for project NumberTheory ****
+
+Nothing to build for project NumberTheory
 
 **** Build of configuration Debug for project OpenCV ****
 
@@ -512,162 +1568,61 @@ Nothing to build for project OpenCV
 **** Build of configuration Debug for project Practice-Problems ****
 
 Nothing to build for project Practice-Problems
-20:43:13 **** Incremental Build of configuration Debug for project NumberTheory ****
+10:54:57 **** Incremental Build of configuration Debug for project Algorithms ****
 make all 
-make: Nothing to be done for 'all'.
-20:44:39 **** Incremental Build of configuration Debug for project NumberTheory ****
-make all 
-Building file: ../GCD.cpp
+Building file: ../Segment Trees.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GCD.d" -MT"GCD.o" -o "GCD.o" "../GCD.cpp"
-Finished building: ../GCD.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"Segment Trees.d" -MT"Segment\ Trees.d" -o "Segment Trees.o" "../Segment Trees.cpp"
+../Segment Trees.cpp: In function ‘int buildST(int, int, int, const std::vector<int>&, std::vector<int>&)’:
+../Segment Trees.cpp:20:31: warning: suggest parentheses around ‘+’ inside ‘>>’ [-Wparentheses]
+  int r=buildST(node*2+2, (b+e)>>1 + 1, e, A, ST);
+                               ^
+../Segment Trees.cpp: In function ‘int query(int, int, int, int, int, const std::vector<int>&)’:
+../Segment Trees.cpp:32:28: warning: suggest parentheses around ‘+’ inside ‘>>’ [-Wparentheses]
+   r = query(node*2+2, (b+e)>>1+1, e, i, j, ST);
+                            ^
+Finished building: ../Segment Trees.cpp
  
-Building target: NumberTheory
-Invoking: GCC C++ Linker
-g++  -o "NumberTheory"  ./GCD.o   
-Finished building target: NumberTheory
- 
-20:45:43 **** Incremental Build of configuration Debug for project NumberTheory ****
-make all 
-Building file: ../GCD.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GCD.d" -MT"GCD.o" -o "GCD.o" "../GCD.cpp"
-Finished building: ../GCD.cpp
- 
-Building target: NumberTheory
-Invoking: GCC C++ Linker
-g++  -o "NumberTheory"  ./GCD.o   
-Finished building target: NumberTheory
- 
-20:46:25 **** Incremental Build of configuration Debug for project NumberTheory ****
-make all 
-Building file: ../GCD.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GCD.d" -MT"GCD.o" -o "GCD.o" "../GCD.cpp"
-Finished building: ../GCD.cpp
- 
-Building target: NumberTheory
-Invoking: GCC C++ Linker
-g++  -o "NumberTheory"  ./GCD.o   
-Finished building target: NumberTheory
- 
-20:47:00 **** Incremental Build of configuration Debug for project NumberTheory ****
-make all 
-Building file: ../GCD.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GCD.d" -MT"GCD.o" -o "GCD.o" "../GCD.cpp"
-Finished building: ../GCD.cpp
- 
-Building target: NumberTheory
-Invoking: GCC C++ Linker
-g++  -o "NumberTheory"  ./GCD.o   
-Finished building target: NumberTheory
- 
-22:31:22 **** Build of configuration Debug for project NumberTheory ****
-make all 
-Building file: ../GCD.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GCD.d" -MT"GCD.o" -o "GCD.o" "../GCD.cpp"
-Finished building: ../GCD.cpp
- 
-Building target: NumberTheory
-Invoking: GCC C++ Linker
-g++  -o "NumberTheory"  ./GCD.o   
-Finished building target: NumberTheory
- 
-22:31:39 **** Incremental Build of configuration Debug for project NumberTheory ****
-make all 
-make: Nothing to be done for 'all'.
-22:31:45 **** Incremental Build of configuration Debug for project NumberTheory ****
-make all 
-make: Nothing to be done for 'all'.
-22:31:55 **** Incremental Build of configuration Debug for project NumberTheory ****
-make all 
-make: Nothing to be done for 'all'.
-00:14:58 **** Incremental Build of configuration Debug for project NumberTheory ****
-make all 
-Building file: ../GCD.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GCD.d" -MT"GCD.o" -o "GCD.o" "../GCD.cpp"
-../GCD.cpp: In function ‘int gcd(int, int)’:
-../GCD.cpp:53:7: warning: unused variable ‘q’ [-Wunused-variable]
-   int q = r_prev/r;
-       ^
-Finished building: ../GCD.cpp
- 
-Building target: NumberTheory
-Invoking: GCC C++ Linker
-g++  -o "NumberTheory"  ./GCD.o   
-Finished building target: NumberTheory
- 
-00:15:14 **** Incremental Build of configuration Debug for project NumberTheory ****
-make all 
-make: Nothing to be done for 'all'.
-00:20:17 **** Incremental Build of configuration Debug for project NumberTheory ****
-make all 
-Building file: ../GCD.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GCD.d" -MT"GCD.o" -o "GCD.o" "../GCD.cpp"
-Finished building: ../GCD.cpp
- 
-Building target: NumberTheory
-Invoking: GCC C++ Linker
-g++  -o "NumberTheory"  ./GCD.o   
-Finished building target: NumberTheory
- 
-00:26:49 **** Incremental Build of configuration Debug for project NumberTheory ****
-make all 
-Building file: ../GCD.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GCD.d" -MT"GCD.o" -o "GCD.o" "../GCD.cpp"
-Finished building: ../GCD.cpp
- 
-Building target: NumberTheory
-Invoking: GCC C++ Linker
-g++  -o "NumberTheory"  ./GCD.o   
-Finished building target: NumberTheory
- 
-00:27:09 **** Incremental Build of configuration Debug for project NumberTheory ****
-make all 
-Building file: ../GCD.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GCD.d" -MT"GCD.o" -o "GCD.o" "../GCD.cpp"
-Finished building: ../GCD.cpp
- 
-Building target: NumberTheory
-Invoking: GCC C++ Linker
-g++  -o "NumberTheory"  ./GCD.o   
-Finished building target: NumberTheory
- 
-00:30:48 **** Incremental Build of configuration Debug for project NumberTheory ****
-make all 
-Building file: ../GCD.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GCD.d" -MT"GCD.o" -o "GCD.o" "../GCD.cpp"
-Finished building: ../GCD.cpp
- 
-Building target: NumberTheory
-Invoking: GCC C++ Linker
-g++  -o "NumberTheory"  ./GCD.o   
-Finished building target: NumberTheory
- 
-00:19:35 **** Build of configuration Debug for project Algorithms ****
-make all 
 Building target: Algorithms
 Invoking: GCC C++ Linker
-g++  -o "Algorithms"  ./SieveOfSundaram.o   
-/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o: In function `_start':
-(.text+0x20): undefined reference to `main'
-collect2: error: ld returned 1 exit status
-makefile:44: recipe for target 'Algorithms' failed
-make: *** [Algorithms] Error 1
+g++  -o "Algorithms"  ./Segment\ Trees.o   
+Finished building target: Algorithms
+ 
+10:57:23 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+Building file: ../Segment Trees.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"Segment Trees.d" -MT"Segment\ Trees.d" -o "Segment Trees.o" "../Segment Trees.cpp"
+Finished building: ../Segment Trees.cpp
+ 
+Building target: Algorithms
+Invoking: GCC C++ Linker
+g++  -o "Algorithms"  ./Segment\ Trees.o   
+Finished building target: Algorithms
+ 
+11:00:27 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+Building file: ../Segment Trees.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"Segment Trees.d" -MT"Segment\ Trees.d" -o "Segment Trees.o" "../Segment Trees.cpp"
+Finished building: ../Segment Trees.cpp
+ 
+Building target: Algorithms
+Invoking: GCC C++ Linker
+g++  -o "Algorithms"  ./Segment\ Trees.o   
+Finished building target: Algorithms
+ 
+11:05:56 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+make: Nothing to be done for 'all'.
 
 **** Build of configuration Debug for project Contest_Problems ****
 
 Nothing to build for project Contest_Problems
-00:19:36 **** Build of configuration Debug for project NumberTheory ****
-make all 
-make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project NumberTheory ****
+
+Nothing to build for project NumberTheory
 
 **** Build of configuration Debug for project OpenCV ****
 
@@ -676,86 +1631,689 @@ Nothing to build for project OpenCV
 **** Build of configuration Debug for project Practice-Problems ****
 
 Nothing to build for project Practice-Problems
-00:19:47 **** Incremental Build of configuration Debug for project NumberTheory ****
+11:06:51 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+Building file: ../Segment Trees.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"Segment Trees.d" -MT"Segment\ Trees.d" -o "Segment Trees.o" "../Segment Trees.cpp"
+Finished building: ../Segment Trees.cpp
+ 
+Building target: Algorithms
+Invoking: GCC C++ Linker
+g++  -o "Algorithms"  ./Segment\ Trees.o   
+Finished building target: Algorithms
+ 
+11:48:17 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+Building file: ../Segment Trees.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"Segment Trees.d" -MT"Segment\ Trees.d" -o "Segment Trees.o" "../Segment Trees.cpp"
+Finished building: ../Segment Trees.cpp
+ 
+Building target: Algorithms
+Invoking: GCC C++ Linker
+g++  -o "Algorithms"  ./Segment\ Trees.o   
+Finished building target: Algorithms
+ 
+11:49:58 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+Building file: ../Segment Trees.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"Segment Trees.d" -MT"Segment\ Trees.d" -o "Segment Trees.o" "../Segment Trees.cpp"
+Finished building: ../Segment Trees.cpp
+ 
+Building target: Algorithms
+Invoking: GCC C++ Linker
+g++  -o "Algorithms"  ./Segment\ Trees.o   
+Finished building target: Algorithms
+ 
+11:52:01 **** Incremental Build of configuration Debug for project Algorithms ****
 make all 
 make: Nothing to be done for 'all'.
-00:20:31 **** Incremental Build of configuration Debug for project NumberTheory ****
+
+**** Build of configuration Debug for project Contest_Problems ****
+
+Nothing to build for project Contest_Problems
+
+**** Build of configuration Debug for project NumberTheory ****
+
+Nothing to build for project NumberTheory
+
+**** Build of configuration Debug for project OpenCV ****
+
+Nothing to build for project OpenCV
+
+**** Build of configuration Debug for project Practice-Problems ****
+
+Nothing to build for project Practice-Problems
+11:54:25 **** Incremental Build of configuration Debug for project Algorithms ****
 make all 
-Building file: ../ModularMultiplInverse.cpp
+Building file: ../Segment Trees.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ModularMultiplInverse.d" -MT"ModularMultiplInverse.o" -o "ModularMultiplInverse.o" "../ModularMultiplInverse.cpp"
-../ModularMultiplInverse.cpp: In function ‘int mmi_naive(int, int)’:
-../ModularMultiplInverse.cpp:18:1: warning: control reaches end of non-void function [-Wreturn-type]
- }
- ^
-Finished building: ../ModularMultiplInverse.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"Segment Trees.d" -MT"Segment\ Trees.d" -o "Segment Trees.o" "../Segment Trees.cpp"
+Finished building: ../Segment Trees.cpp
  
-Building target: NumberTheory
+Building target: Algorithms
 Invoking: GCC C++ Linker
-g++  -o "NumberTheory"  ./ModularMultiplInverse.o   
-Finished building target: NumberTheory
+g++  -o "Algorithms"  ./Segment\ Trees.o   
+Finished building target: Algorithms
  
-00:38:49 **** Incremental Build of configuration Debug for project NumberTheory ****
+11:56:20 **** Incremental Build of configuration Debug for project Algorithms ****
 make all 
-Building file: ../ModularMultiplInverse.cpp
+Building file: ../Segment Trees.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ModularMultiplInverse.d" -MT"ModularMultiplInverse.o" -o "ModularMultiplInverse.o" "../ModularMultiplInverse.cpp"
-../ModularMultiplInverse.cpp: In function ‘int mmi_naive(int, int)’:
-../ModularMultiplInverse.cpp:18:1: warning: control reaches end of non-void function [-Wreturn-type]
- }
- ^
-Finished building: ../ModularMultiplInverse.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"Segment Trees.d" -MT"Segment\ Trees.d" -o "Segment Trees.o" "../Segment Trees.cpp"
+Finished building: ../Segment Trees.cpp
  
-Building target: NumberTheory
+Building target: Algorithms
 Invoking: GCC C++ Linker
-g++  -o "NumberTheory"  ./ModularMultiplInverse.o   
-Finished building target: NumberTheory
+g++  -o "Algorithms"  ./Segment\ Trees.o   
+Finished building target: Algorithms
  
-00:40:08 **** Incremental Build of configuration Debug for project NumberTheory ****
+12:05:19 **** Incremental Build of configuration Debug for project Algorithms ****
 make all 
-Building file: ../ModularMultiplInverse.cpp
+Building file: ../Segment Trees.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ModularMultiplInverse.d" -MT"ModularMultiplInverse.o" -o "ModularMultiplInverse.o" "../ModularMultiplInverse.cpp"
-../ModularMultiplInverse.cpp: In function ‘int mmi_naive(int, int)’:
-../ModularMultiplInverse.cpp:18:1: warning: control reaches end of non-void function [-Wreturn-type]
- }
- ^
-Finished building: ../ModularMultiplInverse.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"Segment Trees.d" -MT"Segment\ Trees.d" -o "Segment Trees.o" "../Segment Trees.cpp"
+Finished building: ../Segment Trees.cpp
  
-Building target: NumberTheory
+Building target: Algorithms
 Invoking: GCC C++ Linker
-g++  -o "NumberTheory"  ./ModularMultiplInverse.o   
-Finished building target: NumberTheory
+g++  -o "Algorithms"  ./Segment\ Trees.o   
+Finished building target: Algorithms
  
-00:41:56 **** Incremental Build of configuration Debug for project NumberTheory ****
+12:05:49 **** Incremental Build of configuration Debug for project Algorithms ****
 make all 
-Building file: ../ModularMultiplInverse.cpp
+Building file: ../Segment Trees.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ModularMultiplInverse.d" -MT"ModularMultiplInverse.o" -o "ModularMultiplInverse.o" "../ModularMultiplInverse.cpp"
-../ModularMultiplInverse.cpp: In function ‘int mmi_naive(int, int)’:
-../ModularMultiplInverse.cpp:18:1: warning: control reaches end of non-void function [-Wreturn-type]
- }
- ^
-Finished building: ../ModularMultiplInverse.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"Segment Trees.d" -MT"Segment\ Trees.d" -o "Segment Trees.o" "../Segment Trees.cpp"
+Finished building: ../Segment Trees.cpp
  
-Building target: NumberTheory
+Building target: Algorithms
 Invoking: GCC C++ Linker
-g++  -o "NumberTheory"  ./ModularMultiplInverse.o   
-Finished building target: NumberTheory
+g++  -o "Algorithms"  ./Segment\ Trees.o   
+Finished building target: Algorithms
  
-00:42:30 **** Incremental Build of configuration Debug for project NumberTheory ****
+12:08:35 **** Incremental Build of configuration Debug for project Algorithms ****
 make all 
-Building file: ../ModularMultiplInverse.cpp
+Building file: ../Segment Trees.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ModularMultiplInverse.d" -MT"ModularMultiplInverse.o" -o "ModularMultiplInverse.o" "../ModularMultiplInverse.cpp"
-../ModularMultiplInverse.cpp: In function ‘int mmi_naive(int, int)’:
-../ModularMultiplInverse.cpp:18:1: warning: control reaches end of non-void function [-Wreturn-type]
- }
- ^
-Finished building: ../ModularMultiplInverse.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"Segment Trees.d" -MT"Segment\ Trees.d" -o "Segment Trees.o" "../Segment Trees.cpp"
+Finished building: ../Segment Trees.cpp
  
-Building target: NumberTheory
+Building target: Algorithms
 Invoking: GCC C++ Linker
-g++  -o "NumberTheory"  ./ModularMultiplInverse.o   
-Finished building target: NumberTheory
+g++  -o "Algorithms"  ./Segment\ Trees.o   
+Finished building target: Algorithms
+ 
+12:12:52 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+Building file: ../Segment Trees.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"Segment Trees.d" -MT"Segment\ Trees.d" -o "Segment Trees.o" "../Segment Trees.cpp"
+Finished building: ../Segment Trees.cpp
+ 
+Building target: Algorithms
+Invoking: GCC C++ Linker
+g++  -o "Algorithms"  ./Segment\ Trees.o   
+Finished building target: Algorithms
+ 
+12:18:46 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+Building file: ../Segment Trees.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"Segment Trees.d" -MT"Segment\ Trees.d" -o "Segment Trees.o" "../Segment Trees.cpp"
+Finished building: ../Segment Trees.cpp
+ 
+Building target: Algorithms
+Invoking: GCC C++ Linker
+g++  -o "Algorithms"  ./Segment\ Trees.o   
+Finished building target: Algorithms
+ 
+12:19:37 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+Building file: ../Segment Trees.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"Segment Trees.d" -MT"Segment\ Trees.d" -o "Segment Trees.o" "../Segment Trees.cpp"
+Finished building: ../Segment Trees.cpp
+ 
+Building target: Algorithms
+Invoking: GCC C++ Linker
+g++  -o "Algorithms"  ./Segment\ Trees.o   
+Finished building target: Algorithms
+ 
+12:21:24 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+Building file: ../Segment Trees.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"Segment Trees.d" -MT"Segment\ Trees.d" -o "Segment Trees.o" "../Segment Trees.cpp"
+Finished building: ../Segment Trees.cpp
+ 
+Building target: Algorithms
+Invoking: GCC C++ Linker
+g++  -o "Algorithms"  ./Segment\ Trees.o   
+Finished building target: Algorithms
+ 
+12:21:27 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project Contest_Problems ****
+
+Nothing to build for project Contest_Problems
+
+**** Build of configuration Debug for project NumberTheory ****
+
+Nothing to build for project NumberTheory
+
+**** Build of configuration Debug for project OpenCV ****
+
+Nothing to build for project OpenCV
+
+**** Build of configuration Debug for project Practice-Problems ****
+
+Nothing to build for project Practice-Problems
+12:21:30 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+make: Nothing to be done for 'all'.
+12:22:13 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+Building file: ../Segment Trees.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"Segment Trees.d" -MT"Segment\ Trees.d" -o "Segment Trees.o" "../Segment Trees.cpp"
+Finished building: ../Segment Trees.cpp
+ 
+Building target: Algorithms
+Invoking: GCC C++ Linker
+g++  -o "Algorithms"  ./Segment\ Trees.o   
+Finished building target: Algorithms
+ 
+12:23:48 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+Building file: ../Segment Trees.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"Segment Trees.d" -MT"Segment\ Trees.d" -o "Segment Trees.o" "../Segment Trees.cpp"
+Finished building: ../Segment Trees.cpp
+ 
+Building target: Algorithms
+Invoking: GCC C++ Linker
+g++  -o "Algorithms"  ./Segment\ Trees.o   
+Finished building target: Algorithms
+ 
+12:26:20 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+Building file: ../Segment Trees.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"Segment Trees.d" -MT"Segment\ Trees.d" -o "Segment Trees.o" "../Segment Trees.cpp"
+Finished building: ../Segment Trees.cpp
+ 
+Building target: Algorithms
+Invoking: GCC C++ Linker
+g++  -o "Algorithms"  ./Segment\ Trees.o   
+Finished building target: Algorithms
+ 
+12:28:13 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+Building file: ../Segment Trees.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"Segment Trees.d" -MT"Segment\ Trees.d" -o "Segment Trees.o" "../Segment Trees.cpp"
+Finished building: ../Segment Trees.cpp
+ 
+Building target: Algorithms
+Invoking: GCC C++ Linker
+g++  -o "Algorithms"  ./Segment\ Trees.o   
+Finished building target: Algorithms
+ 
+
+**** Build of configuration Debug for project Contest_Problems ****
+
+Nothing to build for project Contest_Problems
+
+**** Build of configuration Debug for project NumberTheory ****
+
+Nothing to build for project NumberTheory
+
+**** Build of configuration Debug for project OpenCV ****
+
+Nothing to build for project OpenCV
+
+**** Build of configuration Debug for project Practice-Problems ****
+
+Nothing to build for project Practice-Problems
+12:28:21 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+Building file: ../Segment Trees.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"Segment Trees.d" -MT"Segment\ Trees.d" -o "Segment Trees.o" "../Segment Trees.cpp"
+Finished building: ../Segment Trees.cpp
+ 
+Building target: Algorithms
+Invoking: GCC C++ Linker
+g++  -o "Algorithms"  ./Segment\ Trees.o   
+Finished building target: Algorithms
+ 
+12:50:12 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project Contest_Problems ****
+
+Nothing to build for project Contest_Problems
+
+**** Build of configuration Debug for project NumberTheory ****
+
+Nothing to build for project NumberTheory
+
+**** Build of configuration Debug for project OpenCV ****
+
+Nothing to build for project OpenCV
+
+**** Build of configuration Debug for project Practice-Problems ****
+
+Nothing to build for project Practice-Problems
+12:50:17 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+Building file: ../Segment Trees.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"Segment Trees.d" -MT"Segment\ Trees.d" -o "Segment Trees.o" "../Segment Trees.cpp"
+Finished building: ../Segment Trees.cpp
+ 
+Building target: Algorithms
+Invoking: GCC C++ Linker
+g++  -o "Algorithms"  ./Segment\ Trees.o   
+Finished building target: Algorithms
+ 
+12:50:26 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+make: Nothing to be done for 'all'.
+12:54:40 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+Building file: ../Segment Trees.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"Segment Trees.d" -MT"Segment\ Trees.d" -o "Segment Trees.o" "../Segment Trees.cpp"
+Finished building: ../Segment Trees.cpp
+ 
+Building target: Algorithms
+Invoking: GCC C++ Linker
+g++  -o "Algorithms"  ./Segment\ Trees.o   
+Finished building target: Algorithms
+ 
+12:55:36 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+Building file: ../Segment Trees.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"Segment Trees.d" -MT"Segment\ Trees.d" -o "Segment Trees.o" "../Segment Trees.cpp"
+Finished building: ../Segment Trees.cpp
+ 
+Building target: Algorithms
+Invoking: GCC C++ Linker
+g++  -o "Algorithms"  ./Segment\ Trees.o   
+Finished building target: Algorithms
+ 
+12:56:36 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project Contest_Problems ****
+
+Nothing to build for project Contest_Problems
+
+**** Build of configuration Debug for project NumberTheory ****
+
+Nothing to build for project NumberTheory
+
+**** Build of configuration Debug for project OpenCV ****
+
+Nothing to build for project OpenCV
+
+**** Build of configuration Debug for project Practice-Problems ****
+
+Nothing to build for project Practice-Problems
+12:56:39 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+Building file: ../Segment Trees.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"Segment Trees.d" -MT"Segment\ Trees.d" -o "Segment Trees.o" "../Segment Trees.cpp"
+Finished building: ../Segment Trees.cpp
+ 
+Building target: Algorithms
+Invoking: GCC C++ Linker
+g++  -o "Algorithms"  ./Segment\ Trees.o   
+Finished building target: Algorithms
+ 
+13:01:38 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+Building file: ../Segment Trees.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"Segment Trees.d" -MT"Segment\ Trees.d" -o "Segment Trees.o" "../Segment Trees.cpp"
+../Segment Trees.cpp: In function ‘void update(int, int, int, int, int, std::vector<int>&)’:
+../Segment Trees.cpp:51:2: error: expected primary-expression before ‘for’
+  for(auto s:ST)
+  ^
+subdir.mk:18: recipe for target 'Segment Trees.o' failed
+make: *** [Segment Trees.o] Error 1
+13:01:59 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+Building file: ../Segment Trees.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"Segment Trees.d" -MT"Segment\ Trees.d" -o "Segment Trees.o" "../Segment Trees.cpp"
+Finished building: ../Segment Trees.cpp
+ 
+Building target: Algorithms
+Invoking: GCC C++ Linker
+g++  -o "Algorithms"  ./Segment\ Trees.o   
+Finished building target: Algorithms
+ 
+13:02:51 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+Building file: ../Segment Trees.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"Segment Trees.d" -MT"Segment\ Trees.d" -o "Segment Trees.o" "../Segment Trees.cpp"
+Finished building: ../Segment Trees.cpp
+ 
+Building target: Algorithms
+Invoking: GCC C++ Linker
+g++  -o "Algorithms"  ./Segment\ Trees.o   
+Finished building target: Algorithms
+ 
+13:05:46 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+Building file: ../Segment Trees.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"Segment Trees.d" -MT"Segment\ Trees.d" -o "Segment Trees.o" "../Segment Trees.cpp"
+Finished building: ../Segment Trees.cpp
+ 
+Building target: Algorithms
+Invoking: GCC C++ Linker
+g++  -o "Algorithms"  ./Segment\ Trees.o   
+Finished building target: Algorithms
+ 
+13:06:38 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+Building file: ../Segment Trees.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"Segment Trees.d" -MT"Segment\ Trees.d" -o "Segment Trees.o" "../Segment Trees.cpp"
+Finished building: ../Segment Trees.cpp
+ 
+Building target: Algorithms
+Invoking: GCC C++ Linker
+g++  -o "Algorithms"  ./Segment\ Trees.o   
+Finished building target: Algorithms
+ 
+13:10:07 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+Building file: ../Segment Trees.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"Segment Trees.d" -MT"Segment\ Trees.d" -o "Segment Trees.o" "../Segment Trees.cpp"
+../Segment Trees.cpp: In function ‘void update(int, int, int, int, int, std::vector<int>&)’:
+../Segment Trees.cpp:45:21: error: no match for ‘operator<<’ (operand types are ‘std::basic_ostream<char>’ and ‘std::ostream {aka std::basic_ostream<char>}’)
+  cout << "updating "<<
+                     ^
+../Segment Trees.cpp:45:21: note: candidate: operator<<(int, int) <built-in>
+../Segment Trees.cpp:45:21: note:   no known conversion for argument 2 from ‘std::ostream {aka std::basic_ostream<char>}’ to ‘int’
+In file included from /usr/include/c++/5/iostream:39:0,
+                 from ../Segment Trees.cpp:7:
+/usr/include/c++/5/ostream:108:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(__ostream_type& (*__pf)(__ostream_type&))
+       ^
+/usr/include/c++/5/ostream:108:7: note:   no known conversion for argument 1 from ‘std::ostream {aka std::basic_ostream<char>}’ to ‘std::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&) {aka std::basic_ostream<char>& (*)(std::basic_ostream<char>&)}’
+/usr/include/c++/5/ostream:117:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>]
+       operator<<(__ios_type& (*__pf)(__ios_type&))
+       ^
+/usr/include/c++/5/ostream:117:7: note:   no known conversion for argument 1 from ‘std::ostream {aka std::basic_ostream<char>}’ to ‘std::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&) {aka std::basic_ios<char>& (*)(std::basic_ios<char>&)}’
+/usr/include/c++/5/ostream:127:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(ios_base& (*__pf) (ios_base&))
+       ^
+/usr/include/c++/5/ostream:127:7: note:   no known conversion for argument 1 from ‘std::ostream {aka std::basic_ostream<char>}’ to ‘std::ios_base& (*)(std::ios_base&)’
+/usr/include/c++/5/ostream:166:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long __n)
+       ^
+/usr/include/c++/5/ostream:166:7: note:   no known conversion for argument 1 from ‘std::ostream {aka std::basic_ostream<char>}’ to ‘long int’
+/usr/include/c++/5/ostream:170:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned long __n)
+       ^
+/usr/include/c++/5/ostream:170:7: note:   no known conversion for argument 1 from ‘std::ostream {aka std::basic_ostream<char>}’ to ‘long unsigned int’
+/usr/include/c++/5/ostream:174:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(bool __n)
+       ^
+/usr/include/c++/5/ostream:174:7: note:   no known conversion for argument 1 from ‘std::ostream {aka std::basic_ostream<char>}’ to ‘bool’
+In file included from /usr/include/c++/5/ostream:638:0,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../Segment Trees.cpp:7:
+/usr/include/c++/5/bits/ostream.tcc:91:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^
+/usr/include/c++/5/bits/ostream.tcc:91:5: note:   no known conversion for argument 1 from ‘std::ostream {aka std::basic_ostream<char>}’ to ‘short int’
+In file included from /usr/include/c++/5/iostream:39:0,
+                 from ../Segment Trees.cpp:7:
+/usr/include/c++/5/ostream:181:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned short __n)
+       ^
+/usr/include/c++/5/ostream:181:7: note:   no known conversion for argument 1 from ‘std::ostream {aka std::basic_ostream<char>}’ to ‘short unsigned int’
+In file included from /usr/include/c++/5/ostream:638:0,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../Segment Trees.cpp:7:
+/usr/include/c++/5/bits/ostream.tcc:105:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^
+/usr/include/c++/5/bits/ostream.tcc:105:5: note:   no known conversion for argument 1 from ‘std::ostream {aka std::basic_ostream<char>}’ to ‘int’
+In file included from /usr/include/c++/5/iostream:39:0,
+                 from ../Segment Trees.cpp:7:
+/usr/include/c++/5/ostream:192:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned int __n)
+       ^
+/usr/include/c++/5/ostream:192:7: note:   no known conversion for argument 1 from ‘std::ostream {aka std::basic_ostream<char>}’ to ‘unsigned int’
+/usr/include/c++/5/ostream:201:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long long __n)
+       ^
+/usr/include/c++/5/ostream:201:7: note:   no known conversion for argument 1 from ‘std::ostream {aka std::basic_ostream<char>}’ to ‘long long int’
+/usr/include/c++/5/ostream:205:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned long long __n)
+       ^
+/usr/include/c++/5/ostream:205:7: note:   no known conversion for argument 1 from ‘std::ostream {aka std::basic_ostream<char>}’ to ‘long long unsigned int’
+/usr/include/c++/5/ostream:220:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(double __f)
+       ^
+/usr/include/c++/5/ostream:220:7: note:   no known conversion for argument 1 from ‘std::ostream {aka std::basic_ostream<char>}’ to ‘double’
+subdir.mk:18: recipe for target 'Segment Trees.o' failed
+/usr/include/c++/5/ostream:224:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(float __f)
+       ^
+/usr/include/c++/5/ostream:224:7: note:   no known conversion for argument 1 from ‘std::ostream {aka std::basic_ostream<char>}’ to ‘float’
+/usr/include/c++/5/ostream:232:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long double __f)
+       ^
+/usr/include/c++/5/ostream:232:7: note:   no known conversion for argument 1 from ‘std::ostream {aka std::basic_ostream<char>}’ to ‘long double’
+/usr/include/c++/5/ostream:245:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(const void* __p)
+       ^
+/usr/include/c++/5/ostream:245:7: note:   no known conversion for argument 1 from ‘std::ostream {aka std::basic_ostream<char>}’ to ‘const void*’
+In file included from /usr/include/c++/5/ostream:638:0,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../Segment Trees.cpp:7:
+/usr/include/c++/5/bits/ostream.tcc:119:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^
+/usr/include/c++/5/bits/ostream.tcc:119:5: note:   no known conversion for argument 1 from ‘std::ostream {aka std::basic_ostream<char>}’ to ‘std::basic_ostream<char>::__streambuf_type* {aka std::basic_streambuf<char>*}’
+In file included from /usr/include/c++/5/string:52:0,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../Segment Trees.cpp:7:
+/usr/include/c++/5/bits/basic_string.h:5172:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator<<(basic_ostream<_CharT, _Traits>& __os,
+     ^
+/usr/include/c++/5/bits/basic_string.h:5172:5: note:   template argument deduction/substitution failed:
+../Segment Trees.cpp:46:2: note:   ‘std::ostream {aka std::basic_ostream<char>}’ is not derived from ‘const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’
+  cout<< endl;
+  ^
+In file included from /usr/include/c++/5/bits/ios_base.h:46:0,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../Segment Trees.cpp:7:
+/usr/include/c++/5/system_error:209:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::error_code&)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+     ^
+/usr/include/c++/5/system_error:209:5: note:   template argument deduction/substitution failed:
+../Segment Trees.cpp:46:2: note:   cannot convert ‘std::cout’ (type ‘std::ostream {aka std::basic_ostream<char>}’) to type ‘const std::error_code&’
+  cout<< endl;
+  ^
+In file included from /usr/include/c++/5/iostream:39:0,
+                 from ../Segment Trees.cpp:7:
+/usr/include/c++/5/ostream:497:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+     ^
+/usr/include/c++/5/ostream:497:5: note:   template argument deduction/substitution failed:
+../Segment Trees.cpp:46:2: note:   deduced conflicting types for parameter ‘_CharT’ (‘char’ and ‘std::basic_ostream<char>’)
+  cout<< endl;
+  ^
+In file included from /usr/include/c++/5/iostream:39:0,
+                 from ../Segment Trees.cpp:7:
+/usr/include/c++/5/ostream:502:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+     ^
+/usr/include/c++/5/ostream:502:5: note:   template argument deduction/substitution failed:
+../Segment Trees.cpp:46:2: note:   cannot convert ‘std::cout’ (type ‘std::ostream {aka std::basic_ostream<char>}’) to type ‘char’
+  cout<< endl;
+  ^
+In file included from /usr/include/c++/5/iostream:39:0,
+                 from ../Segment Trees.cpp:7:
+/usr/include/c++/5/ostream:508:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)
+     operator<<(basic_ostream<char, _Traits>& __out, char __c)
+     ^
+/usr/include/c++/5/ostream:508:5: note:   template argument deduction/substitution failed:
+../Segment Trees.cpp:46:2: note:   cannot convert ‘std::cout’ (type ‘std::ostream {aka std::basic_ostream<char>}’) to type ‘char’
+  cout<< endl;
+  ^
+In file included from /usr/include/c++/5/iostream:39:0,
+                 from ../Segment Trees.cpp:7:
+/usr/include/c++/5/ostream:514:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)
+     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
+     ^
+/usr/include/c++/5/ostream:514:5: note:   template argument deduction/substitution failed:
+../Segment Trees.cpp:46:2: note:   cannot convert ‘std::cout’ (type ‘std::ostream {aka std::basic_ostream<char>}’) to type ‘signed char’
+  cout<< endl;
+  ^
+In file included from /usr/include/c++/5/iostream:39:0,
+                 from ../Segment Trees.cpp:7:
+/usr/include/c++/5/ostream:519:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)
+     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+     ^
+/usr/include/c++/5/ostream:519:5: note:   template argument deduction/substitution failed:
+../Segment Trees.cpp:46:2: note:   cannot convert ‘std::cout’ (type ‘std::ostream {aka std::basic_ostream<char>}’) to type ‘unsigned char’
+  cout<< endl;
+  ^
+In file included from /usr/include/c++/5/iostream:39:0,
+                 from ../Segment Trees.cpp:7:
+/usr/include/c++/5/ostream:539:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+     ^
+/usr/include/c++/5/ostream:539:5: note:   template argument deduction/substitution failed:
+../Segment Trees.cpp:46:2: note:   mismatched types ‘const _CharT*’ and ‘std::basic_ostream<char>’
+  cout<< endl;
+  ^
+In file included from /usr/include/c++/5/ostream:638:0,
+                 from /usr/include/c++/5/iostream:39,
+                 from ../Segment Trees.cpp:7:
+/usr/include/c++/5/bits/ostream.tcc:321:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+     ^
+/usr/include/c++/5/bits/ostream.tcc:321:5: note:   template argument deduction/substitution failed:
+../Segment Trees.cpp:46:2: note:   cannot convert ‘std::cout’ (type ‘std::ostream {aka std::basic_ostream<char>}’) to type ‘const char*’
+  cout<< endl;
+  ^
+In file included from /usr/include/c++/5/iostream:39:0,
+                 from ../Segment Trees.cpp:7:
+/usr/include/c++/5/ostream:556:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
+     ^
+/usr/include/c++/5/ostream:556:5: note:   template argument deduction/substitution failed:
+../Segment Trees.cpp:46:2: note:   cannot convert ‘std::cout’ (type ‘std::ostream {aka std::basic_ostream<char>}’) to type ‘const char*’
+  cout<< endl;
+  ^
+In file included from /usr/include/c++/5/iostream:39:0,
+                 from ../Segment Trees.cpp:7:
+/usr/include/c++/5/ostream:569:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+     ^
+/usr/include/c++/5/ostream:569:5: note:   template argument deduction/substitution failed:
+../Segment Trees.cpp:46:2: note:   cannot convert ‘std::cout’ (type ‘std::ostream {aka std::basic_ostream<char>}’) to type ‘const signed char*’
+  cout<< endl;
+  ^
+In file included from /usr/include/c++/5/iostream:39:0,
+                 from ../Segment Trees.cpp:7:
+/usr/include/c++/5/ostream:574:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+     ^
+/usr/include/c++/5/ostream:574:5: note:   template argument deduction/substitution failed:
+../Segment Trees.cpp:46:2: note:   cannot convert ‘std::cout’ (type ‘std::ostream {aka std::basic_ostream<char>}’) to type ‘const unsigned char*’
+  cout<< endl;
+  ^
+In file included from /usr/include/c++/5/iostream:39:0,
+                 from ../Segment Trees.cpp:7:
+/usr/include/c++/5/ostream:628:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&&, const _Tp&) [with _CharT = char; _Traits = std::char_traits<char>; _Tp = std::basic_ostream<char>] <near match>
+     operator<<(basic_ostream<_CharT, _Traits>&& __os, const _Tp& __x)
+     ^
+/usr/include/c++/5/ostream:628:5: note:   conversion of argument 1 would be ill-formed:
+../Segment Trees.cpp:45:7: error: cannot bind ‘std::basic_ostream<char>’ lvalue to ‘std::basic_ostream<char>&&’
+  cout << "updating "<<
+       ^
+make: *** [Segment Trees.o] Error 1
+13:10:24 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+Building file: ../Segment Trees.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"Segment Trees.d" -MT"Segment\ Trees.d" -o "Segment Trees.o" "../Segment Trees.cpp"
+Finished building: ../Segment Trees.cpp
+ 
+Building target: Algorithms
+Invoking: GCC C++ Linker
+g++  -o "Algorithms"  ./Segment\ Trees.o   
+Finished building target: Algorithms
+ 
+13:11:02 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+Building file: ../Segment Trees.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"Segment Trees.d" -MT"Segment\ Trees.d" -o "Segment Trees.o" "../Segment Trees.cpp"
+Finished building: ../Segment Trees.cpp
+ 
+Building target: Algorithms
+Invoking: GCC C++ Linker
+g++  -o "Algorithms"  ./Segment\ Trees.o   
+Finished building target: Algorithms
+ 
+13:16:24 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+Building file: ../Segment Trees.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"Segment Trees.d" -MT"Segment\ Trees.d" -o "Segment Trees.o" "../Segment Trees.cpp"
+../Segment Trees.cpp: In function ‘int main()’:
+../Segment Trees.cpp:80:11: warning: ‘in’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   cout << in << val;
+           ^
+../Segment Trees.cpp:80:20: warning: ‘val’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   cout << in << val;
+                    ^
+Finished building: ../Segment Trees.cpp
+ 
+Building target: Algorithms
+Invoking: GCC C++ Linker
+g++  -o "Algorithms"  ./Segment\ Trees.o   
+Finished building target: Algorithms
+ 
+13:17:47 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+Building file: ../Segment Trees.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"Segment Trees.d" -MT"Segment\ Trees.d" -o "Segment Trees.o" "../Segment Trees.cpp"
+Finished building: ../Segment Trees.cpp
+ 
+Building target: Algorithms
+Invoking: GCC C++ Linker
+g++  -o "Algorithms"  ./Segment\ Trees.o   
+Finished building target: Algorithms
  
