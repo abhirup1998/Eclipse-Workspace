@@ -4,20 +4,20 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
-../Segment\ Trees.cpp 
+../KMP.cpp 
 
 OBJS += \
-./Segment\ Trees.o 
+./KMP.o 
 
 CPP_DEPS += \
-./Segment\ Trees.d 
+./KMP.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
-Segment\ Trees.o: ../Segment\ Trees.cpp
+%.o: ../%.cpp
 	@echo 'Building file: $<'
 	@echo 'Invoking: GCC C++ Compiler'
-	g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"Segment Trees.d" -MT"Segment\ Trees.d" -o "$@" "$<"
+	g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 
