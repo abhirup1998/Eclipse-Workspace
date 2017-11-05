@@ -1,23 +1,6 @@
-15:34:06 **** Incremental Build of configuration Debug for project Algorithms ****
+15:54:29 **** Incremental Build of configuration Debug for project Algorithms ****
 make all 
-Building file: ../KMP.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"KMP.d" -MT"KMP.o" -o "KMP.o" "../KMP.cpp"
-../KMP.cpp: In function ‘void sufprof(std::__cxx11::string, std::vector<int>&)’:
-../KMP.cpp:15:10: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-  while(i < p.size())
-          ^
-../KMP.cpp: In function ‘int main()’:
-../KMP.cpp:63:6: warning: unused variable ‘in’ [-Wunused-variable]
-  int in, occ;
-      ^
-Finished building: ../KMP.cpp
- 
-Building target: Algorithms
-Invoking: GCC C++ Linker
-g++  -o "Algorithms"  ./KMP.o   
-Finished building target: Algorithms
- 
+make: Nothing to be done for 'all'.
 
-15:34:08 Build Finished (took 2s.25ms)
+15:54:29 Build Finished (took 252ms)
 
