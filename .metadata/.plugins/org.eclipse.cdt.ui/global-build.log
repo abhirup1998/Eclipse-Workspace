@@ -3231,3 +3231,2851 @@ Finished building target: Algorithms
 15:54:29 **** Incremental Build of configuration Debug for project Algorithms ****
 make all 
 make: Nothing to be done for 'all'.
+20:58:12 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+Building file: ../modulo.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"modulo.d" -MT"modulo.o" -o "modulo.o" "../modulo.cpp"
+Finished building: ../modulo.cpp
+ 
+Building target: Algorithms
+Invoking: GCC C++ Linker
+g++  -o "Algorithms"  ./modulo.o   
+Finished building target: Algorithms
+ 
+20:59:07 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+Building file: ../modulo.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"modulo.d" -MT"modulo.o" -o "modulo.o" "../modulo.cpp"
+Finished building: ../modulo.cpp
+ 
+Building target: Algorithms
+Invoking: GCC C++ Linker
+g++  -o "Algorithms"  ./modulo.o   
+Finished building target: Algorithms
+ 
+21:06:00 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+Building file: ../modulo.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"modulo.d" -MT"modulo.o" -o "modulo.o" "../modulo.cpp"
+Finished building: ../modulo.cpp
+ 
+Building target: Algorithms
+Invoking: GCC C++ Linker
+g++  -o "Algorithms"  ./modulo.o   
+Finished building target: Algorithms
+ 
+21:08:08 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+Building file: ../modulo.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"modulo.d" -MT"modulo.o" -o "modulo.o" "../modulo.cpp"
+Finished building: ../modulo.cpp
+ 
+Building target: Algorithms
+Invoking: GCC C++ Linker
+g++  -o "Algorithms"  ./modulo.o   
+Finished building target: Algorithms
+ 
+21:08:38 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+make: Nothing to be done for 'all'.
+21:28:09 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+Building file: ../modulo.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"modulo.d" -MT"modulo.o" -o "modulo.o" "../modulo.cpp"
+../modulo.cpp: In function ‘int main()’:
+../modulo.cpp:42:8: error: invalid types ‘int[int]’ for array subscript
+     v[i] += v;
+        ^
+make: *** [modulo.o] Error 1
+subdir.mk:18: recipe for target 'modulo.o' failed
+21:28:25 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+Building file: ../modulo.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"modulo.d" -MT"modulo.o" -o "modulo.o" "../modulo.cpp"
+Finished building: ../modulo.cpp
+ 
+Building target: Algorithms
+Invoking: GCC C++ Linker
+g++  -o "Algorithms"  ./modulo.o   
+Finished building target: Algorithms
+ 
+21:28:55 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+make: Nothing to be done for 'all'.
+21:31:33 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+Building file: ../modulo.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"modulo.d" -MT"modulo.o" -o "modulo.o" "../modulo.cpp"
+../modulo.cpp: In function ‘int main()’:
+../modulo.cpp:46:42: error: cannot convert ‘__gnu_cxx::__normal_iterator<int*, std::vector<int> >’ to ‘int’ in initialization
+  int res = min_element(v.begin(), v.end());
+                                          ^
+../modulo.cpp:46:6: warning: unused variable ‘res’ [-Wunused-variable]
+  int res = min_element(v.begin(), v.end());
+      ^
+subdir.mk:18: recipe for target 'modulo.o' failed
+make: *** [modulo.o] Error 1
+21:32:14 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+Building file: ../modulo.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"modulo.d" -MT"modulo.o" -o "modulo.o" "../modulo.cpp"
+../modulo.cpp: In function ‘int main()’:
+../modulo.cpp:46:6: warning: unused variable ‘res’ [-Wunused-variable]
+  int res = *min_element(v.begin(), v.end());
+      ^
+Finished building: ../modulo.cpp
+ 
+Building target: Algorithms
+Invoking: GCC C++ Linker
+g++  -o "Algorithms"  ./modulo.o   
+Finished building target: Algorithms
+ 
+21:32:57 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+Building file: ../modulo.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"modulo.d" -MT"modulo.o" -o "modulo.o" "../modulo.cpp"
+Finished building: ../modulo.cpp
+ 
+Building target: Algorithms
+Invoking: GCC C++ Linker
+g++  -o "Algorithms"  ./modulo.o   
+Finished building target: Algorithms
+ 
+21:33:07 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+make: Nothing to be done for 'all'.
+21:33:21 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+make: Nothing to be done for 'all'.
+21:33:48 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+make: Nothing to be done for 'all'.
+21:34:42 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+Building file: ../modulo.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"modulo.d" -MT"modulo.o" -o "modulo.o" "../modulo.cpp"
+Finished building: ../modulo.cpp
+ 
+Building target: Algorithms
+Invoking: GCC C++ Linker
+g++  -o "Algorithms"  ./modulo.o   
+Finished building target: Algorithms
+ 
+21:38:20 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+Building file: ../modulo.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"modulo.d" -MT"modulo.o" -o "modulo.o" "../modulo.cpp"
+../modulo.cpp: In function ‘int main()’:
+../modulo.cpp:37:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for(ull j=0; j<n; j++)
+                  ^
+Finished building: ../modulo.cpp
+ 
+Building target: Algorithms
+Invoking: GCC C++ Linker
+g++  -o "Algorithms"  ./modulo.o   
+Finished building target: Algorithms
+ 
+22:13:42 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+Building file: ../modulo.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -MMD -MP -MF"modulo.d" -MT"modulo.o" -o "modulo.o" "../modulo.cpp"
+../modulo.cpp: In function ‘int main()’:
+../modulo.cpp:37:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for(ull j=0; j<n; j++)
+                  ^
+Finished building: ../modulo.cpp
+ 
+Building target: Algorithms
+Invoking: GCC C++ Linker
+g++  -o "Algorithms"  ./modulo.o   
+Finished building target: Algorithms
+ 
+22:13:48 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+Building file: ../BotSavesPrincess.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BotSavesPrincess.d" -MT"BotSavesPrincess.o" -o "BotSavesPrincess.o" "../BotSavesPrincess.cpp"
+Finished building: ../BotSavesPrincess.cpp
+ 
+Building target: Contest_Problems
+Invoking: GCC C++ Linker
+g++  -o "Contest_Problems"  ./BotSavesPrincess.o   
+Finished building target: Contest_Problems
+ 
+
+**** Build of configuration Debug for project NumberTheory ****
+
+Nothing to build for project NumberTheory
+
+**** Build of configuration Debug for project OpenCV ****
+
+Nothing to build for project OpenCV
+
+**** Build of configuration Debug for project Practice-Problems ****
+
+Nothing to build for project Practice-Problems
+22:20:24 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+Building file: ../BotSavesPrincess.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BotSavesPrincess.d" -MT"BotSavesPrincess.o" -o "BotSavesPrincess.o" "../BotSavesPrincess.cpp"
+../BotSavesPrincess.cpp: In function ‘void displayPathtoPrincess(int, std::vector<std::__cxx11::basic_string<char> >)’:
+../BotSavesPrincess.cpp:15:7: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if(f == string::npos)
+       ^
+../BotSavesPrincess.cpp:12:6: warning: unused variable ‘x’ [-Wunused-variable]
+  int x = (n-1)/2, y=(n-1)/2;
+      ^
+../BotSavesPrincess.cpp:12:19: warning: unused variable ‘y’ [-Wunused-variable]
+  int x = (n-1)/2, y=(n-1)/2;
+                   ^
+Finished building: ../BotSavesPrincess.cpp
+ 
+Building target: Contest_Problems
+Invoking: GCC C++ Linker
+g++  -o "Contest_Problems"  ./BotSavesPrincess.o   
+Finished building target: Contest_Problems
+ 
+22:25:18 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+Building file: ../BotSavesPrincess.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BotSavesPrincess.d" -MT"BotSavesPrincess.o" -o "BotSavesPrincess.o" "../BotSavesPrincess.cpp"
+../BotSavesPrincess.cpp: In function ‘void displayPathtoPrincess(int, std::vector<std::__cxx11::basic_string<char> >)’:
+../BotSavesPrincess.cpp:15:7: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if(f == string::npos)
+       ^
+Finished building: ../BotSavesPrincess.cpp
+ 
+Building target: Contest_Problems
+Invoking: GCC C++ Linker
+g++  -o "Contest_Problems"  ./BotSavesPrincess.o   
+Finished building target: Contest_Problems
+ 
+22:25:33 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+make: Nothing to be done for 'all'.
+22:40:10 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+Building file: ../BotSavesPrincess.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BotSavesPrincess.d" -MT"BotSavesPrincess.o" -o "BotSavesPrincess.o" "../BotSavesPrincess.cpp"
+../BotSavesPrincess.cpp: In function ‘void nextMove(int, int, int, std::vector<std::__cxx11::basic_string<char> >)’:
+../BotSavesPrincess.cpp:15:9: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(px == string::npos)
+         ^
+Finished building: ../BotSavesPrincess.cpp
+ 
+Building target: Contest_Problems
+Invoking: GCC C++ Linker
+g++  -o "Contest_Problems"  ./BotSavesPrincess.o   
+Finished building target: Contest_Problems
+ 
+22:45:51 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+Building file: ../BotSavesPrincess.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BotSavesPrincess.d" -MT"BotSavesPrincess.o" -o "BotSavesPrincess.o" "../BotSavesPrincess.cpp"
+../BotSavesPrincess.cpp: In function ‘void nextMove(int, int, int, std::vector<std::__cxx11::basic_string<char> >)’:
+../BotSavesPrincess.cpp:15:9: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(px == string::npos)
+         ^
+../BotSavesPrincess.cpp:33:6: warning: ‘auto’ changes meaning in C++11; please remove it [-Wc++0x-compat]
+  for(auto g:grid)
+      ^
+../BotSavesPrincess.cpp:33:11: error: ‘g’ does not name a type
+  for(auto g:grid)
+           ^
+../BotSavesPrincess.cpp:36:1: error: expected ‘;’ before ‘}’ token
+ }
+ ^
+../BotSavesPrincess.cpp:36:1: error: expected primary-expression before ‘}’ token
+../BotSavesPrincess.cpp:36:1: error: expected ‘;’ before ‘}’ token
+../BotSavesPrincess.cpp:36:1: error: expected primary-expression before ‘}’ token
+../BotSavesPrincess.cpp:36:1: error: expected ‘)’ before ‘}’ token
+../BotSavesPrincess.cpp:36:1: error: expected primary-expression before ‘}’ token
+subdir.mk:18: recipe for target 'BotSavesPrincess.o' failed
+make: *** [BotSavesPrincess.o] Error 1
+22:46:30 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+Building file: ../BotSavesPrincess.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"BotSavesPrincess.d" -MT"BotSavesPrincess.o" -o "BotSavesPrincess.o" "../BotSavesPrincess.cpp"
+../BotSavesPrincess.cpp: In function ‘void nextMove(int, int, int, std::vector<std::__cxx11::basic_string<char> >)’:
+../BotSavesPrincess.cpp:15:9: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(px == string::npos)
+         ^
+Finished building: ../BotSavesPrincess.cpp
+ 
+Building target: Contest_Problems
+Invoking: GCC C++ Linker
+g++  -o "Contest_Problems"  ./BotSavesPrincess.o   
+Finished building target: Contest_Problems
+ 
+22:46:47 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+Building file: ../BotSavesPrincess.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"BotSavesPrincess.d" -MT"BotSavesPrincess.o" -o "BotSavesPrincess.o" "../BotSavesPrincess.cpp"
+../BotSavesPrincess.cpp: In function ‘void nextMove(int, int, int, std::vector<std::__cxx11::basic_string<char> >)’:
+../BotSavesPrincess.cpp:15:9: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(px == string::npos)
+         ^
+Finished building: ../BotSavesPrincess.cpp
+ 
+Building target: Contest_Problems
+Invoking: GCC C++ Linker
+g++  -o "Contest_Problems"  ./BotSavesPrincess.o   
+Finished building target: Contest_Problems
+ 
+22:48:25 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+Building file: ../BotSavesPrincess.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"BotSavesPrincess.d" -MT"BotSavesPrincess.o" -o "BotSavesPrincess.o" "../BotSavesPrincess.cpp"
+../BotSavesPrincess.cpp: In function ‘void nextMove(int, int, int, std::vector<std::__cxx11::basic_string<char> >)’:
+../BotSavesPrincess.cpp:15:9: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(px == string::npos)
+         ^
+Finished building: ../BotSavesPrincess.cpp
+ 
+Building target: Contest_Problems
+Invoking: GCC C++ Linker
+g++  -o "Contest_Problems"  ./BotSavesPrincess.o   
+Finished building target: Contest_Problems
+ 
+22:49:00 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+make: Nothing to be done for 'all'.
+22:49:58 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+make: Nothing to be done for 'all'.
+22:50:10 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+make: Nothing to be done for 'all'.
+00:23:55 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+Building file: ../BotClean.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"BotClean.d" -MT"BotClean.o" -o "BotClean.o" "../BotClean.cpp"
+../BotClean.cpp: In function ‘void next_move(int, int, std::vector<std::__cxx11::basic_string<char> >)’:
+../BotClean.cpp:22:6: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if(l!=string::npos)
+      ^
+../BotClean.cpp:24:15: error: found ‘:’ in nested-name-specifier, expected ‘::’
+   if(r!=string:npos)
+               ^
+../BotClean.cpp:24:7: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(r!=string:npos)
+       ^
+../BotClean.cpp:35:11: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  else if(r!=string::npos)
+           ^
+../BotClean.cpp:45:7: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(l!=string::npos)
+       ^
+../BotClean.cpp:47:8: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if(r!=string::npos)
+        ^
+../BotClean.cpp:52:12: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   else if(r!=string::npos)
+            ^
+../BotClean.cpp:67:8: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if(l!=string::npos)
+        ^
+../BotClean.cpp:69:9: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if(r!=string::npos)
+         ^
+../BotClean.cpp:74:13: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    else if(r!=string::npos)
+             ^
+../BotClean.cpp:39:60: warning: unused variable ‘xl’ [-Wunused-variable]
+  int ulim = max(0, posr-fmin), llim = min(posr+fmin, b-1), xl, xr, rmin=b;
+                                                            ^
+../BotClean.cpp:39:64: warning: unused variable ‘xr’ [-Wunused-variable]
+  int ulim = max(0, posr-fmin), llim = min(posr+fmin, b-1), xl, xr, rmin=b;
+                                                                ^
+make: *** [BotClean.o] Error 1
+subdir.mk:18: recipe for target 'BotClean.o' failed
+00:24:11 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+Building file: ../BotClean.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"BotClean.d" -MT"BotClean.o" -o "BotClean.o" "../BotClean.cpp"
+../BotClean.cpp: In function ‘void next_move(int, int, std::vector<std::__cxx11::basic_string<char> >)’:
+../BotClean.cpp:22:6: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if(l!=string::npos)
+      ^
+../BotClean.cpp:24:7: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(r!=string::npos)
+       ^
+../BotClean.cpp:35:11: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  else if(r!=string::npos)
+           ^
+../BotClean.cpp:45:7: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(l!=string::npos)
+       ^
+../BotClean.cpp:47:8: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if(r!=string::npos)
+        ^
+../BotClean.cpp:52:12: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   else if(r!=string::npos)
+            ^
+../BotClean.cpp:67:8: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if(l!=string::npos)
+        ^
+../BotClean.cpp:69:9: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if(r!=string::npos)
+         ^
+../BotClean.cpp:74:13: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    else if(r!=string::npos)
+             ^
+../BotClean.cpp:39:60: warning: unused variable ‘xl’ [-Wunused-variable]
+  int ulim = max(0, posr-fmin), llim = min(posr+fmin, b-1), xl, xr, rmin=b;
+                                                            ^
+../BotClean.cpp:39:64: warning: unused variable ‘xr’ [-Wunused-variable]
+  int ulim = max(0, posr-fmin), llim = min(posr+fmin, b-1), xl, xr, rmin=b;
+                                                                ^
+../BotClean.cpp:13:15: warning: ‘y’ is used uninitialized in this function [-Wuninitialized]
+  if(board[x][y] == 'd')
+               ^
+../BotClean.cpp:13:12: warning: ‘x’ is used uninitialized in this function [-Wuninitialized]
+  if(board[x][y] == 'd')
+            ^
+Finished building: ../BotClean.cpp
+ 
+Building target: Contest_Problems
+Invoking: GCC C++ Linker
+g++  -o "Contest_Problems"  ./BotClean.o   
+Finished building target: Contest_Problems
+ 
+00:25:31 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+Building file: ../BotClean.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"BotClean.d" -MT"BotClean.o" -o "BotClean.o" "../BotClean.cpp"
+../BotClean.cpp: In function ‘void next_move(int, int, std::vector<std::__cxx11::basic_string<char> >)’:
+../BotClean.cpp:22:6: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if(l!=string::npos)
+      ^
+../BotClean.cpp:24:7: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(r!=string::npos)
+       ^
+../BotClean.cpp:35:11: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  else if(r!=string::npos)
+           ^
+../BotClean.cpp:45:7: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(l!=string::npos)
+       ^
+../BotClean.cpp:47:8: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if(r!=string::npos)
+        ^
+../BotClean.cpp:52:12: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   else if(r!=string::npos)
+            ^
+../BotClean.cpp:67:8: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if(l!=string::npos)
+        ^
+../BotClean.cpp:69:9: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if(r!=string::npos)
+         ^
+../BotClean.cpp:74:13: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    else if(r!=string::npos)
+             ^
+../BotClean.cpp:39:60: warning: unused variable ‘xl’ [-Wunused-variable]
+  int ulim = max(0, posr-fmin), llim = min(posr+fmin, b-1), xl, xr, rmin=b;
+                                                            ^
+../BotClean.cpp:39:64: warning: unused variable ‘xr’ [-Wunused-variable]
+  int ulim = max(0, posr-fmin), llim = min(posr+fmin, b-1), xl, xr, rmin=b;
+                                                                ^
+../BotClean.cpp:13:15: warning: ‘y’ is used uninitialized in this function [-Wuninitialized]
+  if(board[x][y] == 'd')
+               ^
+../BotClean.cpp:13:12: warning: ‘x’ is used uninitialized in this function [-Wuninitialized]
+  if(board[x][y] == 'd')
+            ^
+Finished building: ../BotClean.cpp
+ 
+Building target: Contest_Problems
+Invoking: GCC C++ Linker
+g++  -o "Contest_Problems"  ./BotClean.o   
+Finished building target: Contest_Problems
+ 
+00:25:52 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+Building file: ../BotClean.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"BotClean.d" -MT"BotClean.o" -o "BotClean.o" "../BotClean.cpp"
+../BotClean.cpp: In function ‘void next_move(int, int, std::vector<std::__cxx11::basic_string<char> >)’:
+../BotClean.cpp:22:6: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if(l!=string::npos)
+      ^
+../BotClean.cpp:24:7: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(r!=string::npos)
+       ^
+../BotClean.cpp:35:11: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  else if(r!=string::npos)
+           ^
+../BotClean.cpp:18:6: warning: variable ‘fmin’ set but not used [-Wunused-but-set-variable]
+  int fmin=b; string ans;
+      ^
+../BotClean.cpp:13:15: warning: ‘y’ is used uninitialized in this function [-Wuninitialized]
+  if(board[x][y] == 'd')
+               ^
+../BotClean.cpp:13:12: warning: ‘x’ is used uninitialized in this function [-Wuninitialized]
+  if(board[x][y] == 'd')
+            ^
+Finished building: ../BotClean.cpp
+ 
+Building target: Contest_Problems
+Invoking: GCC C++ Linker
+g++  -o "Contest_Problems"  ./BotClean.o   
+Finished building target: Contest_Problems
+ 
+00:26:00 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+make: Nothing to be done for 'all'.
+00:29:30 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+Building file: ../BotClean.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"BotClean.d" -MT"BotClean.o" -o "BotClean.o" "../BotClean.cpp"
+../BotClean.cpp: In function ‘void next_move(int, int, std::vector<std::__cxx11::basic_string<char> >)’:
+../BotClean.cpp:23:6: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if(l!=string::npos)
+      ^
+../BotClean.cpp:25:7: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(r!=string::npos)
+       ^
+../BotClean.cpp:39:11: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  else if(r!=string::npos)
+           ^
+../BotClean.cpp:12:26: warning: variable ‘y’ set but not used [-Wunused-but-set-variable]
+  int b = board.size(), x,y;
+                          ^
+../BotClean.cpp:19:6: warning: variable ‘fmin’ set but not used [-Wunused-but-set-variable]
+  int fmin=b; string ans;
+      ^
+Finished building: ../BotClean.cpp
+ 
+Building target: Contest_Problems
+Invoking: GCC C++ Linker
+g++  -o "Contest_Problems"  ./BotClean.o   
+Finished building target: Contest_Problems
+ 
+00:30:10 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+make: Nothing to be done for 'all'.
+00:31:15 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+Building file: ../BotClean.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"BotClean.d" -MT"BotClean.o" -o "BotClean.o" "../BotClean.cpp"
+../BotClean.cpp: In function ‘void next_move(int, int, std::vector<std::__cxx11::basic_string<char> >)’:
+../BotClean.cpp:23:6: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if(l!=string::npos)
+      ^
+../BotClean.cpp:25:7: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(r!=string::npos)
+       ^
+../BotClean.cpp:39:11: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  else if(r!=string::npos)
+           ^
+../BotClean.cpp:49:7: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(l!=string::npos)
+       ^
+../BotClean.cpp:51:8: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if(r!=string::npos)
+        ^
+../BotClean.cpp:56:12: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   else if(r!=string::npos)
+            ^
+../BotClean.cpp:71:8: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if(l!=string::npos)
+        ^
+../BotClean.cpp:73:9: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if(r!=string::npos)
+         ^
+../BotClean.cpp:78:13: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    else if(r!=string::npos)
+             ^
+../BotClean.cpp:12:26: warning: variable ‘y’ set but not used [-Wunused-but-set-variable]
+  int b = board.size(), x,y;
+                          ^
+../BotClean.cpp:43:60: warning: unused variable ‘xl’ [-Wunused-variable]
+  int ulim = max(0, posr-fmin), llim = min(posr+fmin, b-1), xl, xr, rmin=b;
+                                                            ^
+../BotClean.cpp:43:64: warning: unused variable ‘xr’ [-Wunused-variable]
+  int ulim = max(0, posr-fmin), llim = min(posr+fmin, b-1), xl, xr, rmin=b;
+                                                                ^
+Finished building: ../BotClean.cpp
+ 
+Building target: Contest_Problems
+Invoking: GCC C++ Linker
+g++  -o "Contest_Problems"  ./BotClean.o   
+Finished building target: Contest_Problems
+ 
+00:31:57 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+Building file: ../BotClean.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"BotClean.d" -MT"BotClean.o" -o "BotClean.o" "../BotClean.cpp"
+../BotClean.cpp: In function ‘void next_move(int, int, std::vector<std::__cxx11::basic_string<char> >)’:
+../BotClean.cpp:23:6: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if(l!=string::npos)
+      ^
+../BotClean.cpp:25:7: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(r!=string::npos)
+       ^
+../BotClean.cpp:39:11: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  else if(r!=string::npos)
+           ^
+../BotClean.cpp:49:7: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(l!=string::npos)
+       ^
+../BotClean.cpp:51:8: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if(r!=string::npos)
+        ^
+../BotClean.cpp:56:12: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   else if(r!=string::npos)
+            ^
+../BotClean.cpp:71:8: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if(l!=string::npos)
+        ^
+../BotClean.cpp:73:9: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if(r!=string::npos)
+         ^
+../BotClean.cpp:78:13: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    else if(r!=string::npos)
+             ^
+../BotClean.cpp:12:26: warning: variable ‘y’ set but not used [-Wunused-but-set-variable]
+  int b = board.size(), x,y;
+                          ^
+../BotClean.cpp:43:60: warning: unused variable ‘xl’ [-Wunused-variable]
+  int ulim = max(0, posr-fmin), llim = min(posr+fmin, b-1), xl, xr, rmin=b;
+                                                            ^
+../BotClean.cpp:43:64: warning: unused variable ‘xr’ [-Wunused-variable]
+  int ulim = max(0, posr-fmin), llim = min(posr+fmin, b-1), xl, xr, rmin=b;
+                                                                ^
+Finished building: ../BotClean.cpp
+ 
+Building target: Contest_Problems
+Invoking: GCC C++ Linker
+g++  -o "Contest_Problems"  ./BotClean.o   
+Finished building target: Contest_Problems
+ 
+00:32:16 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+make: Nothing to be done for 'all'.
+00:33:48 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+make: Nothing to be done for 'all'.
+00:35:04 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+make: Nothing to be done for 'all'.
+00:35:30 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+make: Nothing to be done for 'all'.
+00:37:28 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+make: Nothing to be done for 'all'.
+00:38:24 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+make: Nothing to be done for 'all'.
+00:38:49 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+make: Nothing to be done for 'all'.
+00:42:16 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+make: Nothing to be done for 'all'.
+00:42:25 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+make: Nothing to be done for 'all'.
+00:44:08 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+Building file: ../BotClean.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"BotClean.d" -MT"BotClean.o" -o "BotClean.o" "../BotClean.cpp"
+../BotClean.cpp: In function ‘void next_move(int, int, std::vector<std::__cxx11::basic_string<char> >)’:
+../BotClean.cpp:23:6: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if(l!=string::npos)
+      ^
+../BotClean.cpp:25:7: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(r!=string::npos)
+       ^
+../BotClean.cpp:39:11: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  else if(r!=string::npos)
+           ^
+../BotClean.cpp:49:7: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(l!=string::npos)
+       ^
+../BotClean.cpp:51:8: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if(r!=string::npos)
+        ^
+../BotClean.cpp:56:12: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   else if(r!=string::npos)
+            ^
+../BotClean.cpp:71:8: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if(l!=string::npos)
+        ^
+../BotClean.cpp:73:9: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if(r!=string::npos)
+         ^
+../BotClean.cpp:78:13: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    else if(r!=string::npos)
+             ^
+../BotClean.cpp:12:26: warning: variable ‘y’ set but not used [-Wunused-but-set-variable]
+  int b = board.size(), x,y;
+                          ^
+../BotClean.cpp:43:60: warning: unused variable ‘xl’ [-Wunused-variable]
+  int ulim = max(0, posr-fmin), llim = min(posr+fmin, b-1), xl, xr, rmin=b;
+                                                            ^
+../BotClean.cpp:43:64: warning: unused variable ‘xr’ [-Wunused-variable]
+  int ulim = max(0, posr-fmin), llim = min(posr+fmin, b-1), xl, xr, rmin=b;
+                                                                ^
+Finished building: ../BotClean.cpp
+ 
+Building target: Contest_Problems
+Invoking: GCC C++ Linker
+g++  -o "Contest_Problems"  ./BotClean.o   
+Finished building target: Contest_Problems
+ 
+00:45:37 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+Building file: ../BotClean.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"BotClean.d" -MT"BotClean.o" -o "BotClean.o" "../BotClean.cpp"
+../BotClean.cpp: In function ‘void next_move(int, int, std::vector<std::__cxx11::basic_string<char> >)’:
+../BotClean.cpp:23:6: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if(l!=string::npos)
+      ^
+../BotClean.cpp:25:7: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(r!=string::npos)
+       ^
+../BotClean.cpp:39:11: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  else if(r!=string::npos)
+           ^
+../BotClean.cpp:49:7: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(l!=string::npos)
+       ^
+../BotClean.cpp:51:8: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if(r!=string::npos)
+        ^
+../BotClean.cpp:56:12: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   else if(r!=string::npos)
+            ^
+../BotClean.cpp:71:8: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if(l!=string::npos)
+        ^
+../BotClean.cpp:73:9: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if(r!=string::npos)
+         ^
+../BotClean.cpp:78:13: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    else if(r!=string::npos)
+             ^
+../BotClean.cpp:12:26: warning: variable ‘y’ set but not used [-Wunused-but-set-variable]
+  int b = board.size(), x,y;
+                          ^
+../BotClean.cpp:43:60: warning: unused variable ‘xl’ [-Wunused-variable]
+  int ulim = max(0, posr-fmin), llim = min(posr+fmin, b-1), xl, xr, rmin=b;
+                                                            ^
+../BotClean.cpp:43:64: warning: unused variable ‘xr’ [-Wunused-variable]
+  int ulim = max(0, posr-fmin), llim = min(posr+fmin, b-1), xl, xr, rmin=b;
+                                                                ^
+Finished building: ../BotClean.cpp
+ 
+Building target: Contest_Problems
+Invoking: GCC C++ Linker
+g++  -o "Contest_Problems"  ./BotClean.o   
+Finished building target: Contest_Problems
+ 
+00:47:04 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+Building file: ../BotClean.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"BotClean.d" -MT"BotClean.o" -o "BotClean.o" "../BotClean.cpp"
+../BotClean.cpp: In function ‘void next_move(int, int, std::vector<std::__cxx11::basic_string<char> >)’:
+../BotClean.cpp:23:6: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if(l!=string::npos)
+      ^
+../BotClean.cpp:25:7: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(r!=string::npos)
+       ^
+../BotClean.cpp:39:11: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  else if(r!=string::npos)
+           ^
+../BotClean.cpp:52:7: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(l!=string::npos)
+       ^
+../BotClean.cpp:54:8: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if(r!=string::npos)
+        ^
+../BotClean.cpp:59:12: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   else if(r!=string::npos)
+            ^
+../BotClean.cpp:74:8: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if(l!=string::npos)
+        ^
+../BotClean.cpp:76:9: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if(r!=string::npos)
+         ^
+../BotClean.cpp:81:13: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    else if(r!=string::npos)
+             ^
+../BotClean.cpp:12:26: warning: variable ‘y’ set but not used [-Wunused-but-set-variable]
+  int b = board.size(), x,y;
+                          ^
+../BotClean.cpp:46:60: warning: unused variable ‘xl’ [-Wunused-variable]
+  int ulim = max(0, posr-fmin), llim = min(posr+fmin, b-1), xl, xr, rmin=b;
+                                                            ^
+../BotClean.cpp:46:64: warning: unused variable ‘xr’ [-Wunused-variable]
+  int ulim = max(0, posr-fmin), llim = min(posr+fmin, b-1), xl, xr, rmin=b;
+                                                                ^
+Finished building: ../BotClean.cpp
+ 
+Building target: Contest_Problems
+Invoking: GCC C++ Linker
+g++  -o "Contest_Problems"  ./BotClean.o   
+Finished building target: Contest_Problems
+ 
+00:47:21 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+Building file: ../BotClean.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"BotClean.d" -MT"BotClean.o" -o "BotClean.o" "../BotClean.cpp"
+../BotClean.cpp: In function ‘void next_move(int, int, std::vector<std::__cxx11::basic_string<char> >)’:
+../BotClean.cpp:23:6: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if(l!=string::npos)
+      ^
+../BotClean.cpp:25:7: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(r!=string::npos)
+       ^
+../BotClean.cpp:39:11: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  else if(r!=string::npos)
+           ^
+../BotClean.cpp:52:7: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(l!=string::npos)
+       ^
+../BotClean.cpp:54:8: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if(r!=string::npos)
+        ^
+../BotClean.cpp:59:12: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   else if(r!=string::npos)
+            ^
+../BotClean.cpp:74:8: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if(l!=string::npos)
+        ^
+../BotClean.cpp:76:9: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if(r!=string::npos)
+         ^
+../BotClean.cpp:81:13: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    else if(r!=string::npos)
+             ^
+../BotClean.cpp:12:26: warning: variable ‘y’ set but not used [-Wunused-but-set-variable]
+  int b = board.size(), x,y;
+                          ^
+../BotClean.cpp:46:60: warning: unused variable ‘xl’ [-Wunused-variable]
+  int ulim = max(0, posr-fmin), llim = min(posr+fmin, b-1), xl, xr, rmin=b;
+                                                            ^
+../BotClean.cpp:46:64: warning: unused variable ‘xr’ [-Wunused-variable]
+  int ulim = max(0, posr-fmin), llim = min(posr+fmin, b-1), xl, xr, rmin=b;
+                                                                ^
+Finished building: ../BotClean.cpp
+ 
+Building target: Contest_Problems
+Invoking: GCC C++ Linker
+g++  -o "Contest_Problems"  ./BotClean.o   
+Finished building target: Contest_Problems
+ 
+13:01:36 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+Building file: ../BotClean.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"BotClean.d" -MT"BotClean.o" -o "BotClean.o" "../BotClean.cpp"
+../BotClean.cpp: In function ‘void next_move(int, int, std::vector<std::__cxx11::basic_string<char> >)’:
+../BotClean.cpp:23:6: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if(l!=string::npos)
+      ^
+../BotClean.cpp:25:7: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(r!=string::npos)
+       ^
+../BotClean.cpp:39:11: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  else if(r!=string::npos)
+           ^
+../BotClean.cpp:53:7: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(l!=string::npos)
+       ^
+../BotClean.cpp:55:8: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if(r!=string::npos)
+        ^
+../BotClean.cpp:60:12: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   else if(r!=string::npos)
+            ^
+../BotClean.cpp:76:8: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if(l!=string::npos)
+        ^
+../BotClean.cpp:78:9: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if(r!=string::npos)
+         ^
+../BotClean.cpp:83:13: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    else if(r!=string::npos)
+             ^
+../BotClean.cpp:12:26: warning: variable ‘y’ set but not used [-Wunused-but-set-variable]
+  int b = board.size(), x,y;
+                          ^
+../BotClean.cpp:46:60: warning: unused variable ‘xl’ [-Wunused-variable]
+  int ulim = max(0, posr-fmin), llim = min(posr+fmin, b-1), xl, xr, rmin=b;
+                                                            ^
+../BotClean.cpp:46:64: warning: unused variable ‘xr’ [-Wunused-variable]
+  int ulim = max(0, posr-fmin), llim = min(posr+fmin, b-1), xl, xr, rmin=b;
+                                                                ^
+Finished building: ../BotClean.cpp
+ 
+Building target: Contest_Problems
+Invoking: GCC C++ Linker
+g++  -o "Contest_Problems"  ./BotClean.o   
+Finished building target: Contest_Problems
+ 
+13:03:24 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+make: Nothing to be done for 'all'.
+13:03:56 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+make: Nothing to be done for 'all'.
+13:11:07 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+Building file: ../BotClean.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"BotClean.d" -MT"BotClean.o" -o "BotClean.o" "../BotClean.cpp"
+../BotClean.cpp: In function ‘void next_move(int, int, std::vector<std::__cxx11::basic_string<char> >)’:
+../BotClean.cpp:29:6: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if(l!=string::npos)
+      ^
+../BotClean.cpp:31:7: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(r!=string::npos)
+       ^
+../BotClean.cpp:45:11: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  else if(r!=string::npos)
+           ^
+../BotClean.cpp:63:7: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(l!=string::npos)
+       ^
+../BotClean.cpp:65:8: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if(r!=string::npos)
+        ^
+../BotClean.cpp:70:12: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   else if(r!=string::npos)
+            ^
+../BotClean.cpp:88:8: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if(l!=string::npos)
+        ^
+../BotClean.cpp:90:9: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if(r!=string::npos)
+         ^
+../BotClean.cpp:95:13: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    else if(r!=string::npos)
+             ^
+../BotClean.cpp:18:26: warning: variable ‘y’ set but not used [-Wunused-but-set-variable]
+  int b = board.size(), x,y;
+                          ^
+../BotClean.cpp:53:60: warning: unused variable ‘xl’ [-Wunused-variable]
+  int ulim = max(0, posr-fmin), llim = min(posr+fmin, b-1), xl, xr, rmin=b;
+                                                            ^
+../BotClean.cpp:53:64: warning: unused variable ‘xr’ [-Wunused-variable]
+  int ulim = max(0, posr-fmin), llim = min(posr+fmin, b-1), xl, xr, rmin=b;
+                                                                ^
+Finished building: ../BotClean.cpp
+ 
+Building target: Contest_Problems
+Invoking: GCC C++ Linker
+g++  -o "Contest_Problems"  ./BotClean.o   
+Finished building target: Contest_Problems
+ 
+13:14:55 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+Building file: ../BotClean.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"BotClean.d" -MT"BotClean.o" -o "BotClean.o" "../BotClean.cpp"
+../BotClean.cpp: In function ‘void next_move(int, int, std::vector<std::__cxx11::basic_string<char> >)’:
+../BotClean.cpp:29:6: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if(l!=string::npos)
+      ^
+../BotClean.cpp:31:7: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(r!=string::npos)
+       ^
+../BotClean.cpp:45:11: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  else if(r!=string::npos)
+           ^
+../BotClean.cpp:63:7: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(l!=string::npos)
+       ^
+../BotClean.cpp:65:8: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if(r!=string::npos)
+        ^
+../BotClean.cpp:70:12: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   else if(r!=string::npos)
+            ^
+../BotClean.cpp:89:8: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if(l!=string::npos)
+        ^
+../BotClean.cpp:91:9: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if(r!=string::npos)
+         ^
+../BotClean.cpp:96:13: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    else if(r!=string::npos)
+             ^
+../BotClean.cpp:18:26: warning: variable ‘y’ set but not used [-Wunused-but-set-variable]
+  int b = board.size(), x,y;
+                          ^
+../BotClean.cpp:53:60: warning: unused variable ‘xl’ [-Wunused-variable]
+  int ulim = max(0, posr-fmin), llim = min(posr+fmin, b-1), xl, xr, rmin=b;
+                                                            ^
+../BotClean.cpp:53:64: warning: unused variable ‘xr’ [-Wunused-variable]
+  int ulim = max(0, posr-fmin), llim = min(posr+fmin, b-1), xl, xr, rmin=b;
+                                                                ^
+Finished building: ../BotClean.cpp
+ 
+Building target: Contest_Problems
+Invoking: GCC C++ Linker
+g++  -o "Contest_Problems"  ./BotClean.o   
+Finished building target: Contest_Problems
+ 
+13:17:34 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+Building file: ../BotClean.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"BotClean.d" -MT"BotClean.o" -o "BotClean.o" "../BotClean.cpp"
+../BotClean.cpp: In function ‘void next_move(int, int, std::vector<std::__cxx11::basic_string<char> >)’:
+../BotClean.cpp:29:6: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if(l!=string::npos)
+      ^
+../BotClean.cpp:31:7: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(r!=string::npos)
+       ^
+../BotClean.cpp:45:11: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  else if(r!=string::npos)
+           ^
+../BotClean.cpp:67:7: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(l!=string::npos)
+       ^
+../BotClean.cpp:69:8: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if(r!=string::npos)
+        ^
+../BotClean.cpp:74:12: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   else if(r!=string::npos)
+            ^
+../BotClean.cpp:98:8: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if(l!=string::npos)
+        ^
+../BotClean.cpp:100:9: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if(r!=string::npos)
+         ^
+../BotClean.cpp:105:13: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    else if(r!=string::npos)
+             ^
+../BotClean.cpp:18:26: warning: variable ‘y’ set but not used [-Wunused-but-set-variable]
+  int b = board.size(), x,y;
+                          ^
+../BotClean.cpp:53:60: warning: unused variable ‘xl’ [-Wunused-variable]
+  int ulim = max(0, posr-fmin), llim = min(posr+fmin, b-1), xl, xr, rmin=b;
+                                                            ^
+../BotClean.cpp:53:64: warning: unused variable ‘xr’ [-Wunused-variable]
+  int ulim = max(0, posr-fmin), llim = min(posr+fmin, b-1), xl, xr, rmin=b;
+                                                                ^
+Finished building: ../BotClean.cpp
+ 
+Building target: Contest_Problems
+Invoking: GCC C++ Linker
+g++  -o "Contest_Problems"  ./BotClean.o   
+Finished building target: Contest_Problems
+ 
+13:18:36 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+Building file: ../BotClean.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"BotClean.d" -MT"BotClean.o" -o "BotClean.o" "../BotClean.cpp"
+../BotClean.cpp: In function ‘void next_move(int, int, std::vector<std::__cxx11::basic_string<char> >)’:
+../BotClean.cpp:29:6: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if(l!=string::npos)
+      ^
+../BotClean.cpp:31:7: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(r!=string::npos)
+       ^
+../BotClean.cpp:45:11: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  else if(r!=string::npos)
+           ^
+../BotClean.cpp:67:7: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(l!=string::npos)
+       ^
+../BotClean.cpp:69:8: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if(r!=string::npos)
+        ^
+../BotClean.cpp:74:12: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   else if(r!=string::npos)
+            ^
+../BotClean.cpp:98:8: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if(l!=string::npos)
+        ^
+../BotClean.cpp:100:9: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if(r!=string::npos)
+         ^
+../BotClean.cpp:105:13: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    else if(r!=string::npos)
+             ^
+../BotClean.cpp:18:26: warning: variable ‘y’ set but not used [-Wunused-but-set-variable]
+  int b = board.size(), x,y;
+                          ^
+../BotClean.cpp:53:60: warning: unused variable ‘xl’ [-Wunused-variable]
+  int ulim = max(0, posr-fmin), llim = min(posr+fmin, b-1), xl, xr, rmin=b;
+                                                            ^
+../BotClean.cpp:53:64: warning: unused variable ‘xr’ [-Wunused-variable]
+  int ulim = max(0, posr-fmin), llim = min(posr+fmin, b-1), xl, xr, rmin=b;
+                                                                ^
+Finished building: ../BotClean.cpp
+ 
+Building target: Contest_Problems
+Invoking: GCC C++ Linker
+g++  -o "Contest_Problems"  ./BotClean.o   
+Finished building target: Contest_Problems
+ 
+13:19:19 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+Building file: ../BotClean.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"BotClean.d" -MT"BotClean.o" -o "BotClean.o" "../BotClean.cpp"
+../BotClean.cpp: In function ‘void next_move(int, int, std::vector<std::__cxx11::basic_string<char> >)’:
+../BotClean.cpp:29:6: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if(l!=string::npos)
+      ^
+../BotClean.cpp:31:7: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(r!=string::npos)
+       ^
+../BotClean.cpp:45:11: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  else if(r!=string::npos)
+           ^
+../BotClean.cpp:65:7: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(l!=string::npos)
+       ^
+../BotClean.cpp:67:8: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if(r!=string::npos)
+        ^
+../BotClean.cpp:72:12: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   else if(r!=string::npos)
+            ^
+../BotClean.cpp:94:8: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if(l!=string::npos)
+        ^
+../BotClean.cpp:96:9: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if(r!=string::npos)
+         ^
+../BotClean.cpp:101:13: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    else if(r!=string::npos)
+             ^
+../BotClean.cpp:18:26: warning: variable ‘y’ set but not used [-Wunused-but-set-variable]
+  int b = board.size(), x,y;
+                          ^
+../BotClean.cpp:53:60: warning: unused variable ‘xl’ [-Wunused-variable]
+  int ulim = max(0, posr-fmin), llim = min(posr+fmin, b-1), xl, xr, rmin=b;
+                                                            ^
+../BotClean.cpp:53:64: warning: unused variable ‘xr’ [-Wunused-variable]
+  int ulim = max(0, posr-fmin), llim = min(posr+fmin, b-1), xl, xr, rmin=b;
+                                                                ^
+Finished building: ../BotClean.cpp
+ 
+Building target: Contest_Problems
+Invoking: GCC C++ Linker
+g++  -o "Contest_Problems"  ./BotClean.o   
+Finished building target: Contest_Problems
+ 
+13:22:46 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+make: Nothing to be done for 'all'.
+13:24:40 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+Building file: ../BotClean.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"BotClean.d" -MT"BotClean.o" -o "BotClean.o" "../BotClean.cpp"
+../BotClean.cpp: In function ‘void next_move(int, int, std::vector<std::__cxx11::basic_string<char> >)’:
+../BotClean.cpp:29:6: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if(l!=string::npos)
+      ^
+../BotClean.cpp:31:7: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(r!=string::npos)
+       ^
+../BotClean.cpp:45:11: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  else if(r!=string::npos)
+           ^
+../BotClean.cpp:65:7: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(l!=string::npos)
+       ^
+../BotClean.cpp:67:8: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if(r!=string::npos)
+        ^
+../BotClean.cpp:72:12: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   else if(r!=string::npos)
+            ^
+../BotClean.cpp:94:8: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if(l!=string::npos)
+        ^
+../BotClean.cpp:96:9: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if(r!=string::npos)
+         ^
+../BotClean.cpp:101:13: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    else if(r!=string::npos)
+             ^
+../BotClean.cpp:18:26: warning: variable ‘y’ set but not used [-Wunused-but-set-variable]
+  int b = board.size(), x,y;
+                          ^
+../BotClean.cpp:53:60: warning: unused variable ‘xl’ [-Wunused-variable]
+  int ulim = max(0, posr-fmin), llim = min(posr+fmin, b-1), xl, xr, rmin=b;
+                                                            ^
+../BotClean.cpp:53:64: warning: unused variable ‘xr’ [-Wunused-variable]
+  int ulim = max(0, posr-fmin), llim = min(posr+fmin, b-1), xl, xr, rmin=b;
+                                                                ^
+Finished building: ../BotClean.cpp
+ 
+Building target: Contest_Problems
+Invoking: GCC C++ Linker
+g++  -o "Contest_Problems"  ./BotClean.o   
+Finished building target: Contest_Problems
+ 
+13:25:42 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+Building file: ../BotClean.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"BotClean.d" -MT"BotClean.o" -o "BotClean.o" "../BotClean.cpp"
+../BotClean.cpp: In function ‘void next_move(int, int, std::vector<std::__cxx11::basic_string<char> >)’:
+../BotClean.cpp:29:6: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if(l!=string::npos)
+      ^
+../BotClean.cpp:31:7: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(r!=string::npos)
+       ^
+../BotClean.cpp:45:11: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  else if(r!=string::npos)
+           ^
+../BotClean.cpp:66:7: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(l!=string::npos)
+       ^
+../BotClean.cpp:68:8: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if(r!=string::npos)
+        ^
+../BotClean.cpp:73:12: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   else if(r!=string::npos)
+            ^
+../BotClean.cpp:95:8: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if(l!=string::npos)
+        ^
+../BotClean.cpp:97:9: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if(r!=string::npos)
+         ^
+../BotClean.cpp:102:13: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    else if(r!=string::npos)
+             ^
+../BotClean.cpp:18:26: warning: variable ‘y’ set but not used [-Wunused-but-set-variable]
+  int b = board.size(), x,y;
+                          ^
+../BotClean.cpp:53:60: warning: unused variable ‘xl’ [-Wunused-variable]
+  int ulim = max(0, posr-fmin), llim = min(posr+fmin, b-1), xl, xr, rmin=b;
+                                                            ^
+../BotClean.cpp:53:64: warning: unused variable ‘xr’ [-Wunused-variable]
+  int ulim = max(0, posr-fmin), llim = min(posr+fmin, b-1), xl, xr, rmin=b;
+                                                                ^
+Finished building: ../BotClean.cpp
+ 
+Building target: Contest_Problems
+Invoking: GCC C++ Linker
+g++  -o "Contest_Problems"  ./BotClean.o   
+Finished building target: Contest_Problems
+ 
+13:27:51 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+Building file: ../BotClean.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"BotClean.d" -MT"BotClean.o" -o "BotClean.o" "../BotClean.cpp"
+../BotClean.cpp: In function ‘void next_move(int, int, std::vector<std::__cxx11::basic_string<char> >)’:
+../BotClean.cpp:29:6: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if(l!=string::npos)
+      ^
+../BotClean.cpp:31:7: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(r!=string::npos)
+       ^
+../BotClean.cpp:45:11: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  else if(r!=string::npos)
+           ^
+../BotClean.cpp:66:7: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(l!=string::npos)
+       ^
+../BotClean.cpp:68:8: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if(r!=string::npos)
+        ^
+../BotClean.cpp:73:12: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   else if(r!=string::npos)
+            ^
+../BotClean.cpp:95:8: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if(l!=string::npos)
+        ^
+../BotClean.cpp:97:9: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if(r!=string::npos)
+         ^
+../BotClean.cpp:102:13: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    else if(r!=string::npos)
+             ^
+../BotClean.cpp:18:26: warning: variable ‘y’ set but not used [-Wunused-but-set-variable]
+  int b = board.size(), x,y;
+                          ^
+../BotClean.cpp:53:60: warning: unused variable ‘xl’ [-Wunused-variable]
+  int ulim = max(0, posr-fmin), llim = min(posr+fmin, b-1), xl, xr, rmin=b;
+                                                            ^
+../BotClean.cpp:53:64: warning: unused variable ‘xr’ [-Wunused-variable]
+  int ulim = max(0, posr-fmin), llim = min(posr+fmin, b-1), xl, xr, rmin=b;
+                                                                ^
+Finished building: ../BotClean.cpp
+ 
+Building target: Contest_Problems
+Invoking: GCC C++ Linker
+g++  -o "Contest_Problems"  ./BotClean.o   
+Finished building target: Contest_Problems
+ 
+13:29:28 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+Building file: ../BotClean.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"BotClean.d" -MT"BotClean.o" -o "BotClean.o" "../BotClean.cpp"
+../BotClean.cpp: In function ‘void next_move(int, int, std::vector<std::__cxx11::basic_string<char> >)’:
+../BotClean.cpp:29:6: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if(l!=string::npos)
+      ^
+../BotClean.cpp:31:7: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(r!=string::npos)
+       ^
+../BotClean.cpp:45:11: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  else if(r!=string::npos)
+           ^
+../BotClean.cpp:66:7: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(l!=string::npos)
+       ^
+../BotClean.cpp:68:8: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if(r!=string::npos)
+        ^
+../BotClean.cpp:73:12: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   else if(r!=string::npos)
+            ^
+../BotClean.cpp:95:8: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if(l!=string::npos)
+        ^
+../BotClean.cpp:97:9: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if(r!=string::npos)
+         ^
+../BotClean.cpp:102:13: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    else if(r!=string::npos)
+             ^
+../BotClean.cpp:18:26: warning: variable ‘y’ set but not used [-Wunused-but-set-variable]
+  int b = board.size(), x,y;
+                          ^
+../BotClean.cpp:53:60: warning: unused variable ‘xl’ [-Wunused-variable]
+  int ulim = max(0, posr-fmin), llim = min(posr+fmin, b-1), xl, xr, rmin=b;
+                                                            ^
+../BotClean.cpp:53:64: warning: unused variable ‘xr’ [-Wunused-variable]
+  int ulim = max(0, posr-fmin), llim = min(posr+fmin, b-1), xl, xr, rmin=b;
+                                                                ^
+Finished building: ../BotClean.cpp
+ 
+Building target: Contest_Problems
+Invoking: GCC C++ Linker
+g++  -o "Contest_Problems"  ./BotClean.o   
+Finished building target: Contest_Problems
+ 
+14:38:46 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+Building file: ../BotClean.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"BotClean.d" -MT"BotClean.o" -o "BotClean.o" "../BotClean.cpp"
+../BotClean.cpp: In function ‘void next_move(int, int, int, int, std::vector<std::__cxx11::basic_string<char> >)’:
+../BotClean.cpp:16:6: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if(l!=string::npos)
+      ^
+../BotClean.cpp:18:7: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(r!=string::npos)
+       ^
+../BotClean.cpp:32:11: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  else if(r!=string::npos)
+           ^
+../BotClean.cpp:53:7: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(l!=string::npos)
+       ^
+../BotClean.cpp:55:8: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if(r!=string::npos)
+        ^
+../BotClean.cpp:60:12: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   else if(r!=string::npos)
+            ^
+../BotClean.cpp:82:8: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if(l!=string::npos)
+        ^
+../BotClean.cpp:84:9: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if(r!=string::npos)
+         ^
+../BotClean.cpp:89:13: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    else if(r!=string::npos)
+             ^
+../BotClean.cpp:5:21: warning: variable ‘y’ set but not used [-Wunused-but-set-variable]
+     int b = dimh, x,y;
+                     ^
+../BotClean.cpp:40:60: warning: unused variable ‘xl’ [-Wunused-variable]
+  int ulim = max(0, posr-fmin), llim = min(posr+fmin, b-1), xl, xr, rmin=dimw;
+                                                            ^
+../BotClean.cpp:40:64: warning: unused variable ‘xr’ [-Wunused-variable]
+  int ulim = max(0, posr-fmin), llim = min(posr+fmin, b-1), xl, xr, rmin=dimw;
+                                                                ^
+Finished building: ../BotClean.cpp
+ 
+Building target: Contest_Problems
+Invoking: GCC C++ Linker
+g++  -o "Contest_Problems"  ./BotClean.o   
+Finished building target: Contest_Problems
+ 
+14:39:37 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+make: Nothing to be done for 'all'.
+08:04:53 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+make: Nothing to be done for 'all'.
+08:04:54 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project NumberTheory ****
+
+Nothing to build for project NumberTheory
+
+**** Build of configuration Debug for project OpenCV ****
+
+Nothing to build for project OpenCV
+
+**** Build of configuration Debug for project Practice-Problems ****
+
+Nothing to build for project Practice-Problems
+08:04:55 **** Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+../BST.c:10:2: error: expected specifier-qualifier-list before ‘l’
+subdir.mk:18: recipe for target 'BST.o' failed
+  l = NULL;  r = NULL;
+  ^
+../BST.c: In function ‘allocate’:
+../BST.c:15:16: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+  return (node*)malloc(sizeof(node*));
+                ^
+../BST.c:15:16: warning: incompatible implicit declaration of built-in function ‘malloc’
+../BST.c:15:16: note: include ‘<stdlib.h>’ or provide a declaration of ‘malloc’
+make: *** [BST.o] Error 1
+08:05:28 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+make: Nothing to be done for 'all'.
+08:05:28 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project NumberTheory ****
+
+Nothing to build for project NumberTheory
+
+**** Build of configuration Debug for project OpenCV ****
+
+Nothing to build for project OpenCV
+
+**** Build of configuration Debug for project Practice-Problems ****
+
+Nothing to build for project Practice-Problems
+08:05:29 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+../BST.c:10:2: error: expected specifier-qualifier-list before ‘l’
+  l = NULL;  r = NULL;
+  ^
+../BST.c: In function ‘allocate’:
+subdir.mk:18: recipe for target 'BST.o' failed
+../BST.c:15:16: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+  return (node*)malloc(sizeof(node*));
+                ^
+../BST.c:15:16: warning: incompatible implicit declaration of built-in function ‘malloc’
+../BST.c:15:16: note: include ‘<stdlib.h>’ or provide a declaration of ‘malloc’
+make: *** [BST.o] Error 1
+08:06:27 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+make: Nothing to be done for 'all'.
+08:06:27 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project NumberTheory ****
+
+Nothing to build for project NumberTheory
+
+**** Build of configuration Debug for project OpenCV ****
+
+Nothing to build for project OpenCV
+
+**** Build of configuration Debug for project Practice-Problems ****
+
+Nothing to build for project Practice-Problems
+08:06:28 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+../BST.c:10:2: error: expected specifier-qualifier-list before ‘l’
+  l = NULL;  r = NULL;
+  ^
+../BST.c: In function ‘allocate’:
+subdir.mk:18: recipe for target 'BST.o' failed
+../BST.c:15:16: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+  return (node*)malloc(sizeof(node*));
+                ^
+../BST.c:15:16: warning: incompatible implicit declaration of built-in function ‘malloc’
+../BST.c:15:16: note: include ‘<stdlib.h>’ or provide a declaration of ‘malloc’
+make: *** [BST.o] Error 1
+08:06:52 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+make: Nothing to be done for 'all'.
+08:06:52 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project NumberTheory ****
+
+Nothing to build for project NumberTheory
+
+**** Build of configuration Debug for project OpenCV ****
+
+Nothing to build for project OpenCV
+
+**** Build of configuration Debug for project Practice-Problems ****
+
+Nothing to build for project Practice-Problems
+08:06:53 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+../BST.c:10:2: error: expected specifier-qualifier-list before ‘l’
+  l = NULL;  r = NULL;
+  ^
+../BST.c: In function ‘allocate’:
+../BST.c:15:16: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+subdir.mk:18: recipe for target 'BST.o' failed
+  return (node*)malloc(sizeof(node*));
+                ^
+../BST.c:15:16: warning: incompatible implicit declaration of built-in function ‘malloc’
+../BST.c:15:16: note: include ‘<stdlib.h>’ or provide a declaration of ‘malloc’
+make: *** [BST.o] Error 1
+08:07:57 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+make: Nothing to be done for 'all'.
+08:07:57 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project NumberTheory ****
+
+Nothing to build for project NumberTheory
+
+**** Build of configuration Debug for project OpenCV ****
+
+Nothing to build for project OpenCV
+
+**** Build of configuration Debug for project Practice-Problems ****
+
+Nothing to build for project Practice-Problems
+08:07:58 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+../BST.c:10:2: error: expected specifier-qualifier-list before ‘l’
+  l = NULL;  r = NULL;
+  ^
+../BST.c: In function ‘allocate’:
+../BST.c:15:16: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+subdir.mk:18: recipe for target 'BST.o' failed
+  return (node*)malloc(sizeof(node*));
+                ^
+../BST.c:15:16: warning: incompatible implicit declaration of built-in function ‘malloc’
+../BST.c:15:16: note: include ‘<stdlib.h>’ or provide a declaration of ‘malloc’
+make: *** [BST.o] Error 1
+08:08:57 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+make: Nothing to be done for 'all'.
+08:08:57 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project NumberTheory ****
+
+Nothing to build for project NumberTheory
+
+**** Build of configuration Debug for project OpenCV ****
+
+Nothing to build for project OpenCV
+
+**** Build of configuration Debug for project Practice-Problems ****
+
+Nothing to build for project Practice-Problems
+08:08:57 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+../BST.c:10:2: error: expected specifier-qualifier-list before ‘l’
+  l = NULL;  r = NULL;
+subdir.mk:18: recipe for target 'BST.o' failed
+  ^
+../BST.c: In function ‘allocate’:
+../BST.c:15:16: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+  return (node*)malloc(sizeof(node*));
+                ^
+../BST.c:15:16: warning: incompatible implicit declaration of built-in function ‘malloc’
+../BST.c:15:16: note: include ‘<stdlib.h>’ or provide a declaration of ‘malloc’
+make: *** [BST.o] Error 1
+08:10:08 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+make: Nothing to be done for 'all'.
+08:10:08 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project NumberTheory ****
+
+Nothing to build for project NumberTheory
+
+**** Build of configuration Debug for project OpenCV ****
+
+Nothing to build for project OpenCV
+
+**** Build of configuration Debug for project Practice-Problems ****
+
+Nothing to build for project Practice-Problems
+08:10:08 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+../BST.c:10:2: error: expected specifier-qualifier-list before ‘l’
+  l = NULL;  r = NULL;
+  ^
+../BST.c: In function ‘allocate’:
+../BST.c:15:16: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+  return (node*)malloc(sizeof(node*));
+subdir.mk:18: recipe for target 'BST.o' failed
+                ^
+../BST.c:15:16: warning: incompatible implicit declaration of built-in function ‘malloc’
+../BST.c:15:16: note: include ‘<stdlib.h>’ or provide a declaration of ‘malloc’
+make: *** [BST.o] Error 1
+08:10:18 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+make: Nothing to be done for 'all'.
+08:10:18 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project NumberTheory ****
+
+Nothing to build for project NumberTheory
+
+**** Build of configuration Debug for project OpenCV ****
+
+Nothing to build for project OpenCV
+
+**** Build of configuration Debug for project Practice-Problems ****
+
+Nothing to build for project Practice-Problems
+08:10:18 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+../BST.c:10:2: error: expected specifier-qualifier-list before ‘l’
+  l = NULL;  r = NULL;
+  ^
+subdir.mk:18: recipe for target 'BST.o' failed
+../BST.c: In function ‘allocate’:
+../BST.c:15:16: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+  return (node*)malloc(sizeof(node*));
+                ^
+../BST.c:15:16: warning: incompatible implicit declaration of built-in function ‘malloc’
+../BST.c:15:16: note: include ‘<stdlib.h>’ or provide a declaration of ‘malloc’
+make: *** [BST.o] Error 1
+08:10:25 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+make: Nothing to be done for 'all'.
+08:10:25 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project NumberTheory ****
+
+Nothing to build for project NumberTheory
+
+**** Build of configuration Debug for project OpenCV ****
+
+Nothing to build for project OpenCV
+
+**** Build of configuration Debug for project Practice-Problems ****
+
+Nothing to build for project Practice-Problems
+08:10:25 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+../BST.c:10:2: error: expected specifier-qualifier-list before ‘l’
+  l = NULL;  r = NULL;
+  ^
+../BST.c: In function ‘allocate’:
+subdir.mk:18: recipe for target 'BST.o' failed
+../BST.c:15:16: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+  return (node*)malloc(sizeof(node*));
+                ^
+../BST.c:15:16: warning: incompatible implicit declaration of built-in function ‘malloc’
+../BST.c:15:16: note: include ‘<stdlib.h>’ or provide a declaration of ‘malloc’
+make: *** [BST.o] Error 1
+08:11:17 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+make: Nothing to be done for 'all'.
+08:11:17 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project NumberTheory ****
+
+Nothing to build for project NumberTheory
+
+**** Build of configuration Debug for project OpenCV ****
+
+Nothing to build for project OpenCV
+
+**** Build of configuration Debug for project Practice-Problems ****
+
+Nothing to build for project Practice-Problems
+08:11:18 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+../BST.c:10:2: error: expected specifier-qualifier-list before ‘l’
+  l = NULL;  r = NULL;
+  ^
+../BST.c: In function ‘allocate’:
+../BST.c:15:16: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+subdir.mk:18: recipe for target 'BST.o' failed
+  return (node*)malloc(sizeof(node*));
+                ^
+../BST.c:15:16: warning: incompatible implicit declaration of built-in function ‘malloc’
+../BST.c:15:16: note: include ‘<stdlib.h>’ or provide a declaration of ‘malloc’
+make: *** [BST.o] Error 1
+08:11:30 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+make: Nothing to be done for 'all'.
+08:11:30 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project NumberTheory ****
+
+Nothing to build for project NumberTheory
+
+**** Build of configuration Debug for project OpenCV ****
+
+Nothing to build for project OpenCV
+
+**** Build of configuration Debug for project Practice-Problems ****
+
+Nothing to build for project Practice-Problems
+08:11:30 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+../BST.c:11:11: error: expected ‘:’, ‘,’, ‘;’, ‘}’ or ‘__attribute__’ before ‘=’ token
+  int data = 0;
+           ^
+../BST.c: In function ‘insert’:
+../BST.c:23:6: error: ‘node {aka struct Node}’ has no member named ‘data’
+   ptr->data = dat;
+      ^
+../BST.c:26:14: error: ‘node {aka struct Node}’ has no member named ‘data’
+  if(dat < ptr->data)
+              ^
+../BST.c:27:17: error: ‘node {aka struct Node}’ has no member named ‘l’
+   insert(dat,ptr->l);
+                 ^
+../BST.c:28:19: error: ‘node {aka struct Node}’ has no member named ‘data’
+  else if(dat > ptr->data)
+                   ^
+../BST.c:29:18: error: ‘node {aka struct Node}’ has no member named ‘r’
+   insert(dat, ptr->r);
+                  ^
+../BST.c:30:20: error: ‘node {aka struct Node}’ has no member named ‘data’
+  else if(dat == ptr->data)
+                    ^
+../BST.c: In function ‘main’:
+../BST.c:41:19: error: ‘node {aka struct Node}’ has no member named ‘data’
+  scanf("%d", &head->data);
+                   ^
+subdir.mk:18: recipe for target 'BST.o' failed
+make: *** [BST.o] Error 1
+08:11:43 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+make: Nothing to be done for 'all'.
+08:11:43 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project NumberTheory ****
+
+Nothing to build for project NumberTheory
+
+**** Build of configuration Debug for project OpenCV ****
+
+Nothing to build for project OpenCV
+
+**** Build of configuration Debug for project Practice-Problems ****
+
+Nothing to build for project Practice-Problems
+08:11:44 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+../BST.c:11:11: error: expected ‘:’, ‘,’, ‘;’, ‘}’ or ‘__attribute__’ before ‘=’ token
+  int data = 0;
+           ^
+../BST.c: In function ‘insert’:
+../BST.c:23:6: error: ‘node {aka struct Node}’ has no member named ‘data’
+   ptr->data = dat;
+      ^
+../BST.c:26:14: error: ‘node {aka struct Node}’ has no member named ‘data’
+  if(dat < ptr->data)
+              ^
+../BST.c:27:17: error: ‘node {aka struct Node}’ has no member named ‘l’
+subdir.mk:18: recipe for target 'BST.o' failed
+   insert(dat,ptr->l);
+                 ^
+../BST.c:28:19: error: ‘node {aka struct Node}’ has no member named ‘data’
+  else if(dat > ptr->data)
+                   ^
+../BST.c:29:18: error: ‘node {aka struct Node}’ has no member named ‘r’
+   insert(dat, ptr->r);
+                  ^
+../BST.c:30:20: error: ‘node {aka struct Node}’ has no member named ‘data’
+  else if(dat == ptr->data)
+                    ^
+../BST.c: In function ‘main’:
+../BST.c:41:19: error: ‘node {aka struct Node}’ has no member named ‘data’
+  scanf("%d", &head->data);
+                   ^
+make: *** [BST.o] Error 1
+08:12:03 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+make: Nothing to be done for 'all'.
+08:12:03 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project NumberTheory ****
+
+Nothing to build for project NumberTheory
+
+**** Build of configuration Debug for project OpenCV ****
+
+Nothing to build for project OpenCV
+
+**** Build of configuration Debug for project Practice-Problems ****
+
+Nothing to build for project Practice-Problems
+08:12:03 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+../BST.c:11:11: error: expected ‘:’, ‘,’, ‘;’, ‘}’ or ‘__attribute__’ before ‘=’ token
+  int data = 0;
+           ^
+../BST.c: In function ‘insert’:
+../BST.c:23:6: error: ‘node {aka struct Node}’ has no member named ‘data’
+   ptr->data = dat;
+      ^
+../BST.c:26:14: error: ‘node {aka struct Node}’ has no member named ‘data’
+  if(dat < ptr->data)
+subdir.mk:18: recipe for target 'BST.o' failed
+              ^
+../BST.c:27:17: error: ‘node {aka struct Node}’ has no member named ‘l’
+   insert(dat,ptr->l);
+                 ^
+../BST.c:28:19: error: ‘node {aka struct Node}’ has no member named ‘data’
+  else if(dat > ptr->data)
+                   ^
+../BST.c:29:18: error: ‘node {aka struct Node}’ has no member named ‘r’
+   insert(dat, ptr->r);
+                  ^
+../BST.c:30:20: error: ‘node {aka struct Node}’ has no member named ‘data’
+  else if(dat == ptr->data)
+                    ^
+../BST.c: In function ‘main’:
+../BST.c:41:19: error: ‘node {aka struct Node}’ has no member named ‘data’
+  scanf("%d", &head->data);
+                   ^
+make: *** [BST.o] Error 1
+08:12:07 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+make: Nothing to be done for 'all'.
+08:12:07 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project NumberTheory ****
+
+Nothing to build for project NumberTheory
+
+**** Build of configuration Debug for project OpenCV ****
+
+Nothing to build for project OpenCV
+
+**** Build of configuration Debug for project Practice-Problems ****
+
+Nothing to build for project Practice-Problems
+08:12:07 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+../BST.c:10:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘struct’
+ struct Node{
+ ^
+../BST.c:14:1: error: unknown type name ‘node’
+ node* allocate()
+ ^
+../BST.c: In function ‘allocate’:
+../BST.c:16:10: error: ‘node’ undeclared (first use in this function)
+  return (node*)malloc(sizeof(node*));
+          ^
+../BST.c:16:10: note: each undeclared identifier is reported only once for each function it appears in
+../BST.c:16:15: error: expected expression before ‘)’ token
+  return (node*)malloc(sizeof(node*));
+               ^
+../BST.c: At top level:
+../BST.c:18:22: error: unknown type name ‘node’
+ void insert(int dat, node* ptr)
+                      ^
+../BST.c: In function ‘main’:
+../BST.c:38:2: error: unknown type name ‘node’
+  node *head = NULL; head=allocate();
+  ^
+../BST.c:41:19: error: request for member ‘data’ in something not a structure or union
+  scanf("%d", &head->data);
+                   ^
+../BST.c:49:3: warning: implicit declaration of function ‘insert’ [-Wimplicit-function-declaration]
+   insert(dat, head);
+   ^
+../BST.c: In function ‘allocate’:
+../BST.c:17:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+subdir.mk:18: recipe for target 'BST.o' failed
+ ^
+make: *** [BST.o] Error 1
+08:12:33 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+make: Nothing to be done for 'all'.
+08:12:33 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project NumberTheory ****
+
+Nothing to build for project NumberTheory
+
+**** Build of configuration Debug for project OpenCV ****
+
+Nothing to build for project OpenCV
+
+**** Build of configuration Debug for project Practice-Problems ****
+
+Nothing to build for project Practice-Problems
+08:12:33 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+../BST.c:10:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘struct’
+ struct Node{
+ ^
+../BST.c:14:1: error: unknown type name ‘node’
+ node* allocate()
+ ^
+../BST.c: In function ‘allocate’:
+../BST.c:16:10: error: ‘node’ undeclared (first use in this function)
+  return (node*)malloc(sizeof(node*));
+          ^
+../BST.c:16:10: note: each undeclared identifier is reported only once for each function it appears in
+../BST.c:16:15: error: expected expression before ‘)’ token
+  return (node*)malloc(sizeof(node*));
+               ^
+../BST.c: At top level:
+../BST.c:18:22: error: unknown type name ‘node’
+ void insert(int dat, node* ptr)
+                      ^
+../BST.c: In function ‘main’:
+../BST.c:38:2: error: unknown type name ‘node’
+  node *head = NULL; head=allocate();
+  ^
+../BST.c:41:19: error: request for member ‘data’ in something not a structure or union
+  scanf("%d", &head->data);
+                   ^
+subdir.mk:18: recipe for target 'BST.o' failed
+../BST.c:49:3: warning: implicit declaration of function ‘insert’ [-Wimplicit-function-declaration]
+   insert(dat, head);
+   ^
+../BST.c: In function ‘allocate’:
+../BST.c:17:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [BST.o] Error 1
+08:12:36 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+make: Nothing to be done for 'all'.
+08:12:36 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project NumberTheory ****
+
+Nothing to build for project NumberTheory
+
+**** Build of configuration Debug for project OpenCV ****
+
+Nothing to build for project OpenCV
+
+**** Build of configuration Debug for project Practice-Problems ****
+
+Nothing to build for project Practice-Problems
+08:12:36 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+../BST.c:11:10: error: expected ‘:’, ‘,’, ‘;’, ‘}’ or ‘__attribute__’ before ‘=’ token
+  int dat = 0;
+          ^
+../BST.c: In function ‘insert’:
+../BST.c:23:6: error: ‘node {aka struct Node}’ has no member named ‘data’
+   ptr->data = dat;
+      ^
+../BST.c:26:14: error: ‘node {aka struct Node}’ has no member named ‘data’
+  if(dat < ptr->data)
+              ^
+../BST.c:27:17: error: ‘node {aka struct Node}’ has no member named ‘l’
+   insert(dat,ptr->l);
+                 ^
+subdir.mk:18: recipe for target 'BST.o' failed
+../BST.c:28:19: error: ‘node {aka struct Node}’ has no member named ‘data’
+  else if(dat > ptr->data)
+                   ^
+../BST.c:29:18: error: ‘node {aka struct Node}’ has no member named ‘r’
+   insert(dat, ptr->r);
+                  ^
+../BST.c:30:20: error: ‘node {aka struct Node}’ has no member named ‘data’
+  else if(dat == ptr->data)
+                    ^
+../BST.c: In function ‘main’:
+../BST.c:41:19: error: ‘node {aka struct Node}’ has no member named ‘data’
+  scanf("%d", &head->data);
+                   ^
+make: *** [BST.o] Error 1
+08:13:06 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+make: Nothing to be done for 'all'.
+08:13:07 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project NumberTheory ****
+
+Nothing to build for project NumberTheory
+
+**** Build of configuration Debug for project OpenCV ****
+
+Nothing to build for project OpenCV
+
+**** Build of configuration Debug for project Practice-Problems ****
+
+Nothing to build for project Practice-Problems
+08:13:07 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+../BST.c:12:17: error: expected ‘:’, ‘,’, ‘;’, ‘}’ or ‘__attribute__’ before ‘=’ token
+  struct Node *l = NULL, *r = NULL;
+                 ^
+../BST.c: In function ‘insert’:
+../BST.c:27:17: error: ‘node {aka struct Node}’ has no member named ‘l’
+   insert(dat,ptr->l);
+                 ^
+../BST.c:29:18: error: ‘node {aka struct Node}’ has no member named ‘r’
+   insert(dat, ptr->r);
+                  ^
+subdir.mk:18: recipe for target 'BST.o' failed
+make: *** [BST.o] Error 1
+08:13:26 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+make: Nothing to be done for 'all'.
+08:13:26 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project NumberTheory ****
+
+Nothing to build for project NumberTheory
+
+**** Build of configuration Debug for project OpenCV ****
+
+Nothing to build for project OpenCV
+
+**** Build of configuration Debug for project Practice-Problems ****
+
+Nothing to build for project Practice-Problems
+08:13:26 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+Finished building: ../BST.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./BST.o   
+Finished building target: PracticeSem
+ 
+08:13:37 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+make: Nothing to be done for 'all'.
+08:23:48 **** Build of configuration Debug for project PracticeSem ****
+make all 
+make: Nothing to be done for 'all'.
+08:31:12 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+Finished building: ../BST.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./BST.o   
+Finished building target: PracticeSem
+ 
+08:34:42 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+Finished building: ../BST.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./BST.o   
+Finished building target: PracticeSem
+ 
+08:36:23 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+Finished building: ../BST.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./BST.o   
+Finished building target: PracticeSem
+ 
+08:40:40 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+Finished building: ../BST.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./BST.o   
+Finished building target: PracticeSem
+ 
+08:42:23 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+Finished building: ../BST.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./BST.o   
+Finished building target: PracticeSem
+ 
+08:43:25 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+Finished building: ../BST.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./BST.o   
+Finished building target: PracticeSem
+ 
+08:47:38 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+Finished building: ../BST.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./BST.o   
+Finished building target: PracticeSem
+ 
+09:04:17 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+Finished building: ../BST.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./BST.o   
+Finished building target: PracticeSem
+ 
+09:07:32 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+Finished building: ../BST.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./BST.o   
+Finished building target: PracticeSem
+ 
+09:23:59 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+Finished building: ../BST.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./BST.o   
+Finished building target: PracticeSem
+ 
+09:26:01 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+Finished building: ../BST.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./BST.o   
+Finished building target: PracticeSem
+ 
+09:26:21 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+make: Nothing to be done for 'all'.
+09:31:24 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+Finished building: ../BST.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./BST.o   
+Finished building target: PracticeSem
+ 
+09:34:03 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+make: Nothing to be done for 'all'.
+09:37:16 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+Finished building: ../BST.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./BST.o   
+Finished building target: PracticeSem
+ 
+09:41:13 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+Finished building: ../BST.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./BST.o   
+Finished building target: PracticeSem
+ 
+09:41:52 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+Finished building: ../BST.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./BST.o   
+Finished building target: PracticeSem
+ 
+09:43:06 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+make: Nothing to be done for 'all'.
+09:47:38 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+Finished building: ../BST.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./BST.o   
+Finished building target: PracticeSem
+ 
+09:50:22 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+Finished building: ../BST.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./BST.o   
+Finished building target: PracticeSem
+ 
+09:52:10 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+Finished building: ../BST.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./BST.o   
+Finished building target: PracticeSem
+ 
+09:53:07 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+Finished building: ../BST.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./BST.o   
+Finished building target: PracticeSem
+ 
+09:54:17 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+Finished building: ../BST.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./BST.o   
+Finished building target: PracticeSem
+ 
+09:54:33 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+Finished building: ../BST.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./BST.o   
+Finished building target: PracticeSem
+ 
+09:56:56 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+Finished building: ../BST.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./BST.o   
+Finished building target: PracticeSem
+ 
+09:59:32 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+../BST.c: In function ‘inorder’:
+../BST.c:52:2: warning: implicit declaration of function ‘iorder’ [-Wimplicit-function-declaration]
+  iorder(ptr->r);
+  ^
+Finished building: ../BST.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./BST.o   
+./BST.o: In function `inorder':
+/home/abhirup/eclipse-workspace/PracticeSem/Debug/../BST.c:52: undefined reference to `iorder'
+makefile:29: recipe for target 'PracticeSem' failed
+collect2: error: ld returned 1 exit status
+make: *** [PracticeSem] Error 1
+09:59:42 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+Finished building: ../BST.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./BST.o   
+Finished building target: PracticeSem
+ 
+10:00:04 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+Finished building: ../BST.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./BST.o   
+Finished building target: PracticeSem
+ 
+10:00:39 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+Finished building: ../BST.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./BST.o   
+Finished building target: PracticeSem
+ 
+10:06:30 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+Finished building: ../BST.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./BST.o   
+Finished building target: PracticeSem
+ 
+10:07:31 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+Finished building: ../BST.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./BST.o   
+Finished building target: PracticeSem
+ 
+10:09:27 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+Finished building: ../BST.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./BST.o   
+Finished building target: PracticeSem
+ 
+10:29:50 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+Finished building: ../BST.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./BST.o   
+Finished building target: PracticeSem
+ 
+10:48:09 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+../BST.c: In function ‘search’:
+../BST.c:68:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../BST.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./BST.o   
+Finished building target: PracticeSem
+ 
+10:49:32 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+../BST.c: In function ‘search’:
+../BST.c:68:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../BST.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./BST.o   
+Finished building target: PracticeSem
+ 
+10:50:53 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+make: Nothing to be done for 'all'.
+10:59:31 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+../BST.c: In function ‘search’:
+../BST.c:68:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../BST.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./BST.o   
+Finished building target: PracticeSem
+ 
+11:21:15 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+../BST.c: In function ‘delete’:
+../BST.c:86:3: error: break statement not within loop or switch
+   break;
+   ^
+../BST.c: In function ‘search’:
+../BST.c:68:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [BST.o] Error 1
+subdir.mk:18: recipe for target 'BST.o' failed
+11:21:53 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+../BST.c: In function ‘search’:
+../BST.c:68:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../BST.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./BST.o   
+Finished building target: PracticeSem
+ 
+11:25:41 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+../BST.c: In function ‘search’:
+../BST.c:68:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../BST.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./BST.o   
+Finished building target: PracticeSem
+ 
+11:27:01 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+../BST.c: In function ‘search’:
+../BST.c:68:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../BST.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./BST.o   
+Finished building target: PracticeSem
+ 
+13:24:36 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+../BST.c: In function ‘main’:
+../BST.c:139:16: warning: passing argument 2 of ‘delete’ makes pointer from integer without a cast [-Wint-conversion]
+   delete(head, key);
+                ^
+../BST.c:75:7: note: expected ‘node * {aka struct Node *}’ but argument is of type ‘int’
+ node* delete(node *par, node* ptr, int key)
+       ^
+../BST.c:139:3: error: too few arguments to function ‘delete’
+   delete(head, key);
+   ^
+../BST.c:75:7: note: declared here
+ node* delete(node *par, node* ptr, int key)
+       ^
+../BST.c: In function ‘search’:
+../BST.c:68:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../BST.c: In function ‘delete’:
+../BST.c:107:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+subdir.mk:18: recipe for target 'BST.o' failed
+make: *** [BST.o] Error 1
+13:25:12 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+../BST.c: In function ‘search’:
+../BST.c:68:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../BST.c: In function ‘delete’:
+../BST.c:107:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../BST.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./BST.o   
+Finished building target: PracticeSem
+ 
+14:05:04 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+../BST.c: In function ‘minValueNode’:
+../BST.c:71:8: warning: unused variable ‘par’ [-Wunused-variable]
+  node* par=allocate();
+        ^
+../BST.c: In function ‘delete’:
+../BST.c:114:8: warning: implicit declaration of function ‘minValue’ [-Wimplicit-function-declaration]
+   re = minValue(ptr->r);
+        ^
+../BST.c:114:6: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+   re = minValue(ptr->r);
+      ^
+../BST.c:116:13: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+   ptr->data = re;
+             ^
+../BST.c:98:26: warning: unused variable ‘repar’ [-Wunused-variable]
+  node *re = allocate(), *repar = allocate();
+                          ^
+../BST.c: In function ‘main’:
+../BST.c:196:16: warning: passing argument 2 of ‘delete’ makes integer from pointer without a cast [-Wint-conversion]
+   delete(NULL, head, key);
+                ^
+../BST.c:79:6: note: expected ‘int’ but argument is of type ‘node * {aka struct Node *}’
+ void delete(node *head, int key)
+      ^
+../BST.c:196:3: error: too many arguments to function ‘delete’
+   delete(NULL, head, key);
+   ^
+../BST.c:79:6: note: declared here
+ void delete(node *head, int key)
+      ^
+../BST.c: In function ‘search’:
+../BST.c:68:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [BST.o] Error 1
+subdir.mk:18: recipe for target 'BST.o' failed
+14:05:50 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+../BST.c: In function ‘minValueNode’:
+../BST.c:71:8: warning: unused variable ‘par’ [-Wunused-variable]
+  node* par=allocate();
+        ^
+../BST.c: In function ‘delete’:
+../BST.c:114:8: warning: implicit declaration of function ‘minValue’ [-Wimplicit-function-declaration]
+   re = minValue(ptr->r);
+        ^
+../BST.c:114:6: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+   re = minValue(ptr->r);
+      ^
+../BST.c:116:13: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+   ptr->data = re;
+             ^
+../BST.c:98:26: warning: unused variable ‘repar’ [-Wunused-variable]
+  node *re = allocate(), *repar = allocate();
+                          ^
+../BST.c: In function ‘search’:
+../BST.c:68:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../BST.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./BST.o   
+./BST.o: In function `delete':
+/home/abhirup/eclipse-workspace/PracticeSem/Debug/../BST.c:114: undefined reference to `minValue'
+makefile:29: recipe for target 'PracticeSem' failed
+collect2: error: ld returned 1 exit status
+make: *** [PracticeSem] Error 1
+14:06:34 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+../BST.c: In function ‘minValueNode’:
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+../BST.c:71:8: warning: unused variable ‘par’ [-Wunused-variable]
+  node* par=allocate();
+        ^
+../BST.c: In function ‘delete’:
+../BST.c:116:13: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+   ptr->data = re;
+             ^
+../BST.c:98:26: warning: unused variable ‘repar’ [-Wunused-variable]
+  node *re = allocate(), *repar = allocate();
+                          ^
+../BST.c: In function ‘search’:
+../BST.c:68:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../BST.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./BST.o   
+Finished building target: PracticeSem
+ 
+14:07:36 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+make: Nothing to be done for 'all'.
+14:08:21 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+make: Nothing to be done for 'all'.
+14:13:08 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+../BST.c: In function ‘minValueNode’:
+../BST.c:71:8: warning: unused variable ‘par’ [-Wunused-variable]
+  node* par=allocate();
+        ^
+../BST.c: In function ‘delete’:
+../BST.c:119:13: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+   ptr->data = re;
+             ^
+../BST.c:98:26: warning: unused variable ‘repar’ [-Wunused-variable]
+  node *re = allocate(), *repar = allocate();
+                          ^
+../BST.c: In function ‘search’:
+../BST.c:68:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../BST.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./BST.o   
+Finished building target: PracticeSem
+ 
+14:14:18 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../BST.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BST.d" -MT"BST.o" -o "BST.o" "../BST.c"
+../BST.c: In function ‘minValueNode’:
+../BST.c:71:8: warning: unused variable ‘par’ [-Wunused-variable]
+  node* par=allocate();
+        ^
+../BST.c: In function ‘delete’:
+../BST.c:98:26: warning: unused variable ‘repar’ [-Wunused-variable]
+  node *re = allocate(), *repar = allocate();
+                          ^
+../BST.c: In function ‘search’:
+../BST.c:68:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../BST.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./BST.o   
+Finished building target: PracticeSem
+ 

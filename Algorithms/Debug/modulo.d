@@ -1,0 +1,1 @@
+modulo.o: ../modulo.cpp
