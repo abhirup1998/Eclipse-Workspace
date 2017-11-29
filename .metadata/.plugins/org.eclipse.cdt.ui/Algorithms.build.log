@@ -1,6 +1,6 @@
-08:13:26 **** Incremental Build of configuration Debug for project Algorithms ****
+01:06:27 **** Incremental Build of configuration Debug for project Algorithms ****
 make all 
 make: Nothing to be done for 'all'.
 
-08:13:26 Build Finished (took 233ms)
+01:06:28 Build Finished (took 505ms)
 

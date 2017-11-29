@@ -7873,3 +7873,163 @@ gcc  -o "PracticeSem"  ./PostIn.o
 /home/abhirup/eclipse-workspace/PracticeSem/Debug/../PostIn.c:46: warning: the `gets' function is dangerous and should not be used.
 Finished building target: PracticeSem
  
+23:56:28 **** Incremental Build of configuration Debug for project Algorithms ****
+make all 
+make: Nothing to be done for 'all'.
+23:56:29 **** Incremental Build of configuration Debug for project Contest_Problems ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project NumberTheory ****
+
+Nothing to build for project NumberTheory
+
+**** Build of configuration Debug for project OpenCV ****
+
+Nothing to build for project OpenCV
+
+**** Build of configuration Debug for project Practice-Problems ****
+
+Nothing to build for project Practice-Problems
+23:56:30 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../MergeSort.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"MergeSort.d" -MT"MergeSort.o" -o "MergeSort.o" "../MergeSort.c"
+Finished building: ../MergeSort.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./MergeSort.o   
+/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [PracticeSem] Error 1
+makefile:29: recipe for target 'PracticeSem' failed
+00:10:22 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../CQ.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CQ.d" -MT"CQ.o" -o "CQ.o" "../CQ.c"
+Finished building: ../CQ.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./CQ.o   
+Finished building target: PracticeSem
+ 
+00:42:45 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../LL.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"LL.d" -MT"LL.o" -o "LL.o" "../LL.c"
+Finished building: ../LL.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./LL.o   
+Finished building target: PracticeSem
+ 
+00:43:06 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+make: Nothing to be done for 'all'.
+00:43:17 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../MergeSort.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"MergeSort.d" -MT"MergeSort.o" -o "MergeSort.o" "../MergeSort.c"
+Finished building: ../MergeSort.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./MergeSort.o   
+Finished building target: PracticeSem
+ 
+00:44:59 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../MergeSort.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"MergeSort.d" -MT"MergeSort.o" -o "MergeSort.o" "../MergeSort.c"
+Finished building: ../MergeSort.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./MergeSort.o   
+Finished building target: PracticeSem
+ 
+00:46:03 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../MergeSort.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"MergeSort.d" -MT"MergeSort.o" -o "MergeSort.o" "../MergeSort.c"
+Finished building: ../MergeSort.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./MergeSort.o   
+Finished building target: PracticeSem
+ 
+00:49:25 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../MergeSort.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"MergeSort.d" -MT"MergeSort.o" -o "MergeSort.o" "../MergeSort.c"
+Finished building: ../MergeSort.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./MergeSort.o   
+Finished building target: PracticeSem
+ 
+00:52:53 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+make: Nothing to be done for 'all'.
+00:53:53 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../MergeSort.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"MergeSort.d" -MT"MergeSort.o" -o "MergeSort.o" "../MergeSort.c"
+Finished building: ../MergeSort.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./MergeSort.o   
+Finished building target: PracticeSem
+ 
+00:54:33 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../MergeSort.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"MergeSort.d" -MT"MergeSort.o" -o "MergeSort.o" "../MergeSort.c"
+Finished building: ../MergeSort.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./MergeSort.o   
+Finished building target: PracticeSem
+ 
+00:56:10 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../MergeSort.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"MergeSort.d" -MT"MergeSort.o" -o "MergeSort.o" "../MergeSort.c"
+Finished building: ../MergeSort.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./MergeSort.o   
+Finished building target: PracticeSem
+ 
+00:56:49 **** Incremental Build of configuration Debug for project PracticeSem ****
+make all 
+Building file: ../MergeSort.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"MergeSort.d" -MT"MergeSort.o" -o "MergeSort.o" "../MergeSort.c"
+Finished building: ../MergeSort.c
+ 
+Building target: PracticeSem
+Invoking: GCC C Linker
+gcc  -o "PracticeSem"  ./MergeSort.o   
+Finished building target: PracticeSem
+ 
+                                                                                                                                                                                                                             

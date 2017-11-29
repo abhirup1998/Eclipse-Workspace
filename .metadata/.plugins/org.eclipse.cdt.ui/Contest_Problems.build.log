@@ -1,6 +1,6 @@
-08:13:26 **** Incremental Build of configuration Debug for project Contest_Problems ****
+01:06:28 **** Incremental Build of configuration Debug for project Contest_Problems ****
 make all 
 make: Nothing to be done for 'all'.
 
-08:13:26 Build Finished (took 235ms)
+01:06:28 Build Finished (took 283ms)
 
