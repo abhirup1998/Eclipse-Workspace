@@ -95,14 +95,11 @@ void delete(node *head, int key)
 		printf("Not found!\n");
 		return;
 	}
-	node *re = allocate(), *repar = allocate();
-	int d = 0;
-	if(par->r == ptr)d=1;
-	else d=0;
+	node *re = allocate();
 	if(ptr->l == NULL && ptr->r == NULL)
 	{
 		printf("Here at leaf %d.\n", ptr->data);
-		if(d == 1)
+		if(par->r == ptr)
 			par->r = NULL;
 		else
 			par->l = NULL;
